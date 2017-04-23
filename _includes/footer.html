@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <h2 class="footer-title">Happen<span>Digital</span></h2>
+  <ul class="social-icons">
+    <li><a href="https://twitter.com/happendigital">{% include social-twitter.svg %}</a></li>
+    <li><a href="https://vimeo.com/happendigital">{% include social-vimeo.svg %}</a></li>
+  </ul>
+</footer>
+
+<script>
+  var wrapper = document.querySelector('.hero-video-wrapper');
+  var heroVideo = document.querySelector(".hero-video");
+  heroVideo.oncanplaythrough = function() {
+    setTimeout(function(){
+      wrapper.classList.add('trigger');
+    }, 1000);    
+  };
+</script>

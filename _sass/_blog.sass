@@ -1,0 +1,67 @@
+.section--blog
+  margin: 4 * $base-spacing 0
+  ul
+    overflow: hidden
+    width: 100%
+    margin: 0 auto
+    li
+      overflow: hidden
+    .blog--image
+      position: relative
+      list-style-type: none
+      width: 50vw
+      height: 57.74vw /* width div 0.866 */
+      float: left
+      overflow: hidden
+      visibility: hidden
+      transform: rotate(-60deg) skewY(30deg)
+    .blog--text
+      float: left
+      margin-top: 14.4%
+      margin-bottom: 14.4%
+      height: 28.87vw /* width div 0.866 */
+      width: 50%
+      padding: calc(28.87vh/4)
+      display: flex
+      flex-direction: column
+
+      justify-content: center
+    li:nth-child(2n+2)
+      margin-top: -14.4%
+      margin-bottom: -14.4%
+      .blog--text
+        text-align: right
+
+    li:last-child
+      margin-bottom: 0
+    li:first-child
+      margin-top: 0
+
+    .blog--image *
+      position: absolute
+      visibility: visible
+
+    .blog--image > div
+      width: 100%
+      height: 100%
+      text-align: center
+      color: #fff
+      overflow: hidden
+      transform: skewY(-30deg) rotate(60deg)
+      -webkit-backface-visibility: hidden
+
+    /* HEX CONTENT
+    .blog--image img
+      left: -100%
+      right: -100%
+      width: auto
+      height: 100%
+      margin: 0 auto
+      max-width: none
+
+    .blog--title
+      font-size: modular-scale(4)
+      margin-bottom: 0
+
+    .blog--date
+      color: $medium-gray

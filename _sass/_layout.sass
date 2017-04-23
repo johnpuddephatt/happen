@@ -1,0 +1,280 @@
+.site-header
+  height: 2 * $base-spacing
+  margin: 0 2 * $base-spacing
+  position: absolute
+  left: 0
+  right: 0
+
+.site-title
+  color: $pink
+  line-height: 2 * $base-spacing
+  height: 2 * $base-spacing
+  float: left
+  margin: 0
+  span
+    color: $medium-gray
+
+
+.hero-video-wrapper
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  overflow: hidden
+  position: relative
+  &.trigger
+    .spinner-wrapper
+      animation: blowup 6 * $base-duration forwards
+    .hero-video
+      opacity: 1
+    .hero-title span
+      opacity: 1
+
+
+@keyframes blowup
+  50%
+    transform: scale(40)
+    opacity: .5
+  99%
+    opacity: 0
+    transform: scale(40)
+  100%
+    opacity: 0
+    transform: scale(40)
+    z-index: -99
+
+.spinner-wrapper
+  position: absolute
+  z-index: 99
+  left: 50%
+  top: 50%
+  width: 2 * $base-spacing
+  height: 2 * $base-spacing
+  transform: translate(-50%,-50%)
+  .spinner
+    animation: spinner 4s ease-in-out infinite alternate
+    transition: transform $base-duration ease-in
+    -webkit-backface-visibility: visible
+
+@keyframes spinner
+  100%
+    transform: rotate(1080deg)
+
+
+
+.hero-video
+  width: 100%
+  height: 100%
+  object-fit: cover
+  opacity: 0
+  transition: opacity 3 * $base-duration 3 * $base-duration
+
+.hero-title
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 100%
+  text-align: center
+  transform: translate(-50%,-50%)
+  font-size: 9.5vw
+  z-index: 99
+  color: $pink
+  transition: opacity $base-duration $base-duration
+  margin-bottom: 0
+  span
+    display: inline-block
+    opacity: 0
+    transition: opacity $base-duration
+    &:first-child
+      transition-delay: 8 * $base-duration
+    &:last-child
+      color: white
+      transition-delay: 13 * $base-duration
+
+
+.section--what-we-do, .section--hero, .section--who-we-are, .section--our-work
+  height: 100vh
+
+
+.section--hero
+  width: 100%
+  border: 2 * $base-spacing solid white
+  display: flex
+  align-items: center
+  justify-content: center
+
+
+.section--what-we-do
+  background-color: $dark-gray
+  color: white
+
+.section--our-work
+  background-image: url(images/IMG_0797.jpg)
+  background-size: auto 100%
+  background-position: 100% 0
+
+.section--who-we-are
+  background-image: url(images/IMG_0159.jpg)
+  background-size: auto 100%
+  background-position: 0% 0
+
+.section-text
+  height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  position: relative
+  h2
+    font-size: modular-scale(4)
+  p
+    font-size: modular-scale(1)
+  // box-sizing: content-box
+  &--center
+    text-align: center
+    align-items: center
+    padding: 0 $small-spacing
+    @media screen and (min-width: $medium-screen)
+      padding: 0
+      width: percentage(9/12)
+    @media screen and (min-width: $large-screen)
+      width: percentage(7/12)
+    margin: 0 auto
+  &--left, &--right
+    background-color: $pink
+    color: white
+    height: 50%
+    @media screen and (min-width: $medium-screen)
+      height: 100%
+      width: 50vw
+    &::after
+      box-sizing: border-box
+      content: ''
+      display: block
+      position: absolute
+      top: 100%
+      left: 0
+      width: 100%
+      border-left: 50vw solid transparent
+      border-right: 50vw solid transparent
+      border-top: 25vw solid $pink
+      @media screen and (min-width: $medium-screen)
+        top: 0
+        height: 100%
+        width: 28.87vh
+        border-top: 50vh solid transparent
+        border-bottom: 50vh solid transparent
+  &--left
+    float: left
+    padding-left: $small-spacing
+    @media screen and (min-width: $large-screen)
+      padding-left: calc(28.87vh/2)
+      padding-right: calc(28.87vh/4)
+    &::after
+      @media screen and (min-width: $medium-screen)
+        left: 100%
+        border-left: 28.87vh solid $pink
+
+  &--right
+    float: right
+    padding-right: $small-spacing
+    @media screen and (min-width: $large-screen)
+      padding-right: calc(28.87vh/2)
+      padding-left: calc(28.87vh/4)
+    &::after
+      @media screen and (min-width: $medium-screen)
+        right: 100%
+        left: auto
+        border-right: 28.87vh solid $pink
+
+
+.section--case-studies
+  overflow: hidden
+
+
+.case-study
+  width: 50vw
+  height: 50vw
+  float: left
+  display: flex
+  align-items: center
+  justify-content: center
+  color: white
+  overflow: hidden
+  position: relative
+  &--zoopla
+    background-color: #6a148f
+  &--slack
+    background-color: #EF017A
+  &--sinfonia
+    background-color: #00cbca
+  &--moneysupermarket
+    background-color: #552A72
+  .case-study-logo
+    width: 66%
+    height: auto
+    transition: opacity 2 * $base-duration, transform 2 * $base-duration
+  .case-study-text
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    padding: 4 * $base-spacing
+    opacity: 0
+    transform: translateY(100%)
+    transition: opacity 2 * $base-duration, transform 2 * $base-duration
+    p
+      font-size: modular-scale(3)
+      text-align: center
+      margin-top: 2 * $base-spacing
+      margin-bottom: $base-spacing
+      line-height: $heading-line-height
+  &:hover
+    .case-study-logo
+      transform: translateY(-150%)
+      opacity: 0
+    .case-study-text
+      opacity: 1
+      transform: translateY(0)
+
+
+
+.site-footer
+  height: 10 * $base-spacing
+  background-color: $light-gray
+  border-top: .4rem solid $dark-gray
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  .footer-title
+    color: $dark-gray
+    margin-bottom: $base-spacing
+
+
+.social-icons
+  margin: 0
+  padding: 0
+  li
+    display: inline-block
+    margin: 0 $small-spacing/4
+    padding: 0
+    svg
+      width: $base-spacing
+      height: $base-spacing
+    a
+      display: inline-block
+      width: 2 * $base-spacing
+      height: 2 * $base-spacing
+      display: flex
+      align-items: center
+      justify-content: center
+      background-image: url(/images/hexagon.svg)
+      background-repeat: no-repeat
+      background-size: contain
+      background-position: center center
