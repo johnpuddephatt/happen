@@ -153,6 +153,7 @@
     margin: 0 auto
   &--left, &--right
     background-color: $pink
+    border-color: $pink
     color: white
     height: 50%
     @media screen and (min-width: $medium-screen)
@@ -169,7 +170,7 @@
       text-align: left
       border-left: 50vw solid transparent
       border-right: 50vw solid transparent
-      border-top: 25vw solid $pink
+      border-top: 25vw solid inherit
       @media screen and (min-width: $medium-screen)
         top: 0
         height: 100%
@@ -185,7 +186,7 @@
     &::after
       @media screen and (min-width: $medium-screen)
         left: 100%
-        border-left: 28.87vh solid $pink
+        border-left: 28.87vh solid inherit
 
   &--right
     float: right
@@ -197,7 +198,7 @@
       @media screen and (min-width: $medium-screen)
         right: 100%
         left: auto
-        border-right: 28.87vh solid $pink
+        border-right: 28.87vh solid inherit
 
 
 .section--case-studies
