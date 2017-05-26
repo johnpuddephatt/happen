@@ -35,14 +35,14 @@
 
 @keyframes blowup
   50%
-    transform: scale(40)
+    transform: scale(1) translate(-50%,-50%)
     opacity: .5
   99%
     opacity: 0
-    transform: scale(40)
+    transform: translate(-50%,-50%) scale(1)
   100%
     opacity: 0
-    transform: scale(40)
+    transform: translate(-50%,-50%) scale(1)
     z-index: -99
 
 .spinner-wrapper
@@ -50,10 +50,12 @@
   z-index: 99
   left: 50%
   top: 50%
-  width: 2 * $base-spacing
-  height: 2 * $base-spacing
-  transform: translate(-50%,-50%)
+  width: 80 * $base-spacing
+  height: 80 * $base-spacing
+  transform: translate(-50%,-50%) scale(0.025)
   .spinner
+    width: 100%
+    height: 100%
     animation: spinner 4s ease-in-out infinite alternate
     transition: transform $base-duration ease-in
     -webkit-backface-visibility: visible
@@ -64,10 +66,12 @@
 
 
 
-.hero-video
+.cover-video
   width: 100%
   height: 100%
   object-fit: cover
+
+.hero-video
   opacity: 0
   transition: opacity 3 * $base-duration 3 * $base-duration
 
@@ -94,6 +98,8 @@
       color: white
       transition-delay: 13 * $base-duration
 
+.section
+  overflow: hidden
 
 .section--what-we-do, .section--hero, .section--who-we-are, .section--our-work
   height: 100vh
@@ -105,6 +111,7 @@
   display: flex
   align-items: center
   justify-content: center
+  flex-direction: column
 
 
 .section--what-we-do
@@ -121,14 +128,15 @@
   background-size: auto 100%
   background-position: 0% 0
 
+.section-title
+  font-size: modular-scale(4)
+
 .section-text
   height: 100%
   display: flex
   flex-direction: column
   justify-content: center
   position: relative
-  h2
-    font-size: modular-scale(4)
   p
     font-size: modular-scale(1)
   // box-sizing: content-box
@@ -197,11 +205,13 @@
 .case-study
   width: 50vw
   height: 50vw
+  .shorter &
+    height: 28.12vw
   float: left
   display: flex
+  flex-direction: column
   align-items: center
   justify-content: center
-  color: white
   overflow: hidden
   position: relative
   &--zoopla
@@ -214,8 +224,17 @@
     background-color: #552A72
   .case-study-logo
     width: 66%
+    max-height: 75%
     height: auto
     transition: opacity 2 * $base-duration, transform 2 * $base-duration
+    .text &
+      position: relative
+      opacity: 1 !important
+      transform: none !important
+      padding: 0
+      height: auto
+      margin: 0
+      max-height: 40%
   .case-study-text
     position: absolute
     top: 0
@@ -230,12 +249,15 @@
     opacity: 0
     transform: translateY(100%)
     transition: opacity 2 * $base-duration, transform 2 * $base-duration
-    p
-      font-size: modular-scale(3)
-      text-align: center
-      margin-top: 2 * $base-spacing
-      margin-bottom: $base-spacing
-      line-height: $heading-line-height
+    .text &
+      position: relative
+      opacity: 1 !important
+      transform: none !important
+      padding: 0 4 * $base-spacing
+      height: auto
+      p
+        font-size: modular-scale(2)
+
   &:hover
     .case-study-logo
       transform: translateY(-150%)
@@ -245,6 +267,15 @@
       transform: translateY(0)
 
 
+.case-study-text
+  p
+    font-size: modular-scale(3)
+    text-align: center
+    text-transform: lowercase
+    color: white
+    margin-top: 2 * $base-spacing
+    margin-bottom: $base-spacing
+    line-height: $heading-line-height
 
 .site-footer
   height: 10 * $base-spacing
