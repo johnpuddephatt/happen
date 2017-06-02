@@ -1,13 +1,16 @@
 .site-header
+  z-index: 99
   height: 2 * $base-spacing
-  margin: 0 2 * $base-spacing
+  margin: 0 5vw
   position: absolute
   left: 0
   right: 0
 
 .site-title
   color: $pink
-  line-height: 2 * $base-spacing
+  line-height: 10vw
+  @media screen and (min-width: $medium-screen)
+    line-height: 5vw
   height: 2 * $base-spacing
   float: left
   letter-spacing: 0
@@ -64,8 +67,6 @@
   100%
     transform: rotate(1080deg)
 
-
-
 .cover-video
   width: 100%
   height: 100%
@@ -99,19 +100,25 @@
       transition-delay: 13 * $base-duration
 
 .section
-  overflow: hidden
+  transform-style: preserve-3d
 
-.section--what-we-do, .section--hero, .section--who-we-are, .section--our-work
+.section--what-we-do, .section--hero, .section--our-work, .section--who-we-are
   height: 100vh
+  @media screen and (orientation: landscape) and (min-width: $medium-screen)
+    height: 56.25vw
 
 
 .section--hero
   width: 100%
-  border: 2 * $base-spacing solid white
+  height: 100vh
+  border: 5vw solid white
+  border-top-width: 10vw
   display: flex
   align-items: center
   justify-content: center
   flex-direction: column
+  @media screen and (min-width: $medium-screen)
+    border-top-width: 5vw
 
 
 .section--what-we-do
@@ -120,17 +127,33 @@
 
 .section--our-work
   background-image: url(images/IMG_0797.jpg)
-  background-size: auto 100%
-  background-position: 100% 0
+  background-size: 100% auto
+  background-position: center bottom
+  height: 100vh
+  @media screen and (orientation: landscape)
+    background-size: auto 100%
+    background-position: 100% 0
 
 .section--who-we-are
   background-image: url(images/IMG_0159.jpg)
-  background-size: auto 100%
-  background-position: 0% 0
+  background-size: 100% auto
+  background-position: center 110%
+  position: relative
+  z-index: 99
+  @media screen and (orientation: landscape)
+    background-size: auto 100%
+    background-position: 0% 0
 
 .section-title
-  font-size: modular-scale(4)
   text-align: center
+  font-size: modular-scale(3)
+  margin-bottom: $small-spacing
+  @media screen and (min-width: $medium-screen)
+    font-size: modular-scale(3)
+    margin-bottom: 2 * $small-spacing
+  @media screen and (min-width: $large-screen)
+    font-size: modular-scale(4)
+    margin-bottom: 3 * $small-spacing
 
 .section-text
   height: 100%
@@ -138,13 +161,16 @@
   flex-direction: column
   justify-content: center
   position: relative
+  padding: 5vw
   p
     font-size: modular-scale(1)
+    &:last-child
+      margin-bottom: 0
   // box-sizing: content-box
   &--center
     text-align: center
     align-items: center
-    padding: 0 $small-spacing
+    padding: 0 $base-spacing
     @media screen and (min-width: $medium-screen)
       padding: 0
       width: percentage(9/12)
@@ -155,7 +181,7 @@
     background-color: $pink
     border-color: $pink
     color: white
-    height: 50%
+    height: 55%
     .section-title
       text-align: left
     @media screen and (min-width: $medium-screen)
@@ -172,24 +198,25 @@
       text-align: left
       border-left: 50vw solid transparent
       border-right: 50vw solid transparent
-      border-top: 25vw solid
+      border-top: 10vh solid
       border-top-color: inherit
       @media screen and (min-width: $medium-screen)
         top: 0
         height: 100%
         width: 28.87vh
-        border-top: 50vh solid transparent
-        border-bottom: 50vh solid transparent
+        border-top: 28.125vw solid transparent
+        border-bottom: 28.125vw solid transparent
   &--left
     float: left
-    padding-left: $small-spacing
+    @media screen and (min-width: $medium-screen)
+      padding-left: $small-spacing
     @media screen and (min-width: $large-screen)
       padding-left: calc(28.87vh/2)
       padding-right: calc(28.87vh/4)
     &::after
       @media screen and (min-width: $medium-screen)
         left: 100%
-        border-left: 28.87vh solid
+        border-left: 15vw solid
         border-left-color: inherit
 
   &--right
@@ -202,17 +229,37 @@
       @media screen and (min-width: $medium-screen)
         right: 100%
         left: auto
-        border-right: 28.87vh solid
+        border-right: 15vw solid
         border-right-color: inherit
 
 
 .section--case-studies
   overflow: hidden
+  margin: 5vw
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media screen and (orientation: landscape) and (min-width: $medium-screen)
+    height: auto
+    display: block
+  @media screen and (min-width: $medium-screen)
+    margin: 0
+  .case-studies-wrapper
+    overflow: hidden
+  .section-title
+    margin-bottom: $base-spacing
+    @media screen and (min-width: $medium-screen)
+      display: none
+
 
 
 .case-study
-  width: 50vw
-  height: 50vw
+  width: 45vw
+  height: 45vw
+  @media screen and (min-width: $medium-screen)
+    width: 50vw
+    height: 50vw
   .shorter &
     height: 28.12vw
   float: left
@@ -253,10 +300,21 @@
     align-items: center
     justify-content: center
     flex-direction: column
-    padding: 4 * $base-spacing
+    padding: $small-spacing
+    @media screen and (min-width: $medium-screen)
+      padding: 4 * $base-spacing
     opacity: 0
     transform: translateY(100%)
     transition: opacity 2 * $base-duration, transform 2 * $base-duration
+    p
+      @media screen and (min-width: $medium-screen)
+        font-size: modular-scale(3)
+        margin-top: 2 * $base-spacing
+        margin-bottom: $base-spacing
+      text-align: center
+      text-transform: lowercase
+      color: white
+      line-height: $heading-line-height
     .text &
       position: relative
       opacity: 1 !important
@@ -275,17 +333,11 @@
       transform: translateY(0)
 
 
-.case-study-text
-  p
-    font-size: modular-scale(3)
-    text-align: center
-    text-transform: lowercase
-    color: white
-    margin-top: 2 * $base-spacing
-    margin-bottom: $base-spacing
-    line-height: $heading-line-height
+
 
 .site-footer
+  position: relative
+  z-index: 999
   height: 10 * $base-spacing
   background-color: $light-gray
   border-top: .4rem solid $dark-gray
@@ -320,3 +372,56 @@
       background-repeat: no-repeat
       background-size: contain
       background-position: center center
+
+
+.section-text--thirds
+  padding: 2 * $base-spacing
+
+  .hex
+    background-color: $pink
+    width: 27.5vw
+    height: 17vw
+    margin: 0 auto
+    position: relative
+    color: white
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    &::before, &::after
+      box-sizing: border-box
+      content: ''
+      display: block
+      position: absolute
+      left: 0
+      border-bottom: 7vw solid $pink
+      border-top: 7vw solid transparent
+      bottom: 100%
+      height: 11.548vw
+      width: 100%
+      border-left: 13.5vw solid transparent
+      border-right: 13.5vw solid transparent
+    &:after
+      bottom: auto
+      top: 100%
+      border-bottom: 7vw solid transparent
+      border-top: 7vw solid $pink
+    h2
+      font-size: modular-scale(3)
+      margin-bottom: 0
+  > div
+    display: flex
+    align-items: center
+    justify-content: center
+  div > .header
+    width: 40%
+    float: left
+  div > .text
+    width: 60%
+    margin-right: 0%
+    columns: 2
+    p:last-child
+      margin-bottom: 0
+
+
+

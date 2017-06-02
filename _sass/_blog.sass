@@ -1,7 +1,24 @@
+@keyframes demo
+  100%
+    transform: translateY(25vh)
+
 .section--blog
-  margin: 4 * $base-spacing 0
-  padding: 0 5vw
+  padding: 4 * $base-spacing 5vw
   position: relative
+  .background
+    transform: translateZ(-.5px) scale(-1.5)
+    transform-origin: center center
+    background-image: url(images/background.svg)
+    background-size: 100% auto
+    position: absolute
+    left: 7.5vw
+    right: 2.5vw
+    z-index: -9
+    top: 0vh
+    bottom: 0vh
+    @media screen and (min-width: $medium-screen)
+      top: 0vh
+      bottom: 25vh
   ul
     overflow: hidden
     width: 100%
@@ -23,16 +40,23 @@
       margin-bottom: 14.4%
       height: 25.95vw /* half image height */
       width: 45vw
-      padding: calc(25.95vh/4)
+      padding-left: $small-spacing
       display: flex
       flex-direction: column
-
       justify-content: center
+      @media screen and (min-width: $medium-screen)
+        padding: calc(25.95vh/4)
     li:nth-child(2n+2)
-      margin-top: -14.4%
-      margin-bottom: -14.4%
+      @media screen and (min-width: $medium-screen)
+        margin-top: -14.4%
+        margin-bottom: -14.4%
       .blog--text
         text-align: right
+        padding-left: 0
+        padding-right: $small-spacing
+        @media screen and (min-width: $medium-screen)
+          padding-right: calc(25.95vh/4)
+
 
     li:last-child
       margin-bottom: 0
@@ -62,8 +86,12 @@
       max-width: none
 
     .blog--title
-      font-size: modular-scale(4)
       margin-bottom: 0
+      font-size: modular-scale(1)
+      @media screen and (min-width: $medium-screen)
+        font-size: modular-scale(3)
+      @media screen and (min-width: $large-screen)
+        font-size: modular-scale(4)
 
     .blog--date
       color: $medium-gray

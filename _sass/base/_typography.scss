@@ -1,6 +1,9 @@
 html {
-  font-size: 56.25%;
+  font-size: 50%;
   @media screen and (min-width: $medium-screen) {
+    font-size: 56.25%;
+  }
+  @media screen and (min-width: $large-screen) {
     font-size: 62.5%;
   }
   @media screen and (min-width: $xl-screen) {
