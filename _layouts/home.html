@@ -92,7 +92,7 @@ layout: default
     {% for post in site.posts limit:site.max_home_posts %}
     <li>
         <div class="blog--image">
-          <a href="{{ post.url | prepend:site.baseurl}}">
+          <a href="{{ site.baseurl }}{{ post.url }}">
             <img src="images/posts/{{ post.image }}" alt=""/>
           </a>
         </div>
