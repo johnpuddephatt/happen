@@ -1,0 +1,34 @@
+.section--signup
+  background-color: $pink
+  -webkit-font-smoothing: antialiased
+  margin: 0
+  padding: 6 * $base-spacing 5vw
+  border-top: .4rem solid $dark-gray
+  .form-input
+    display: flex
+    input
+      line-height: 2.5 * $base-spacing
+      height: 2.5 * $base-spacing
+      padding: 0 $base-spacing
+      font-size: modular-scale(2)
+      border-radius: 1.5 * $base-spacing
+      &:first-child
+        border-top-right-radius: 0
+        border-bottom-right-radius: 0
+        flex: 1 1 80%
+      &:last-child
+        border-top-left-radius: 0
+        border-bottom-left-radius: 0
+        flex: 1 1 20%
+        margin-left: -2px
+        border: none
+  .section-title
+    color: white
+    margin-bottom: $small-spacing/2
+  .section-subheading
+    color: $light-gray
+    margin-bottom: $base-spacing
+  p
+    margin-top: $small-spacing
+    font-size: modular-scale(0)
+    color: $light-gray

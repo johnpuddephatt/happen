@@ -1,0 +1,31 @@
+.case-results
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  width: 100%
+  margin-top: $base-spacing
+  li
+    border-radius: 50%
+    background-color: $pink
+    background-color: var(--brand-colour)
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: $small-spacing
+    font-size: modular-scale(-1)
+    @media screen and (min-width: $medium-screen)
+      padding: $base-spacing
+      font-size: modular-scale(0)
+    @media screen and (min-width: $large-screen)
+      padding: 1 * $base-spacing
+    color: white
+    text-transform: lowercase
+    font-weight: 700
+    line-height: 1.1
+    width: calc(10rem + .4 * 15vw)
+    height: calc(10rem + .4 * 15vw)
+    position: relative
+    -webkit-font-smoothing: antialiased
+    strong
+      display: block
+      font-size: modular-scale(4)

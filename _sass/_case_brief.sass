@@ -1,0 +1,29 @@
+.section--brief
+  .section-text
+    @media screen and (min-width: $medium-screen)
+      display: flex
+      flex-direction: row
+    .section-title
+      font-size: modular-scale(5)
+      flex: 1 1 33%
+      margin-right: 2 * $base-spacing
+      text-align: left
+      @media screen and (min-width: $medium-screen)
+        text-align: right
+      &::after
+        content: ''
+        display: block
+        width: 40%
+        height: .15em
+        background-color: $medium-gray
+        // background-color: var(--brand-colour)
+        margin-top: $small-spacing
+        @media screen and (min-width: $medium-screen)
+          margin-left: auto
+    .section-content
+      flex: 1 1 67%
+      text-align: left
+      p
+        font-size: modular-scale(0)
+        &:first-child
+          font-size: modular-scale(1)

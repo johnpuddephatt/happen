@@ -16,22 +16,29 @@ layout: default
       <source type="video/webm" src="https://res.cloudinary.com/letsdance/video/upload/v1492647843/Happen_Splash_video_edit_03_mdibgm.webm">
 
     </video>
-    <h2 class="hero-title"><span>Explain</span><span>Yourself</span></h2>
-    <!-- <h2 class="hero-title hero-title--demo"><span>y</span>e<span>o</span>x<span>u</span>p<span>r</span>l<span>s</span>a<span>e</span>i<span>l</span>n<span>f</span></h2> -->
+    <div class="hero-title">
+      <h2><span>Explain</span><span>Yourself</span></h2>
+      <p>Content to make complicated things clear</p>
+    </div>
 
   </div>
 </section>
 
-<section class="section section--what-we-do">
+<section class="section section--what-we-do centered">
   <div class="section-text section-text--center">
-    <h2 class="section-title">We’ll help you explain yourself.</h2>
-    <p>If you’re struggling to get your message across, we offer decades of experience in some of the world’s leading news organisations – experience we now put to good use helping brands communicate. We do that by creating effective content and by providing editorial consultancy and training.</p>
+    <h2 class="section-title">We can help you explain yourself.</h2>
+    <div class="section-content">
+      <p><strong>We’re Happen Digital, and we create effective content, provide editorial consultancy and deliver helpful training.</strong></p>
+      <p>If you’re struggling to get your message across, we offer decades of experience in some of the world’s leading news organisations – experience we now put to good use helping brands communicate.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consectetur, dolore libero illum fugiat, error explicabo nisi, architecto ducimus officiis eum similique.</p>
+    </div>
+
 
   </div>
 </section>
 
 <section class="section section--our-work">
-  <div class="section-text section-text--left">
+  <div class="section-text section-text--left centered">
     <h2 class="section-title">We’re experts at making complicated things clear.</h2>
     <p>Everyone knows what a fishmonger sells but not everyone understands how a technology company such a Slack can help their business.
     <p>The most innovative brands have the greatest need to explain themselves, and we specialise in working for organisations using technology and creative thinking to change the world.</p>
@@ -39,41 +46,40 @@ layout: default
 </section>
 
 <section class="section section--case-studies">
-  <h2 class="section-title">Our work helps people with something to say</h2>
   <div class="case-studies-wrapper">
     <div class="case-study case-study--zoopla">
       <img class="case-study-logo" src="images/zoopla-logo.svg" alt="Zoopla Property Group">
       <div class="case-study-text">
         <p>We helped Zoopla Property Group explain their services</p>
-        <a href="" type="button">Find out how</a>
+        <a href="case-zoopla-v3.html" type="button">Find out how</a>
       </div>
     </div>
     <div class="case-study case-study--slack">
       <img class="case-study-logo" src="images/slack-logo.svg" alt="Slack">
       <div class="case-study-text">
         <p>We helped Slack explain the difference they make to their customers</p>
-        <a href="" type="button">Find out how</a>
+        <a href="case-zoopla-v3.html" type="button">Find out how</a>
       </div>
     </div>
     <div class="case-study case-study--sinfonia">
       <img class="case-study-logo" src="images/sinfonia-logo.svg" alt="City of London Sinfonia">
       <div class="case-study-text">
         <p>We helped the City of London Sinfonia explain their mission</p>
-        <a href="" type="button">Find out how</a>
+        <a href="case-zoopla-v3.html" type="button">Find out how</a>
       </div>
     </div>
     <div class="case-study case-study--moneysupermarket">
       <img class="case-study-logo" src="images/moneysupermarket-logo.svg" alt="Money Supermarket">
       <div class="case-study-text">
         <p>We helped MoneySupermarket.com organise themselves more like a newsroom</p>
-        <a href="" type="button">Find out how</a>
+        <a href="case-zoopla-v3.html" type="button">Find out how</a>
       </div>
     </div>
   </div>
 </section>
 
 <section class="section section--who-we-are">
-  <div class="section-text section-text--right">
+  <div class="section-text section-text--right centered">
     <h2 class="section-title">Our background is in journalism.</h2>
     <p><strong>Founder</strong>, Tom Happold, worked on the BBC 10 O’clock News and Channel 4 News before spending a decade at the Guardian, where he launched Comment is Free and established its multimedia department. He led its move into live blogging, social media and web video. </p>
     <p><strong>Head of content</strong>, Elliot Smith, is associate editor of Newsshooter, the leading website for filmmakers and camera operators.</p>
@@ -83,40 +89,25 @@ layout: default
 <section class="section section--blog">
   <div class="background"></div>
   <ul>
+    {% for post in site.posts limit:site.max_home_posts %}
     <li>
-      <div class="blog--image">
-        <div>
-          <img src="images/IMG_0206.jpg" alt=""/>
+        <div class="blog--image">
+          <a href="{{ post.url }}">
+            <img src="images/posts/{{ post.image }}" alt=""/>
+          </a>
         </div>
-      </div>
-      <div class="blog--text">
-        <h1 class="blog--title">How to commission good animation</h1>
-        <p class="blog--date">19th May 2017</p>
-      </div>
+        <a class="blog--text" href="{{ post.url }}">
+          <p class="blog--date">{{ post.date | date: "%d.%m.%y" }}</p>
+          <h1 class="blog--title">{{ post.title }}</h1>
+          {% include chevrons.svg %}
+        </a>
     </li>
-    <li>
-      <div class="blog--text">
-        <h1 class="blog--title">On location for the Publishers Association</h1>
-        <p class="blog--date">19th May 2017</p>
-      </div>
-      <div class="blog--image">
-        <div>
-          <img src="images/IMG_0163.jpg" alt=""/>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="blog--image">
-        <div>
-          <img src="images/IMG_0109.jpg" alt=""/>
-        </div>
-      </div>
-      <div class="blog--text">
-        <h1 class="blog--title">Train your staff to make videos</h1>
-        <p class="blog--date">19th May 2017</p>
-      </div>
-    </li>
-
-
+    {% endfor %}
   </ul>
+  {% if site.posts.size > site.max_home_posts %}
+  <div class="section-text section-text--center">
+    <a href="#" class="button button--blog-all">read all</a>
+  </div>
+  {% endif %}
+
 </section>

@@ -1,0 +1,51 @@
+.section--hero--post
+  display: flex
+  align-items: flex-end
+  justify-content: center
+
+.section-text--post
+  padding: 0
+  @media screen and (min-width: $medium-screen)
+    width: percentage(9/12)
+    margin-left: percentage(2/12)
+  @media screen and (min-width: $large-screen)
+    width: percentage(7/12)
+    margin-left: percentage(3/12)
+  @media screen and (min-width: $xl-screen)
+    width: percentage(5/12)
+  p:first-child
+    font-size: modular-scale(2)
+    font-weight: 700
+    margin-bottom: $base-spacing
+  h1,h2,h3,h4,h5,h6
+    margin-top: 1.5 * $base-spacing
+    margin-bottom: $small-spacing
+  iframe
+    margin-bottom: $base-spacing
+
+.post-header
+  margin: $small-spacing
+  @media screen and (min-width: $medium-screen)
+    margin: $base-spacing
+    margin-left: percentage(2/12)
+  @media screen and (min-width: $large-screen)
+    margin-left: percentage(3/12)
+  @media screen and (min-width: $xl-screen)
+    margin-right: 2 * $base-spacing
+    margin-bottom: 2 * $base-spacing
+  color: white
+  .post-title
+    font-size: modular-scale(5)
+    margin-bottom: 0
+  .post-date
+    font-size: modular-scale(2)
+    font-style: italic
+    font-weight: 700
+    &::after
+      content: ''
+      display: block
+      height: .25em
+      background-color: $pink
+      margin-top: $small-spacing
+      width: 20%
+

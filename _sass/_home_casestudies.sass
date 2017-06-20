@@ -1,0 +1,56 @@
+.case-study
+  width: 50vw
+  height: 50vw
+  float: left
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  overflow: hidden
+  position: relative
+  &--zoopla
+    background-color: #6a148f
+  &--slack
+    background-color: #EF017A
+  &--sinfonia
+    background-color: #00cbca
+  &--moneysupermarket
+    background-color: #552A72
+  .case-study-logo
+    width: 66%
+    max-height: 75%
+    height: auto
+    transition: opacity 2 * $base-duration, transform 2 * $base-duration
+  .case-study-text
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    padding: $small-spacing
+    @media screen and (min-width: $medium-screen)
+      padding: 4 * $base-spacing
+    opacity: 0
+    transform: translateY(100%)
+    transition: opacity 2 * $base-duration, transform 2 * $base-duration
+    p
+      @media screen and (min-width: $medium-screen)
+        font-size: modular-scale(3)
+        margin-top: 2 * $base-spacing
+        margin-bottom: $base-spacing
+      text-align: center
+      text-transform: lowercase
+      color: white
+      line-height: $heading-line-height
+
+  &:hover
+    .case-study-logo
+      transform: translateY(-150%)
+      opacity: 0
+    .case-study-text
+      opacity: 1
+      transform: translateY(0)

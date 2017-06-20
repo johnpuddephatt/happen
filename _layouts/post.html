@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<style>
+  body {
+    --overlay-colour: rgba(192, 15, 106, .3);
+    --brand-colour: rgb(192, 15, 106);
+  }
+</style>
+
+<section class="section section--hero section--hero--post" style="background-image: url('/images/posts/{{ page.image }}')">
+  <header class="post-header">
+    <p class="post-date">{{ page.date | date: "%d.%m.%y" }}</p>
+    <h1 class="post-title">{{page.title}}</h1>
+  </header>
+</section>
+
+<section class="section section--post-body">
+  <div class="section-text section-text--post">
+    {{content}}
+  </div>
+</section>

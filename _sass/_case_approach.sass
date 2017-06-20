@@ -1,0 +1,93 @@
+.section--approach
+  padding: 4 * $base-spacing 5vw
+  position: relative
+  ul
+    overflow: hidden
+    width: 100%
+    margin: 0 auto
+    li
+      overflow: hidden
+      @media screen and (min-width: $medium-screen)
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+      padding: $base-spacing 0
+      border-bottom: 2px solid $light-gray
+      &:last-child
+        border-bottom: none
+    .approach--image
+      position: relative
+      order: 2
+      margin: 0 auto
+      @media screen and (min-width: $medium-screen)
+        margin: 0
+      width: 30vw
+      align-self: flex-end
+      flex: 0 0 auto
+      height: 34.642vw /* width div 0.866 */
+      overflow: hidden
+      visibility: hidden
+      transform: rotate(-60deg) skewY(30deg)
+    .approach--text
+      padding: 0 $base-spacing
+      text-align: center
+      @media screen and (min-width: $medium-screen)
+        text-align: left
+        flex: 1 1 auto
+        align-self: center
+        order: 1
+        max-width: calc(.45 * #{$xl-screen})
+        padding-left: 0
+        padding-right: 2 * $base-spacing
+
+      h3
+        margin: $small-spacing 0 $base-spacing
+        @media screen and (min-width: $medium-screen)
+          margin-top: 0
+        &::after
+          width: 4 * $base-spacing
+          height: .25em
+          background-color: $pink
+          background-color: var(--brand-colour)
+          content: ''
+          display: block
+          margin: $base-spacing auto 0
+          @media screen and (min-width: $medium-screen)
+            margin-left: 0
+            margin-right: 0
+
+
+    li:nth-child(2n+2)
+      .approach--text
+        @media screen and (min-width: $medium-screen)
+          order: 3
+          padding-right: 0
+          padding-left: 2 * $base-spacing
+    .approach--image *
+      position: absolute
+      visibility: visible
+    .approach--image > div
+      width: 100%
+      height: 100%
+      color: #fff
+      overflow: hidden
+      transform: skewY(-30deg) rotate(60deg)
+      -webkit-backface-visibility: hidden
+
+    /* HEX CONTENT
+    .approach--image img
+      left: -100%
+      right: -100%
+      width: auto
+      height: 100%
+      margin: 0 auto
+      max-width: none
+
+    .approach--title
+      margin-bottom: 0
+      font-size: modular-scale(1)
+      @media screen and (min-width: $medium-screen)
+        font-size: modular-scale(3)
+      @media screen and (min-width: $large-screen)
+        font-size: modular-scale(4)
