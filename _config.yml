@@ -17,7 +17,7 @@ title: Happen Digital
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   We’ll help you explain yourself
-baseurl: "/happen" # the subpath of your site, e.g. /blog
+baseurl: "/happen"
 url: "http://blog.letsdance.agency" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: happendigital
 vimeo_username: happendigital
