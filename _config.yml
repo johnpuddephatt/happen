@@ -16,15 +16,18 @@
 title: Happen Digital
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  We’ll help you explain yourself
-baseurl: "/happen"
+  Content to make complicated things clear
+# baseurl: "/happen"
+baseurl: ""
 url: "http://blog.letsdance.agency" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: happendigital
 vimeo_username: happendigital
 
 max_home_posts: 6
 
-
+collections:
+  case:
+    output: true
 
 # Build settings
 markdown: kramdown
@@ -33,3 +36,11 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+defaults:
+  - scope:
+      path: ""
+      type: case
+    values:
+      layout: case

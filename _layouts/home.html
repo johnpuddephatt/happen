@@ -18,7 +18,7 @@ layout: default
     </video>
     <div class="hero-title">
       <h2><span>Explain</span><span>Yourself</span></h2>
-      <p>Content to make complicated things clear</p>
+      <p>{{ site.description }}</p>
     </div>
 
   </div>
@@ -26,14 +26,12 @@ layout: default
 
 <section class="section section--what-we-do centered">
   <div class="section-text section-text--center">
-    <h2 class="section-title">We can help you explain yourself.</h2>
+    <h2 class="section-title">We’ll help you explain yourself.</h2>
     <div class="section-content">
-      <p><strong>We’re Happen Digital, and we create effective content, provide editorial consultancy and deliver helpful training.</strong></p>
+      <p><strong>We’re Happen Digital, and we create engaging content, provide editorial consultancy and deliver effective training.</strong></p>
       <p>If you’re struggling to get your message across, we offer decades of experience in some of the world’s leading news organisations – experience we now put to good use helping brands communicate.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consectetur, dolore libero illum fugiat, error explicabo nisi, architecto ducimus officiis eum similique.</p>
+      <p>We’ve already helped household names like Zoopla, Slack and Teach First tell their story, and we’d love to help you do the same.</p>
     </div>
-
-
   </div>
 </section>
 
@@ -46,36 +44,17 @@ layout: default
 </section>
 
 <section class="section section--case-studies">
-  <div class="case-studies-wrapper">
-    <div class="case-study case-study--zoopla">
-      <img class="case-study-logo" src="images/zoopla-logo.svg" alt="Zoopla Property Group">
+  <ul class="case-studies-wrapper">
+    {% for case in site.case %}
+    <li class="case-study" style="background-color: {{ case.color }}">
+      <img class="case-study-logo" src="{{ site.baseurl }}/images/{{ case.logo }}" alt="{{ case.title }}">
       <div class="case-study-text">
-        <p>We helped Zoopla Property Group explain their services</p>
-        <a href="case-zoopla-v3.html" type="button">Find out how</a>
+        <p>{{ case.description }}</p>
+        <a href="{{ case.url }}" type="button">Find out how</a>
       </div>
-    </div>
-    <div class="case-study case-study--slack">
-      <img class="case-study-logo" src="images/slack-logo.svg" alt="Slack">
-      <div class="case-study-text">
-        <p>We helped Slack explain the difference they make to their customers</p>
-        <a href="case-zoopla-v3.html" type="button">Find out how</a>
-      </div>
-    </div>
-    <div class="case-study case-study--sinfonia">
-      <img class="case-study-logo" src="images/sinfonia-logo.svg" alt="City of London Sinfonia">
-      <div class="case-study-text">
-        <p>We helped the City of London Sinfonia explain their mission</p>
-        <a href="case-zoopla-v3.html" type="button">Find out how</a>
-      </div>
-    </div>
-    <div class="case-study case-study--moneysupermarket">
-      <img class="case-study-logo" src="images/moneysupermarket-logo.svg" alt="Money Supermarket">
-      <div class="case-study-text">
-        <p>We helped MoneySupermarket.com organise themselves more like a newsroom</p>
-        <a href="case-zoopla-v3.html" type="button">Find out how</a>
-      </div>
-    </div>
-  </div>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 
 <section class="section section--who-we-are">

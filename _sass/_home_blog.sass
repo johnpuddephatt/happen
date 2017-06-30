@@ -12,9 +12,9 @@
     z-index: -9
     top: 0vh
     bottom: 0vh
-    @media screen and (min-width: $medium-screen)
+    @media screen and (min-width: $large-screen)
       top: 0vh
-      bottom: 20vh
+      bottom: 5vh
   ul
     overflow: hidden
     width: 100%
@@ -111,6 +111,7 @@
         font-size: modular-scale(4)
 
     .blog--date
+      display: inline-block
       color: $base-font-color
       @media screen and (min-width: $medium-screen)
         font-size: modular-scale(1)
@@ -119,6 +120,7 @@
       font-weight: 700
       margin-bottom: $small-spacing
       font-style: italic
+      border-bottom: .15em solid $pink
 
 .button--blog-all
   display: block

@@ -7,24 +7,35 @@
   .form-input
     display: flex
     input
-      line-height: 2.5 * $base-spacing
+      line-height: calc(#{2.5 * $base-spacing} - .8rem)
       height: 2.5 * $base-spacing
-      padding: 0 $base-spacing
       font-size: modular-scale(2)
       border-radius: 1.5 * $base-spacing
+      border: .4rem solid $light-gray
+      transition: border-color $base-duration, background-color $base-duration, color $base-duration
       &:first-child
         border-top-right-radius: 0
         border-bottom-right-radius: 0
         flex: 1 1 80%
+        padding: 0 2 * $base-spacing
+        border-right: none
+        &:focus, &:focus + input
+          border-color: $medium-gray
       &:last-child
+        padding: 0 2 * $base-spacing 0 1.5 * $base-spacing
         border-top-left-radius: 0
         border-bottom-left-radius: 0
         flex: 1 1 20%
         margin-left: -2px
-        border: none
+        background-color: $light-gray
+        color: $medium-gray
+        &:hover
+          background-color: $medium-gray
+          color: white
   .section-title
     color: white
     margin-bottom: $small-spacing/2
+
   .section-subheading
     color: $light-gray
     margin-bottom: $base-spacing

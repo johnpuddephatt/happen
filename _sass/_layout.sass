@@ -102,10 +102,11 @@
   margin-bottom: $small-spacing
   @media screen and (min-width: $medium-screen)
     font-size: modular-scale(3)
-    margin-bottom: 2 * $small-spacing
+    // margin-bottom: 2 * $small-spacing
   @media screen and (min-width: $large-screen)
     font-size: modular-scale(4)
-    margin-bottom: 3 * $small-spacing
+    // margin-bottom: 3 * $small-spacing
+
 
 .section-text
   position: relative
@@ -132,6 +133,14 @@
     height: 55%
     .section-title
       text-align: left
+      margin-bottom: 0
+      &::after
+        content: ""
+        display: block
+        width: 40%
+        height: 0.15em
+        background-color: $light-gray
+        margin: $small-spacing 0 $base-spacing
     @media screen and (min-width: $medium-screen)
       height: 100vh
       width: 50vw
@@ -201,7 +210,9 @@
     // background-color: var(--overlay-colour)
     background-image: linear-gradient(to top, rgba(0,0,0,0.4), var(--overlay-colour))
 
-.case-quote
-  font-size: modular-scale(4)
-
-
+.section--quote .section-text
+  p:first-child
+    font-size: modular-scale(4)
+    font-weight: 700
+    line-height: $heading-line-height
+    margin-bottom: $base-spacing

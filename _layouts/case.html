@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<style>
+  body {
+    --overlay-colour: rgba(106, 20, 143,.3);
+    --brand-colour: {{ case.color }};
+  }
+</style>
+
+<section class="section section--hero section--hero--casestudy centered">
+  <img class="case-study-logo" src="{{site.baseurl}}/images/{{ page.logo }}" alt="Zoopla Property Group">
+  <h1 class="case-study-title">{{page.description}}</h1>
+</section>
+
+<section class="section section--brief centered">
+  <div class="section-text section-text--center" >
+    <h2 class="section-title">the brief</h2>
+    <div class="section-content">
+      {{page.brief | markdownify }}
+    </div>
+  </div>
+</section>
+
+
+<section class="section section--approach">
+  <h2 class="section-title">our approach</h2>
+
+  <ul>
+    {% for output in page.outputs %}
+      <li>
+        <div class="approach--image">
+          <div>
+            <img src="{{ site.baseurl }}/images/{{ output.image }}" alt=""/>
+          </div>
+        </div>
+        <div class="approach--text">
+          <h3>{{ output.heading }}</h3>
+          <p>{{ output.body }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+
+<section class="section section--quote">
+  <div class="section-text section-text--center" >
+    {{page.quote | markdownify }}
+  </div>
+</section>
+
+
+<section class="section section--hero">
+  <div class="hero-video-wrapper">
+    <iframe class="cover-video" src="https://player.vimeo.com/video/109700173" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</section>
+
+<section class="section section--results centered">
+  <div class="section-text section-text--center">
+    <h2 class="section-title">Job done</h2>
+    {{page.results | markdownify }}
+  </div>
+</section>
