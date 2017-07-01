@@ -2,7 +2,8 @@
 title: Zoopla
 layout: case
 color: '#6a148f'
-logo: 'zoopla-logo.svg'
+photo: phil_zoopla.jpg
+logo: zoopla-logo.svg
 description: We helped zoopla property group explain their services
 brief: |
   **Under attack from a new competitor, Zoopla wanted to make sure its existing and potential clients fully understood the benefits of its services.**
@@ -11,7 +12,7 @@ brief: |
 
   It responded by re-examining its B2B marketing, and commissioned Happen to develop and produce a series of video animation explainers, with the aim of convincing agents to stick with or switch to Zoopla.
 quote: |
-  “These new videos and animations have helped us win new customers and convince existing ones to use more of our services. We couldn’t be happier.”
+  These new videos and animations have helped us win new customers and convince existing ones to use more of our services. We couldn’t be happier.
 
   Danielle Gauci, Head of Marketing, Zoopla Property Group
 results: |
@@ -34,6 +35,9 @@ effective online."
 - heading: "Video guides for new services"
   body: "Happen has also worked with Zoopla’s B2C team. We made a video about its Running Costs tool with TV property expert Phil Spencer, and have recently produced a series of video guides with him to promote Zoopla’s new Move service to homemovers. Move guides people through the moving process, helping them prioritise jobs, find vetted moving services and save time and money. The series features advice for buyers and sellers and formats created for Facebook and Instagram."
   image: "IMG_0163.jpg"
+videos:
+  - <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FZooplaUK%2Fvideos%2F10154980967048935%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+  - <iframe src="https://player.vimeo.com/video/141031500" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 ---
 
 body body body

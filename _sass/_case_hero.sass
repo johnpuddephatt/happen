@@ -1,11 +1,16 @@
-.case-study-logo
-  padding: 0 $base-spacing $small-spacing
-
-.case-study-title
-  padding: 0 $base-spacing
-  margin: 0
-  text-align: center
-  color: white
-
 .section--hero--casestudy
-  background-image: url(../images/phil_zoopla.jpg)
+  .case-study-logo
+    margin: 0 $base-spacing 2 * $base-spacing
+    max-width: 85%
+    width: auto
+    height: auto
+    @media screen and (min-width: $medium-screen)
+      max-width: 65%
+    @media screen and (min-width: $large-screen)
+      max-width: 35%
+
+  .case-study-title
+    padding: 0 $base-spacing
+    margin: 0
+    text-align: center
+    color: white

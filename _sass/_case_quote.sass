@@ -1,0 +1,19 @@
+.section--quote .section-text
+  p:first-child
+    font-size: modular-scale(4)
+    font-weight: 700
+    line-height: $heading-line-height
+    margin-bottom: 0
+    vertical-align: middle
+    &::before, &::after
+      line-height: .4
+      font-size: modular-scale(7)
+      display: block
+      color: $light-gray
+      content: '“'
+      margin-top: 2 * $base-spacing
+    &::after
+      content: '”'
+      line-height: 1.2
+      margin-top: 0
+      margin-bottom: -2 * $base-spacing

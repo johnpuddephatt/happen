@@ -3,37 +3,26 @@ title: Slack
 layout: case
 color: '#EF017A'
 logo: 'slack-logo.svg'
+photo:
 description: We helped Slack explain the difference they make to their customers
 brief: |
-  **Under attack from a new competitor, Zoopla wanted to make sure its existing and potential clients fully understood the benefits of its services.**
+  Slack’s communication tool is designed to help companies reduce internal emails and meetings, improving productivity, transparency, and widening the sharing of information and knowledge.
 
-  It had lost nearly a quarter of its customers	to OnTheMarket, which was offering estate and letting agents preferential deals if they signed exclusively with it and only one other property portal. As the number two in the market - behind RightMove - Zoopla was hardest hit by this tactic.
-
-  It responded by re-examining its B2B marketing, and commissioned Happen to develop and produce a series of video animation explainers, with the aim of convincing agents to stick with or switch to Zoopla.
-quote: |
-  “These new videos and animations have helped us win new customers and convince existing ones to use more of our services. We couldn’t be happier.”
-
-  Danielle Gauci, Head of Marketing, Zoopla Property Group
+  Slack wanted to commission two video case studies to show how its software transforms organisations; with the UK its second biggest market, it asked Happen to help.
 results: |
-  Since Happen has started working with Zoopla, the company has shrugged off OnTheMarket’s challenge, winning back approximately 600 estate agents as of November last year. Its last full-year results saw its revenue rising from property services by 9%, to £87m. Over the year to September last year it had 927,000 properties listed on its site - up almost 10% year on year - from more than 23,000 estate agents and other customers.
-  - Won back **600** estate agents
-  - Revenue up by 9% to **£87M**
-  - Properties up **10%** to £927,000
+  Both of the films were watchable and short - clocking in at round 90 seconds. They now feature on Slack’s customer stories page and YouTube channel, as well as being used by its sales team.   
 
 outputs:
-- heading: "Animations that explain"
-  body: "In consultation with the Zoopla team, Happen developed a look (including a cast of characters) and format for the animations. These explained how Zoopla’s key digital products worked and showed their impact on customers’ businesses. We have now made explainers for almost all of Zoopla’s products: from its remarketing service AdReach, to Property File, its app for tenants, vendors and agents. Our animations are distributed via traditional digital channels and also used in presentations by Zoopla’s 100+ strong sales team."
+- heading: "Choosing the right direction"
+  body: "Communication is often most effective via humour or emotion. Happen used both to get the messages across. The first video was based on the fact that teachers are asked dozens of questions each hour. So it asked the viewer whether he or she would be able to answer children’s toughest questions in a fun Buzzfeed-style format. The second was a more traditional case study. It told the story of how a teacher helped a troubled, disruptive pupil turn her life around and win a place at Oxford University in an engaging, emotional way."
   image: "IMG_0163.jpg"
-- heading: "Video interviews"
-  body: "Happen also helped Zoopla overhaul the content section, Extra, of its ZooplaPro portal for agents. We assisted with its redesign and drew up a content plan with its B2B marketing team. We also worked with them to develop and produce a series of short thought leadership video interviews with Zoopla senior staff. These provided actionable advice for agents about how to make their businesses more
-effective online."
+- heading: "Using humour"
+  body: "Getting the best out of children on camera requires a relaxed shoot and a lot of patience. We spent a day filming with the pupils of Reach Academy in Feltham, asking a lot of open-ending questions to make sure we had enough good answers to make a funny and powerful film. We used a bright yellow background, so the video would stand out on Facebook. We edited the footage to make viewers imagine themselves as teachers – and cut in a series of chapter headings to ask whether they could cope in the classroom."
   image: "IMG_0163.jpg"
-- heading: "A new strategy communicated"
-  body: "Happen has also worked closely with Zoopla to explain the strategy behind its acquisition of the price comparison website uSwitch and the Property Software Group, which provides cloud and desktop services for estate agents. This has allowed it to offer more services and, by integrating their platforms, new ways for agents to serve their customers and make money. We have produced content explaining this ‘market, manage and maximise’ strategy aimed at its customers and investors."
+- heading: "Creating an emotional response"
+  body: "The second video was about a young woman, Sara Harb, and her former teacher Liam McGillicuddy. As an immigrant, Sara struggled to learn English and understand what was going on in the classroom. Insecure and frustrated, she was violent and disruptive, and often excluded from school as a result. But over time, her teacher made her realise her potential and become an A-grade student. Key to the video was the interviews with Sara and Liam. These covered her angry behaviour, the support she received and how she won a place at Oxford University. We then cut the interviews with illustrations of Sara kicking off in the classroom, footage of her at Oxford and shots of Liam in the classroom. But most importantly, we showed how Liam’s help made Sara feel, and how her success made him feel. This gave the video a genuine emotional power."
   image: "IMG_0163.jpg"
-- heading: "Video guides for new services"
-  body: "Happen has also worked with Zoopla’s B2C team. We made a video about its Running Costs tool with TV property expert Phil Spencer, and have recently produced a series of video guides with him to promote Zoopla’s new Move service to homemovers. Move guides people through the moving process, helping them prioritise jobs, find vetted moving services and save time and money. The series features advice for buyers and sellers and formats created for Facebook and Instagram."
-  image: "IMG_0163.jpg"
+videos:
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/Toob-OO-xFw" frameborder="0" allowfullscreen></iframe>
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/b7BvrbsMyEg" frameborder="0" allowfullscreen></iframe>
 ---
-
-body body body
