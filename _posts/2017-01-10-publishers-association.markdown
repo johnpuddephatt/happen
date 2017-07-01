@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Show and tell: On location for the Publishers Association"
-date:   2017-01-10 23:04:52 +0100
+title: 'Show and tell: On location for the Publishers'' Association'
+date: '2017-01-10T22:04:52.000+00:00'
 categories: category1 category2
 image: PubAssoc05.jpg
 ---
