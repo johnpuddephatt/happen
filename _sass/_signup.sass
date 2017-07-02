@@ -3,10 +3,14 @@
   -webkit-font-smoothing: antialiased
   margin: 0
   padding: 6 * $base-spacing 5vw
-  border-top: .4rem solid $dark-gray
+  flex: 1 1 50%
+  display: flex
+  align-items: center
+
   .form-input
     display: flex
     input
+      -webkit-appearance: none
       line-height: calc(#{2.5 * $base-spacing} - .8rem)
       height: 2.5 * $base-spacing
       font-size: modular-scale(2)
@@ -17,13 +21,17 @@
         border-top-right-radius: 0
         border-bottom-right-radius: 0
         flex: 1 1 80%
-        padding: 0 2 * $base-spacing
+        padding: 0 $base-spacing
+        @media screen and (min-width: $medium-screen)
+          padding: 0 2 * $base-spacing
         border-right: none
         &:focus, &:focus + input
           border-color: $dark-gray
           color: $dark-gray
       &:last-child
-        padding: 0 2 * $base-spacing 0 1.5 * $base-spacing
+        padding: 0 $small-spacing
+        @media screen and (min-width: $medium-screen)
+          padding: 0 2 * $base-spacing 0 1.5 * $base-spacing
         border-top-left-radius: 0
         border-bottom-left-radius: 0
         flex: 1 1 20%

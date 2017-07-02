@@ -37,7 +37,7 @@ layout: default
           </div>
           <div class="approach--text">
             <h3>{{ output.heading }}</h3>
-            <p>{{ output.body }}</p>
+            <p>{{ output.body | markdownify }}</p>
           </div>
         </li>
       {% endfor %}

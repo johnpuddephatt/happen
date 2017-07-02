@@ -4,7 +4,11 @@
 
 <body>
   {{ content }}
-  {% include signup.html %}  
-  {% include footer.html %}
+  <div class="footer-wrap">
+    {% include signup.html %}
+    {% include footer.html %}
+  </div>
+
+  {% include scripts.html %}
 
 </body>

@@ -17,12 +17,13 @@ title: Happen Digital
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Content to make complicated things clear
-# baseurl: "/happen"
+baseurl: "/happen"
 baseurl: ""
 url: "http://blog.letsdance.agency" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: happendigital
 vimeo_username: happendigital
 
+contact_us: '**Want to talk?** Reach us on 020 1234 123 or [mail@happendigital.co.uk](mailto:mail@happendigital.co.uk)'
 max_home_posts: 6
 
 collections:
@@ -33,6 +34,7 @@ collections:
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock

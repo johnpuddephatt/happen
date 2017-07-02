@@ -1,51 +1,65 @@
+.section--post-body
+
+
 .section--hero--post
   display: flex
   align-items: flex-end
-  justify-content: center
+  justify-content: flex-start
 
 .section-text--post
   padding: 0
   @media screen and (min-width: $medium-screen)
     width: percentage(9/12)
-    margin-left: percentage(2/12)
+    margin-left: percentage(1.5/12)
   @media screen and (min-width: $large-screen)
     width: percentage(7/12)
-    margin-left: percentage(3/12)
+    margin-left: percentage(2.5/12)
   @media screen and (min-width: $xl-screen)
     width: percentage(5/12)
+    margin-left: percentage(3.5/12)
   p:first-child
-    font-size: modular-scale(2)
+    font-size: modular-scale(1)
     font-weight: 700
     margin-bottom: $base-spacing
   h1,h2,h3,h4,h5,h6
     margin-top: 1.5 * $base-spacing
     margin-bottom: $small-spacing
   iframe
-    margin-bottom: $base-spacing
+    margin-top: $base-spacing
+    margin-bottom: 2 * $base-spacing
 
 .post-header
-  margin: $small-spacing
+  background-color: white
+  padding: $small-spacing $base-spacing
   @media screen and (min-width: $medium-screen)
-    margin: $base-spacing
-    margin-left: percentage(2/12)
+    width: calc(#{percentage(9/12)} + #{2 * $base-spacing})
+    margin-left: calc(#{percentage(1.5/12)} - #{$base-spacing})
   @media screen and (min-width: $large-screen)
-    margin-left: percentage(3/12)
+    width: calc(#{percentage(7/12)} + #{2 * $base-spacing})
+    margin-left: calc(#{percentage(2.5/12)} - #{$base-spacing})
   @media screen and (min-width: $xl-screen)
-    margin-right: 2 * $base-spacing
-    margin-bottom: 2 * $base-spacing
-  color: white
+    width: percentage(8/12)
+    margin-left: calc(#{percentage(3.5/12)} - #{$base-spacing})
   .post-title
     font-size: modular-scale(5)
     margin-bottom: 0
-  .post-date
-    font-size: modular-scale(2)
-    font-style: italic
-    font-weight: 700
-    &::after
-      content: ''
-      display: block
-      height: .25em
-      background-color: $pink
-      margin-top: $small-spacing
-      width: 20%
+
+.post-date
+  font-size: modular-scale(2)
+  font-style: italic
+  font-weight: 700
+  float: left
+  width: percentage(3.5/12)
+  text-align: right
+  padding-right: 2 * $base-spacing
+  margin-top: -2 * $base-spacing
+  &::after
+    content: ''
+    display: block
+    height: .25em
+    background-color: $pink
+    margin-top: $small-spacing
+    width: 20%
+    margin-right: 0
+    margin-left: auto
 

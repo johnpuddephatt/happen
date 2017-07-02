@@ -10,18 +10,21 @@
   span
     color: $medium-gray
 
-.contact-header
-  float: right
-  line-height: 10vw
-  font-size: modular-scale(-1)
-  color: $medium-gray
-  -webkit-font-smoothing: antialiased
-  @media screen and (min-width: $medium-screen)
-    line-height: 5vw
-  height: 2 * $base-spacing
-  a
-    color: inherit
-    text-decoration: underline
+.site-header
+  p
+    display: none
+    float: right
+    line-height: 10vw
+    font-size: modular-scale(-1)
+    color: $medium-gray
+    -webkit-font-smoothing: antialiased
+    @media screen and (min-width: $medium-screen)
+      display: block
+      line-height: 5vw
+    height: 2 * $base-spacing
+    a
+      color: inherit
+      text-decoration: underline
 
 
 .hero-video-wrapper
@@ -94,8 +97,9 @@
   text-transform: lowercase
   color: white
   h2
+    line-height: 1
     letter-spacing: 0
-    font-size: calc(#{modular-scale(3)} + 6vw)
+    font-size: calc(#{modular-scale(6)} + 4vw)
     color: $pink
     margin-bottom: 0
   span
@@ -108,13 +112,14 @@
       color: white
       transition-delay: 13 * $base-duration
   p
-    font-size: modular-scale(2)
+    font-size: modular-scale(1)
+    margin: $small-spacing auto 0
+    max-width: 70%
     @media screen and (min-width: $medium-screen)
       font-size: modular-scale(2)
 
     opacity: 0
-    transform: translateY($small-spacing) scale(.8)
-    transition: all ease-out $base-duration 15 * $base-duration
-    margin-top: -$small-spacing
+    transform: translateY(-3 * $base-spacing) scale(.95)
+    transition: all ease-out $base-duration 18 * $base-duration
     font-weight: 700
     -webkit-font-smoothing: antialiased

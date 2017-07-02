@@ -13,14 +13,18 @@ results: |
   Both of the films were watchable and short - clocking in at round 90 seconds. They now feature on Slack’s customer stories page and YouTube channel, as well as being used by its sales team.   
 
 outputs:
-- heading: "Choosing the right direction"
-  body: "Communication is often most effective via humour or emotion. Happen used both to get the messages across. The first video was based on the fact that teachers are asked dozens of questions each hour. So it asked the viewer whether he or she would be able to answer children’s toughest questions in a fun Buzzfeed-style format. The second was a more traditional case study. It told the story of how a teacher helped a troubled, disruptive pupil turn her life around and win a place at Oxford University in an engaging, emotional way."
+- heading: "Building trust"
+  body: "We believe that case study films are one of the most effective ways to show potential customers the benefits of a company’s products and services. They play a vital role in the customer journey: providing the reassurance people need ahead of a purchase. People trust people without a vested interest to recommend things, as the popularity of TripAdvisor and Trustpilot prove. So a video featuring an effusive client is very persuasive.
+
+  We focused on two companies: Ocado Technology, which develops the software and systems that power the online grocery retail platforms of Ocado and Morrisons, and Marks & Spencer. One is the sort of technology company that Slack’s initial growth has been driven by. The other is a long-established, iconic brand that is seeking to transform the way it works and its customer experience, both online and in its shops."
   image: "IMG_0163.jpg"
-- heading: "Using humour"
-  body: "Getting the best out of children on camera requires a relaxed shoot and a lot of patience. We spent a day filming with the pupils of Reach Academy in Feltham, asking a lot of open-ending questions to make sure we had enough good answers to make a funny and powerful film. We used a bright yellow background, so the video would stand out on Facebook. We edited the footage to make viewers imagine themselves as teachers – and cut in a series of chapter headings to ask whether they could cope in the classroom."
+- heading: "Digging deeper"
+  body: "Each film focused on the big picture impact Slack made on the companies, digging deeper than just its convenience and advantages over email. They featured interviewees from across the businesses: senior managers to explain how Slack fitted into their overall strategies, and middle managers and staff to talk about the practical differences it has made to their day-to-day work.  
+
+  We made sure each included specific examples. For example, the M&S film featured an interviewee describing how she used Slack to sort out a software problem she saw when she was out of the office visiting an M&S call centres. She was able to report it back to her team, take and send a photo, and get it fixed while she was there. Her anecdote showed exactly how Slack made M&S more agile. "
   image: "IMG_0163.jpg"
-- heading: "Creating an emotional response"
-  body: "The second video was about a young woman, Sara Harb, and her former teacher Liam McGillicuddy. As an immigrant, Sara struggled to learn English and understand what was going on in the classroom. Insecure and frustrated, she was violent and disruptive, and often excluded from school as a result. But over time, her teacher made her realise her potential and become an A-grade student. Key to the video was the interviews with Sara and Liam. These covered her angry behaviour, the support she received and how she won a place at Oxford University. We then cut the interviews with illustrations of Sara kicking off in the classroom, footage of her at Oxford and shots of Liam in the classroom. But most importantly, we showed how Liam’s help made Sara feel, and how her success made him feel. This gave the video a genuine emotional power."
+- heading: "Holding peoples’ attention"
+  body: "And we made sure each had good pictures - essential for holding a viewer’s attention. We included footage of an automated warehouse in the Ocado Technology video, which allowed us to tell the story of how Slack connected the testing team in a new warehouse with the developers in the main office. And we filmed in a shop for the M&S film, which enabled us to illustrate how its digital team is making a difference for staff on the shopfloor. We also made sure that the footage of the office was interesting by using timelapse, tracking shots and a gimbal. "
   image: "IMG_0163.jpg"
 videos:
 - <iframe width="560" height="315" src="https://www.youtube.com/embed/Toob-OO-xFw" frameborder="0" allowfullscreen></iframe>

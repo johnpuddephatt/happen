@@ -1,12 +1,15 @@
 .case-study
   width: 50vw
-  height: 50vw
+  height: 50vh
   float: left
   display: flex
   align-items: center
   justify-content: center
   overflow: hidden
   position: relative
+  @media screen and (min-width: $large-screen)
+    width: 50vw
+    height: 50vw
   .case-study-logo
     width: 66%
     max-height: 75%

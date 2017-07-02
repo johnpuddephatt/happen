@@ -1,0 +1,9 @@
+<script>
+  var wrapper = document.querySelector('.hero-video-wrapper');
+  var heroVideo = document.querySelector(".hero-video");
+  heroVideo.oncanplaythrough = function() {
+    setTimeout(function(){
+      wrapper.classList.add('trigger');
+    }, 1000);
+  };
+</script>

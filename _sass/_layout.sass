@@ -59,10 +59,10 @@
         &::after
           content: ''
           display: block
-          width: 40%
-          height: .15em
-          background-color: $medium-gray
-          margin: $small-spacing 0 $base-spacing
+          width: 30%
+          height: .8 * $small-spacing
+          background-color: white
+          margin: $base-spacing 0 $base-spacing
           @media screen and (min-width: $medium-screen)
             margin-left: auto
       .section-content
@@ -107,10 +107,8 @@
   margin-bottom: $small-spacing
   @media screen and (min-width: $medium-screen)
     font-size: modular-scale(3)
-    // margin-bottom: 2 * $small-spacing
   @media screen and (min-width: $large-screen)
     font-size: modular-scale(4)
-    // margin-bottom: 3 * $small-spacing
 
 
 .section-text
@@ -142,10 +140,10 @@
       &::after
         content: ""
         display: block
-        width: 40%
-        height: 0.15em
-        background-color: $light-gray
-        margin: $small-spacing 0 $base-spacing
+        width: 30%
+        height: .8 * $small-spacing
+        background-color: white
+        margin: $base-spacing 0 $base-spacing
     @media screen and (min-width: $medium-screen)
       height: 100vh
       width: 50vw
@@ -212,5 +210,11 @@
     left: 0
     right: 0
     bottom: 0
-    background-image: linear-gradient(to top, $medium-gray, var(--brand-colour))
-    opacity: .5
+    background-image: linear-gradient(to bottom, var(--brand-colour) 75%, $dark-gray)
+    opacity: .6
+
+
+.footer-wrap
+  display: flex
+  flex-direction: column
+  height: 100vh
