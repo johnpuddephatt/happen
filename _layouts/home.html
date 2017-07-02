@@ -50,7 +50,7 @@ layout: default
       <img class="case-study-logo" src="{{ site.baseurl }}/images/{{ case.logo }}" alt="{{ case.title }}">
       <div class="case-study-text">
         <p>{{ case.description }}</p>
-        <a href="{{ case.url }}" type="button">Find out how</a>
+        <a href="{{ site.baseurl }}/{{ case.url }}" type="button">Find out how</a>
       </div>
     </li>
     {% endfor %}
