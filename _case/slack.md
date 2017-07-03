@@ -7,7 +7,7 @@ color: "#EF017A"
 date: '2017-07-03T20:24:32.791+00:00'
 description: We helped Slack explain the difference they make to their customers
 layout: case
-logo: "/uploads/2017/07/03/slack-logo.svg"
+logo: "/uploads/2017/07/03/slack-logo.png"
 outputs:
 - body: |-
     We believe that case study films are one of the most effective ways to show potential customers the benefits of a company’s products and services. They play a vital role in the customer journey: providing the reassurance people need ahead of a purchase. People trust people without a vested interest to recommend things, as the popularity of TripAdvisor and Trustpilot prove. So a video featuring an effusive client is very persuasive.
