@@ -3,7 +3,7 @@ title: Zoopla
 layout: case
 color: "#6a148f"
 photo: phil_zoopla.jpg
-logo: zoopla-logo.svg
+logo: "/uploads/2017/07/03/zoopla-logo.png"
 description: We helped zoopla property group explain their services
 brief: "Under attack from a new competitor, Zoopla wanted to make sure its existing
   and potential clients fully understood the benefits of its services.\n\nIt had lost
