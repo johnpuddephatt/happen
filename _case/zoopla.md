@@ -32,7 +32,7 @@ outputs:
     service AdReach, to Property File, its app for tenants, vendors and agents. Our
     animations are distributed via traditional digital channels and also used in presentations
     by Zoopla’s 100+ strong sales team.'
-  image: IMG_0163.jpg
+  image: "/uploads/2017/07/03/zoopla-characters.jpg"
 - heading: Video interviews
   body: Happen also helped Zoopla overhaul the content section, Extra, of its ZooplaPro
     portal for agents. We assisted with its redesign and drew up a content plan with
@@ -40,23 +40,23 @@ outputs:
     of short thought leadership video interviews with Zoopla senior staff. These provided
     actionable advice for agents about how to make their businesses more effective
     online.
-  image: IMG_0163.jpg
-- heading: A new strategy communicated
+  image: "/uploads/2017/07/03/zoopla_interviews.jpg"
+- heading: Communicating new services
   body: Happen has also worked closely with Zoopla to explain the strategy behind
     its acquisition of the price comparison website uSwitch and the Property Software
     Group, which provides cloud and desktop services for estate agents. This has allowed
     it to offer more services and, by integrating their platforms, new ways for agents
     to serve their customers and make money. We have produced content explaining this
     ‘market, manage and maximise’ strategy aimed at its customers and investors.
-  image: IMG_0163.jpg
-- heading: Video guides for new services
+  image: "/uploads/2017/07/03/zoopla_services.jpg"
+- heading: Video guides with Phil Spencer
   body: Happen has also worked with Zoopla’s B2C team. We made a video about its Running
     Costs tool with TV property expert Phil Spencer, and have recently produced a
     series of video guides with him to promote Zoopla’s new Move service to homemovers.
     Move guides people through the moving process, helping them prioritise jobs, find
     vetted moving services and save time and money. The series features advice for
     buyers and sellers and formats created for Facebook and Instagram.
-  image: IMG_0163.jpg
+  image: "/uploads/2017/07/03/zoopla_phil.jpg"
 videos:
 - <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FZooplaUK%2Fvideos%2F10154980967048935%2F&show_text=0&width=560"
   width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
