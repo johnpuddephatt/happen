@@ -32,7 +32,7 @@ layout: default
         <li>
           <div class="approach--image">
             <div>
-              <img src="{{ site.baseurl }}{{ output.image }}" alt=""/>
+              {% include cloudinary.html img=output.image width="600" height="600" modes="c_fill,g_face" quality="70" %}
             </div>
           </div>
           <div class="approach--text">
