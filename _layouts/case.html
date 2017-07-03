@@ -9,7 +9,7 @@ layout: default
 </style>
 
 <section class="section section--hero section--hero--casestudy centered" style="background-image: url('{% include cloudinary.html img=page.photo imgpath="images/cases/" width="1600" height="900" quality="50" pathonly="true" %}')">
-  <img class="case-study-logo" src="{{site.baseurl}}/images/{{ page.logo }}" alt="Zoopla Property Group">
+  <img class="case-study-logo" src="{{site.baseurl}}{{ page.logo }}" alt="{{ page.title }}">
   <h1 class="case-study-title">{{page.description}}</h1>
 </section>
 
@@ -32,7 +32,7 @@ layout: default
         <li>
           <div class="approach--image">
             <div>
-              <img src="{{ site.baseurl }}/images/{{ output.image }}" alt=""/>
+              <img src="{{ site.baseurl }}{{ output.image }}" alt=""/>
             </div>
           </div>
           <div class="approach--text">
