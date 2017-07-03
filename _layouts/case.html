@@ -13,7 +13,7 @@ layout: default
   <h1 class="case-study-title">{{page.description}}</h1>
 </section>
 
-{% if page.brief %}
+{% if page.brief and page.brief != '' %}
   <section class="section section--brief centered">
     <div class="section-text section-text--center" >
       <h2 class="section-title">the challenge</h2>
@@ -24,7 +24,7 @@ layout: default
   </section>
 {% endif %}
 
-{% if page.outputs %}
+{% if page.outputs and page.outputs != '' %}
   <section class="section section--approach">
     <h2 class="section-title">our approach</h2>
     <ul>
@@ -45,7 +45,7 @@ layout: default
   </section>
 {% endif %}
 
-{% if page.videos %}
+{% if page.videos and page.videos != '' %}
 <div class="videos-wrapper">
   {% for video in page.videos %}
     <section class="section section--hero">
@@ -57,7 +57,7 @@ layout: default
 </div>
 {% endif %}
 
-{% if page.quote %}
+{% if page.quote and page.quote != '' %}
   <section class="section section--quote">
     <div class="section-text section-text--center" >
       {{page.quote | markdownify }}
@@ -65,7 +65,7 @@ layout: default
   </section>
 {% endif %}
 
-{% if page.results %}
+{% if page.results and page.results != '' %}
   <section class="section section--results centered">
     <div class="section-text section-text--center">
       <h2 class="section-title">Job done</h2>
