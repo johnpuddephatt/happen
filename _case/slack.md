@@ -5,7 +5,6 @@ brief: |
   Slack wanted to commission two video case studies to show how its software transforms organisations; with the UK its second biggest market, it asked Happen to help.
 color: "#EF017A"
 date: '2017-07-03T20:24:32.791+00:00'
-photo: ''
 description: We helped Slack explain the difference they make to their customers
 layout: case
 logo: "/uploads/2017/07/03/slack-logo.png"
@@ -35,7 +34,7 @@ outputs:
     making a difference for staff on the shopfloor. We also made sure that the footage
     of the office was interesting by using timelapse, tracking shots and a gimbal. '
   heading: Holding peoples’ attention
-  image: "/uploads/2017/07/03/Screen Shot 2017-03-23 at 11.49.42.png"
+  image: "/uploads/2017/07/03/step3.jpg"
 photo: "/uploads/2017/07/03/slackbanner.jpg"
 results: "Both of the films were watchable and short - clocking in at round 90 seconds.
   They now feature on Slack’s customer stories page and YouTube channel, as well as
