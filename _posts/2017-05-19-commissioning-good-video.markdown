@@ -5,7 +5,7 @@ date: '2017-05-19T22:04:52.000+00:00'
 categories:
 - filming
 - commissioning
-image: IMG_0206.jpg
+image: "/uploads/2017/07/03/IMG_0206.jpg"
 ---
 Five words to chill the blood of a video producer: ‘Can you film our event?’ It sounds so easy, so straightforward, but it can be a deeply frustrating experience. This is because most events are organised for the benefit of the people attending, not the cameras. This is understandable, but means you should think before pressing record.
 
