@@ -3,7 +3,7 @@ title: Teach first
 layout: case
 color: "#172b69"
 logo: "/uploads/2017/07/03/teachfirstlogo2.png"
-photo: teachfirst_bg.jpg
+photo: "/uploads/2017/07/03/teachfirst_bg.jpg"
 description: We helped Teach First get their message across
 brief: |
   Teach First wanted two videos for a joint editorial campaign with Trinity Mirror to encourage young people to train as teachers.
