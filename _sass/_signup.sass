@@ -1,12 +1,24 @@
-.section--signup
+.section--contact
   background-color: $pink
   -webkit-font-smoothing: antialiased
   margin: 0
-  padding: 6 * $base-spacing 5vw
+  padding: $base-spacing 5vw
   flex: 1 1 50%
   display: flex
-  align-items: center
+  justify-content: space-around
+  flex-direction: column
+  @media screen and (min-width: $large-screen)
+    flex-direction: row
+    align-items: center
+  .contact-details
+    color: white
+    font-size: modular-scale(3)
+    font-weight: 700
+    a, a:hover
+      color: white
 
+    @media screen and (min-width: $medium-screen)
+      font-size: modular-scale(4)
   .form-input
     display: flex
     input
@@ -20,7 +32,7 @@
       &:first-child
         border-top-right-radius: 0
         border-bottom-right-radius: 0
-        flex: 1 1 80%
+        flex: 1 1 85%
         padding: 0 $base-spacing
         @media screen and (min-width: $medium-screen)
           padding: 0 2 * $base-spacing
@@ -31,10 +43,13 @@
       &:last-child
         padding: 0 $small-spacing
         @media screen and (min-width: $medium-screen)
-          padding: 0 2 * $base-spacing 0 1.5 * $base-spacing
+          padding: 0 1.5 * $base-spacing 0 1 * $base-spacing
         border-top-left-radius: 0
+        font-weight: 200
+        -webkit-font-smoothing: antialiased
+        font-size: modular-scale(1)
         border-bottom-left-radius: 0
-        flex: 1 1 20%
+        flex: 1 1 15%
         margin-left: -2px
         background-color: $light-gray
         color: $medium-gray
@@ -47,8 +62,25 @@
 
   .section-subheading
     color: $light-gray
-    margin-bottom: $base-spacing
+    margin-bottom: 1.5 * $base-spacing
+    font-size: modular-scale(1)
+    @media screen and (min-width: $large-screen)
+      font-size: modular-scale(2)
   p
     margin-top: $small-spacing
     font-size: modular-scale(0)
     color: $light-gray
+
+.subsection--signup,.subsection--contact
+  padding: $small-spacing
+  flex: 0 1 auto
+  @media screen and (min-width: $medium-screen)
+    padding: $base-spacing calc(25.95vh/8)
+
+  @media screen and (min-width: $large-screen)
+    flex: 0 1 50%
+    padding: $base-spacing calc(25.95vh/4)
+
+
+.subsection--signup
+  margin-bottom: 0

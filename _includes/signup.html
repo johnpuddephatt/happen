@@ -1,11 +1,21 @@
-<form class="section section--signup">
-  <div class="section-text section-text--center">
-    <h3 class="section-title">Let’s stay in touch</h3>
-    <h4 class="section-subheading">Get our latest ideas straight to your inbox</h4>
-    <div class="form-input">
-      <input type="text">
-      <input type="submit">
-    </div>
-    <p>(we promise to never share your email address and you can unsubscribe at any time)</p>
+
+<div class="section section--contact" id="happen-contact">
+  <div class="subsection subsection--contact">
+      <h3 class="section-title">Get in touch</h3>
+      <h4 class="section-subheading">We like hearing from new people</h4>
+      <ul class="contact-details">
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li>{{ site.phone }}</li>
+      </ul>
   </div>
-</form>
+  <form class="subsection subsection--signup">
+      <h3 class="section-title">Stay in touch</h3>
+      <h4 class="section-subheading">Our latest ideas direct to your inbox</h4>
+      <div class="form-input">
+        <input type="text">
+        <input type="submit">
+      </div>
+      <p>(we won’t share your email address and you can unsubscribe any time)</p>
+
+  </form>
+</div>

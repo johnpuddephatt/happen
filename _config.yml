@@ -15,14 +15,17 @@
 # in the templates via {{ site.myvariable }}.
 title: Happen Digital
 email: your-email@domain.com
+phone: 020 123 1234
 description: > # this means to ignore newlines until "baseurl:"
   Content to make complicated things clear
 baseurl: "/happen"
 url: "http://blog.letsdance.agency" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: happendigital
 vimeo_username: happendigital
-
+company_info: 'Happen Digital Ltd is a registered company in England &amp; Wales. Company number 08317567.'
 contact_us: '**Want to talk?** Reach us on 020 1234 123 or [mail@happendigital.co.uk](mailto:mail@happendigital.co.uk)'
+
+cloudinary: letsdance
 max_home_posts: 6
 
 collections:
