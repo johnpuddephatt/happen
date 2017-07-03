@@ -5,6 +5,7 @@ brief: |
   Slack wanted to commission two video case studies to show how its software transforms organisations; with the UK its second biggest market, it asked Happen to help.
 color: "#EF017A"
 date: '2017-07-03T20:24:32.791+00:00'
+photo: ''
 description: We helped Slack explain the difference they make to their customers
 layout: case
 logo: "/uploads/2017/07/03/slack-logo.png"
