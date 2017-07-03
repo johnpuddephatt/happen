@@ -3,7 +3,7 @@ title: Slack
 layout: case
 color: '#EF017A'
 logo: 'slack-logo.svg'
-photo:
+photo: 'slackbanner.jpg'
 description: We helped Slack explain the difference they make to their customers
 brief: |
   Slack’s communication tool is designed to help companies reduce internal emails and meetings, improving productivity, transparency, and widening the sharing of information and knowledge.

@@ -8,7 +8,7 @@ layout: default
   }
 </style>
 
-<section class="section section--hero section--hero--casestudy centered" style="background-image: url({{site.baseurl}}/images/{{ page.photo }})">
+<section class="section section--hero section--hero--casestudy centered" style="background-image: url('{% include cloudinary.html img=page.photo imgpath="images/cases/" width="750" height="750" modes="c_fill,g_face" quality="70" pathonly="true" %}')">
   <img class="case-study-logo" src="{{site.baseurl}}/images/{{ page.logo }}" alt="Zoopla Property Group">
   <h1 class="case-study-title">{{page.description}}</h1>
 </section>
