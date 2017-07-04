@@ -27,7 +27,7 @@ outputs:
     a simple shooting style suitable for someone new to filmmaking, that would result
     in an effective video with high production values. We also helped cast the films,
     identifying who would best communicate the project’s key messages. '
-  image: IMG_0163.jpg
+  image: "/uploads/2017/07/03/prison_journey.jpg"
 - heading: A transformative journey
   body: We devised a training programme and filming schedule that enabled the Prison
     Radio Association producer to acquire new skills and grow in confidence throughout
@@ -35,7 +35,7 @@ outputs:
     the filming days, providing practical support and editorial guidance. He also
     oversaw post-production, making sure the finished films were suitable for an app
     experience.
-  image: IMG_0163.jpg
+  image: "/uploads/2017/07/03/prison_schedule.jpg"
 videos:
 - <iframe src="https://player.vimeo.com/video/177625290" width="640" height="256"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -46,6 +46,7 @@ videos:
 - <iframe src="https://player.vimeo.com/video/177612622" width="640" height="363"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 date: '2017-07-03T20:42:24.770+00:00'
+photo: "/uploads/2017/07/03/prison_banner.jpg"
 ---
 
 body body body
