@@ -5,14 +5,13 @@
       <h4 class="section-subheading">We like hearing from new people</h4>
       <ul class="contact-details">
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li>{{ site.phone }}</li>
       </ul>
   </div>
-  <form class="subsection subsection--signup">
+  <form action="{{ site.mailchimp }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" class="subsection subsection--signup">
       <h3 class="section-title">Stay in touch</h3>
       <h4 class="section-subheading">Our latest ideas direct to your inbox</h4>
       <div class="form-input">
-        <input type="text">
+        <input type="email" id="mce-EMAIL" name="EMAIL">
         <input type="submit">
       </div>
       <p>(we won’t share your email address and you can unsubscribe any time)</p>
