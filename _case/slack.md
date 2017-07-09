@@ -35,6 +35,7 @@ outputs:
     of the office was interesting by using timelapse, tracking shots and a gimbal. '
   heading: Holding peoples’ attention
   image: "/uploads/2017/07/03/step3.jpg"
+  video: "blah blah blah"
 photo: "/uploads/2017/07/03/slackbanner.jpg"
 results: "Both of the films were watchable and short - clocking in at round 90 seconds.
   They now feature on Slack’s customer stories page and YouTube channel, as well as
