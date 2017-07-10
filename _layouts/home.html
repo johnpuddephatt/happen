@@ -45,7 +45,7 @@ layout: default
 
 <section class="section section--case-studies">
   <ul class="case-studies-wrapper">
-    {% for case in site.case | reverse %}
+    {% for case in site.case limit:4 %}
     <li class="case-study" style="background-color: {{ case.color }}">
       <img class="case-study-logo" src="{{ site.baseurl }}{{ case.logo }}" alt="{{ case.title }}">
       <div class="case-study-text">

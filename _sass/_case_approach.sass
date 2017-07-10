@@ -22,15 +22,18 @@
       position: relative
       order: 2
       margin: 0 auto
+      width: 50vw
+      height: 57.737vw /* width div 0.866 */
       @media screen and (min-width: $medium-screen)
+        width: 30vw
+        height: 34.642vw /* width div 0.866 */
         margin: 0
-      width: 30vw
       align-self: flex-end
       flex: 0 0 auto
-      height: 34.642vw /* width div 0.866 */
       overflow: hidden
       visibility: hidden
       transform: rotate(-60deg) skewY(30deg)
+      transition: transform $base-duration $base-duration
     .approach--text
       padding: 0 $base-spacing
       text-align: center
@@ -75,8 +78,32 @@
       color: #fff
       overflow: hidden
       transform: skewY(-30deg) rotate(60deg)
+      transition: transform $base-duration $base-duration, height $base-duration $base-duration
       -webkit-backface-visibility: hidden
-
+      background-color: $pink
+      background-color: var(--brand-colour)
+    .approach--image:hover svg path
+      fill: $medium-gray
+    .approach--video-button
+      border: none
+      border-radius: 0
+      top: 0
+      left: 0
+      height: 100%
+      width: 100%
+      padding: 0
+      background-image: url(../images/playbutton.png)
+      text-indent: -9999px
+      background-size: 40%
+      background-position: center
+      background-repeat: no-repeat
+      transition: $base-duration
+      &:hover
+        background-color: rgba(50,50,50,.2)
+      &:focus
+        outline: none
+        border: none
+        background-color: transparent
     /* HEX CONTENT
     .approach--image img
       left: -100%
@@ -85,6 +112,7 @@
       height: 100%
       margin: 0 auto
       max-width: none
+      transition: $base-duration
 
     .approach--title
       margin-bottom: 0
@@ -93,3 +121,51 @@
         font-size: modular-scale(3)
       @media screen and (min-width: $large-screen)
         font-size: modular-scale(4)
+
+    .video-playing.approach--image img
+      opacity: 0
+      transform: scaleY(0)
+    .video-playing.approach--image .approach--video-button
+      opacity: 0
+
+
+.video-overlay-wrapper
+  position: relative !important
+  height: 100%
+  width: 100%
+  top: 0
+  left: 0
+  .video-wrapper
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+  .button--video-close
+    position: absolute !important
+    left: 50%
+    top: $small-spacing
+    height: 2 * $base-spacing
+    width: 2 * $base-spacing
+    line-height: 2 * $base-spacing
+    @media screen and (min-width: $medium-screen)
+      top: 2 * $base-spacing
+      height: 3 * $base-spacing
+      width: 3 * $base-spacing
+      line-height: 3 * $base-spacing
+    padding: 0
+    transform: translateX(-50%)
+    box-sizing: border-box
+    text-indent: -9999px
+    &:active, &:focus
+      outline: none
+    &::after
+      content: '×'
+      text-indent: 0
+      font-size: modular-scale(4)
+      display: block
+      position: absolute
+      top: 0
+      width: 2 * $base-spacing
+      text-align: center
+      @media screen and (min-width: $medium-screen)
+        width: 2.8 * $base-spacing

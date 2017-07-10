@@ -1,9 +1,44 @@
 <script>
+
+  var body = document.querySelector('body');
+
+  var videoOverlay = document.createElement("div");
+  videoOverlay.classList.add("video-overlay-wrapper");
+
+  var videoWrapper = document.createElement("div");
+  videoWrapper.classList.add("video-wrapper");
+
+  var videoOverlayClose = document.createElement("button");
+  videoOverlayClose.classList.add('button--video-close');
+  videoOverlayClose.textContent = 'Close';
+
+  videoOverlayClose.addEventListener('click', function(e) {
+    this.parentNode.parentNode.parentNode.classList.remove('video-playing');
+    this.parentNode.parentNode.removeChild(videoOverlay);
+
+  });
+
+  document.addEventListener('click', function(e) {
+    if(e.target.dataset.video) {
+      videoWrapper.innerHTML = urldecode(e.target.dataset.video);
+      videoOverlay.append(videoWrapper);
+      videoOverlay.append(videoOverlayClose);
+      e.target.parentNode.append(videoOverlay);
+      e.target.parentNode.parentNode.classList.add('video-playing');
+    }
+  });
+
   var wrapper = document.querySelector('.hero-video-wrapper');
   var heroVideo = document.querySelector(".hero-video");
-  heroVideo.oncanplaythrough = function() {
-    setTimeout(function(){
-      wrapper.classList.add('trigger');
-    }, 1000);
-  };
+  if(heroVideo) {
+    heroVideo.oncanplaythrough = function() {
+      setTimeout(function(){
+        wrapper.classList.add('trigger');
+      }, 1000);
+    };
+  }
+  function urldecode(str) {
+   return decodeURIComponent((str+'').replace(/\+/g, '%20'));
+  }
+
 </script>

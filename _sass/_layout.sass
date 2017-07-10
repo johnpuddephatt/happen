@@ -23,6 +23,22 @@
     border: 5vw solid white
     border-top-width: 10vw
     background-color: var(--brand-colour)
+    background-size: cover
+    background-position: center
+    position: relative
+    -webkit-font-smoothing: antialiased
+    *
+      z-index: 9
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      background-image: linear-gradient(to bottom, var(--brand-colour) 75%, $dark-gray)
+      opacity: .6
     + .section--hero
       border-top: none
       height: 95vh
@@ -31,6 +47,7 @@
       border-top-width: 5vw
     @media screen and (orientation: landscape) and (min-width: $medium-screen)
       height: 56.25vw
+
   &--brief, &--what-we-do, &--our-work, &--results
     min-height: 100vh
     @media screen and (orientation: landscape) and (min-width: $medium-screen)
@@ -101,6 +118,8 @@
       display: block
     .case-studies-wrapper
       overflow: hidden
+  &--video
+    border: 5vw solid white
 
 .section-title
   font-size: modular-scale(3)
@@ -192,23 +211,6 @@
         border-right: 15vw solid
         border-right-color: inherit
 
-.section--hero
-  background-size: cover
-  background-position: center
-  position: relative
-  -webkit-font-smoothing: antialiased
-  *
-    z-index: 9
-  &::after
-    content: ''
-    display: block
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    background-image: linear-gradient(to bottom, var(--brand-colour) 75%, $dark-gray)
-    opacity: .6
 
 
 .footer-wrap

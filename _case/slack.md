@@ -35,15 +35,13 @@ outputs:
     of the office was interesting by using timelapse, tracking shots and a gimbal. '
   heading: Holding peoples’ attention
   image: "/uploads/2017/07/03/step3.jpg"
-  video: "blah blah blah"
+  video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Toob-OO-xFw?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>
 photo: "/uploads/2017/07/03/slackbanner.jpg"
 results: "Both of the films were watchable and short - clocking in at round 90 seconds.
   They now feature on Slack’s customer stories page and YouTube channel, as well as
   being used by its sales team.   \n"
 title: Slack
 videos:
-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Toob-OO-xFw"
-  frameborder="0" allowfullscreen></iframe>
 - <iframe width="560" height="315" src="https://www.youtube.com/embed/b7BvrbsMyEg"
   frameborder="0" allowfullscreen></iframe>
 quote: ''

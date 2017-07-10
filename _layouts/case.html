@@ -33,6 +33,11 @@ layout: default
           <div class="approach--image">
             <div>
               {% include cloudinary.html img=output.image width="600" height="600" modes="c_fill,g_face" quality="70" %}
+              {% if output.video %}
+              <button class="approach--video-button" data-video="{{ output.video | url_encode}}">
+                play
+              </button>
+              {% endif %}
             </div>
           </div>
           <div class="approach--text">
@@ -48,8 +53,8 @@ layout: default
 {% if page.videos and page.videos != '' %}
 <div class="videos-wrapper">
   {% for video in page.videos %}
-    <section class="section section--hero">
-      <div class="hero-video-wrapper">
+    <section class="section section--video">
+      <div class="video-wrapper video-wrapper--case">
         {{ video }}
       </div>
     </section>
