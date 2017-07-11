@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Show and tell: On location for the Publishers'' Association'
+title: 'Show and tell: On location for the Publishers‘ Association'
 date: 2017-05-18 23:04
 categories: []
 image: "/uploads/2017/07/03/PubAssoc05.jpg"
