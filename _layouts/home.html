@@ -72,7 +72,7 @@ layout: default
     <li>
         <div class="blog--image">
           <a href="{{ post.url | prepend:site.baseurl}}">
-            {% include cloudinary.html img=post.image width="750" height="750" modes="c_fill,g_face" quality="70" %}
+            {% include cloudinary.html img=post.image width="900" height="900" modes="c_fill,g_face" quality="70" %}
           </a>
         </div>
         <a class="blog--text" href="{{ post.url | prepend:site.baseurl}}">
