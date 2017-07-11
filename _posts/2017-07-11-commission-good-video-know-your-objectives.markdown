@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Commission good video: know your objectives'
-date: '2017-05-19T22:04:52.000+00:00'
+date: 2017-05-18 23:04
 image: "/uploads/2017/07/11/IMG_2438.JPG"
 categories: []
 ---

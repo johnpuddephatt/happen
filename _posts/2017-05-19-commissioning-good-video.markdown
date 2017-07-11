@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Commissioning good video: five rules for filming'
-date: '2017-05-19T22:04:52.000+00:00'
+date: 2017-05-18 23:04
 categories:
 - filming
 - commissioning
