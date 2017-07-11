@@ -1,6 +1,6 @@
 ---
 title: How to train your staff to make videos
-date: 2017-05-18 23:04
+date: 2017-01-17 23:04
 image: "/uploads/2017/07/11/IMG_3131.JPG"
 layout: post
 categories: []
