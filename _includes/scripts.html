@@ -1,6 +1,11 @@
 <script>
-
   var body = document.querySelector('body');
+
+  if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    body.classList.add('ios');
+  }
+
+
 
   var videoOverlay = document.createElement("div");
   videoOverlay.classList.add("video-overlay-wrapper");

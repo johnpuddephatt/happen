@@ -1,5 +1,6 @@
 .section--post-body
-
+  .video-wrapper
+    margin-bottom: 3 * $base-spacing
 
 .section--hero--post
   display: flex
@@ -30,8 +31,9 @@
 
 .post-header
   background-color: white
-  padding: $small-spacing $base-spacing
+  padding: $base-spacing 0
   @media screen and (min-width: $medium-screen)
+    padding: $small-spacing $base-spacing
     width: calc(#{percentage(9/12)} + #{2 * $base-spacing})
     margin-left: calc(#{percentage(1.5/12)} - #{$base-spacing})
   @media screen and (min-width: $large-screen)
@@ -41,7 +43,11 @@
     width: percentage(8/12)
     margin-left: calc(#{percentage(3.5/12)} - #{$base-spacing})
   .post-title
-    font-size: modular-scale(5)
+    font-size: modular-scale(3)
+    @media screen and (min-width: $medium-screen)
+      font-size: modular-scale(4)
+    @media screen and (min-width: $large-screen)
+      font-size: modular-scale(5)
     margin-bottom: 0
 
 .post-date

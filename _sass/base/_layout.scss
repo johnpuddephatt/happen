@@ -26,5 +26,12 @@ body {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
+  &.ios {
+    overflow-x: initial;
+    overflow-y: initial;
+    .section--blog .background {
+      transform: none;
+    }
+  }
 }
 

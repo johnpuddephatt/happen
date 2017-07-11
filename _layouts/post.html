@@ -17,6 +17,6 @@ layout: default
 <section class="section section--post-body">
   <!-- <p class="post-date">{{ page.date | date: "%d.%m.%y" }}</p> -->
   <div class="section-text section-text--post">
-    {{content | replace: '<img', '<hr'}}
+    {{content | replace: '<iframe', '<div class="video-wrapper"><iframe' | replace: '</iframe>', '</iframe></div>'}}
   </div>
 </section>

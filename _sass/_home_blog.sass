@@ -24,6 +24,9 @@
       display: flex
       flex-direction: row
       align-items: center
+      padding: 2 * $base-spacing 0
+      @media screen and (min-width: $large-screen)
+        padding: 0
       &:hover .chevrons
         transform: translateX($small-spacing)
         path
@@ -42,10 +45,11 @@
       width: 45vw
       padding-left: $small-spacing
       .chevrons
-        margin-top: $small-spacing
+        margin-top: $small-spacing/2
         width: $base-spacing
         height: $base-spacing
         @media screen and (min-width: $medium-screen)
+          margin-top: $small-spacing
           width: 2 * $base-spacing
           height: 2 * $base-spacing
         transition: transform ease-in-out 3 * $base-duration
@@ -113,14 +117,16 @@
     .blog--date
       display: inline-block
       color: $base-font-color
+      margin-bottom: $small-spacing/2
+      padding-bottom: $small-spacing/2
       @media screen and (min-width: $medium-screen)
         font-size: modular-scale(1)
+        margin-bottom: $small-spacing
+        padding-bottom: $small-spacing
       @media screen and (min-width: $large-screen)
         font-size: modular-scale(2)
       font-weight: 700
-      margin-bottom: $small-spacing
       font-style: italic
-      padding-bottom: $small-spacing
       border-bottom: .4 * $small-spacing solid $pink
 
 .button--blog-all
