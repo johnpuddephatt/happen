@@ -47,3 +47,8 @@ defaults:
       type: case
     values:
       layout: case
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
