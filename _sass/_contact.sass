@@ -14,12 +14,13 @@
     color: white
     font-size: modular-scale(3)
     font-weight: 700
-    margin-bottom: 2.5 * $base-spacing
+    margin-bottom: $base-spacing
+    @media screen and (min-width: $medium-screen)
+      font-size: modular-scale(4)
+      margin-bottom: 2.5 * $base-spacing
     a, a:hover
       color: white
 
-    @media screen and (min-width: $medium-screen)
-      font-size: modular-scale(4)
   .form-input
     display: flex
     input
