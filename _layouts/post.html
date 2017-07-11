@@ -17,6 +17,6 @@ layout: default
 <section class="section section--post-body">
   <!-- <p class="post-date">{{ page.date | date: "%d.%m.%y" }}</p> -->
   <div class="section-text section-text--post">
-    {{content}}
+    {{content | replace: '<img', '<hr'}}
   </div>
 </section>
