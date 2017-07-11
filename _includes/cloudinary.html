@@ -1,4 +1,4 @@
-{% capture output %}
+{% capture img_output %}
 {% if site.local != true %}
 {% if include.pathonly != 'true' %}<img src="{% endif %}
 http://res.cloudinary.com/{{ site.cloudinary }}/image/fetch/w_{{ include.width | default: "500"}},h_{{ include.height | default: "500"}}{{ include.quality | prepend: ",q_"}}{{ include.modes| default: "c_fill" | prepend: "," }}/{{ site.url }}{{ site.baseurl }}{{ include.img }}
@@ -6,4 +6,4 @@ http://res.cloudinary.com/{{ site.cloudinary }}/image/fetch/w_{{ include.width |
 {% else %}
 {% if include.pathonly != 'true' %}<img src="{% endif %}{{ site.baseurl }}{{  include.img }}{% if include.pathonly != 'true' %} "/>{% endif %}
 {% endif %}
-{% endcapture %}{{ output | strip_newlines }}
+{% endcapture %}{{ img_output | strip_newlines }}
