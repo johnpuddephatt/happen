@@ -1,8 +1,9 @@
 ---
 title: How to train your staff to make videos
-date: '2017-05-19T22:04:52.000+00:00'
+date: 2017-05-18 23:04
 image: "/uploads/2017/07/11/IMG_3131.JPG"
-layout: 'post'
+layout: post
+categories: []
 ---
 If your content strategy involves publishing regular video, it’s worth thinking about training your staff to produce it. You’ll need to commit some resources to the project but with a modest outlay it’s possible to equip your marketing or communications teams to make regular content in-house.
 
