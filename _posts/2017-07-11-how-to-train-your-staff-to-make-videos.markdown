@@ -5,9 +5,11 @@ image: "/uploads/2017/07/11/IMG_3131.JPG"
 layout: post
 categories: []
 ---
-
-
 If your content strategy involves publishing regular video, it’s worth thinking about training your staff to produce it. You’ll need to commit some resources to the project but with a modest outlay it’s possible to equip your marketing or communications teams to make regular content in-house.
+
+What’s most important is to have a clear idea of what you want them to produce before training starts. Know your objectives and be realistic. If your team are beginners and not about to devote themselves full-time to video production they need to focus on something simple: regular interviews with customers, for example, or pieces-to-camera with your CEO.
+
+Think about what your audience will expect in terms of quality and don’t set your team up to fail. They’ll be able to produce professional-looking interviews but not elaborate films. Their work will liven up your blog but probably not look slick at the top of your homepage.
 
 ## Getting started
 
