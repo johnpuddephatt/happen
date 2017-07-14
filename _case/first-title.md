@@ -1,14 +1,14 @@
 ---
-layout: case
-title: first title
-date: 2017-07-14 18:56
-color: ''
-photo: ''
-logo: ''
-description: ''
 brief: ''
+color: ''
+date: 2017-07-14 18:56
+description: ''
+layout: case
+logo: ''
+outputs: []
+photo: ''
 quote: ''
 results: ''
-outputs: []
+title: second title
 videos: []
 ---
