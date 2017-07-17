@@ -2,7 +2,7 @@
 title: Zoopla
 layout: case
 color: "#6a148f"
-photo: "/uploads/2017/07/17/Case-study-ZPG-09.jpg"
+photo: "/uploads/2017/07/03/phil_zoopla.jpg"
 logo: "/uploads/2017/07/03/zoopla-logo.png"
 description: We helped zoopla property group explain their services
 brief: "Under attack from a new competitor, Zoopla wanted to make sure its existing
@@ -59,7 +59,7 @@ outputs:
     Move guides people through the moving process, helping them prioritise jobs, find
     vetted moving services and save time and money. The series features advice for
     buyers and sellers and formats created for Facebook and Instagram.
-  image: "/uploads/2017/07/03/zoopla_phil.jpg"
+  image: "/uploads/2017/07/17/Case-study-ZPG-09.jpg"
   video: <iframe src="https://player.vimeo.com/video/141031500" width="640" height="360"
     frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 videos: []
