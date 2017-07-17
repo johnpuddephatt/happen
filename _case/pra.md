@@ -27,7 +27,7 @@ outputs:
     a simple shooting style suitable for someone new to filmmaking, that would result
     in an effective video with high production values. We also helped cast the films,
     identifying who would best communicate the project’s key messages. '
-  image: "/uploads/2017/07/03/prison_journey.jpg"
+  image: "/uploads/2017/07/17/Case-study-PRA-03.jpg"
 - heading: A transformative journey
   body: We devised a training programme and filming schedule that enabled the Prison
     Radio Association producer to acquire new skills and grow in confidence throughout
@@ -35,18 +35,12 @@ outputs:
     the filming days, providing practical support and editorial guidance. He also
     oversaw post-production, making sure the finished films were suitable for an app
     experience.
-  image: "/uploads/2017/07/03/prison_schedule.jpg"
+  image: "/uploads/2017/07/17/Case-study-PRA-04.jpg"
 videos:
 - <iframe src="https://player.vimeo.com/video/177625290" width="640" height="256"
   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-- <iframe src="https://player.vimeo.com/video/177616622" width="640" height="363"
-  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-- <iframe src="https://player.vimeo.com/video/177633047" width="640" height="363"
-  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-- <iframe src="https://player.vimeo.com/video/177612622" width="640" height="363"
-  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 date: '2017-07-03T20:42:24.770+00:00'
-photo: "/uploads/2017/07/03/prison_banner.jpg"
+photo: "/uploads/2017/07/17/Case-study-PRA-01.jpg"
 ---
 
 body body body
