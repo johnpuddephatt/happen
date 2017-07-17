@@ -2,7 +2,7 @@
 title: Zoopla
 layout: case
 color: "#6a148f"
-photo: "/uploads/2017/07/03/phil_zoopla.jpg"
+photo: "/uploads/2017/07/17/Case-study-ZPG-09.jpg"
 logo: "/uploads/2017/07/03/zoopla-logo.png"
 description: We helped zoopla property group explain their services
 brief: "Under attack from a new competitor, Zoopla wanted to make sure its existing
@@ -32,7 +32,10 @@ outputs:
     service AdReach, to Property File, its app for tenants, vendors and agents. Our
     animations are distributed via traditional digital channels and also used in presentations
     by Zoopla’s 100+ strong sales team.'
-  image: "/uploads/2017/07/03/zoopla-characters.jpg"
+  image: "/uploads/2017/07/17/Case-study-ZPG-07.jpg"
+  video: <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FZooplaUK%2Fvideos%2F10154980967048935%2F&show_text=0&width=560"
+    width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+    allowTransparency="true" allowFullScreen="true"></iframe>
 - heading: Video interviews
   body: Happen also helped Zoopla overhaul the content section, Extra, of its ZooplaPro
     portal for agents. We assisted with its redesign and drew up a content plan with
@@ -40,7 +43,7 @@ outputs:
     of short thought leadership video interviews with Zoopla senior staff. These provided
     actionable advice for agents about how to make their businesses more effective
     online.
-  image: "/uploads/2017/07/03/zoopla_interviews.jpg"
+  image: "/uploads/2017/07/17/Case-study-ZPG-02.jpg"
 - heading: Communicating new services
   body: Happen has also worked closely with Zoopla to explain the strategy behind
     its acquisition of the price comparison website uSwitch and the Property Software
@@ -57,12 +60,9 @@ outputs:
     vetted moving services and save time and money. The series features advice for
     buyers and sellers and formats created for Facebook and Instagram.
   image: "/uploads/2017/07/03/zoopla_phil.jpg"
-videos:
-- <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FZooplaUK%2Fvideos%2F10154980967048935%2F&show_text=0&width=560"
-  width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-  allowTransparency="true" allowFullScreen="true"></iframe>
-- <iframe src="https://player.vimeo.com/video/141031500" width="640" height="360"
-  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  video: <iframe src="https://player.vimeo.com/video/141031500" width="640" height="360"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+videos: []
 date: '2017-07-01T23:42:44.856+00:00'
 ---
 
