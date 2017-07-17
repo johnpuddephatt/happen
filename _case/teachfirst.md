@@ -3,7 +3,7 @@ title: Teach first
 layout: case
 color: "#172b69"
 logo: "/uploads/2017/07/03/teachfirstlogo2.png"
-photo: "/uploads/2017/07/03/teachfirst_bg.jpg"
+photo: "/uploads/2017/07/17/cover pic TF kids.jpg"
 description: We helped Teach First get their message across
 brief: |
   Teach First wanted two videos for a joint editorial campaign with Trinity Mirror to encourage young people to train as teachers.
@@ -30,7 +30,7 @@ outputs:
     format. The second was a more traditional case study. It told the story of how
     a teacher helped a troubled, disruptive pupil turn her life around and win a place
     at Oxford University in an engaging, emotional way.
-  image: IMG_0163.jpg
+  image: "/uploads/2017/07/17/Case-study-TeachFirst-04.jpg"
 - heading: Using humour
   body: Getting the best out of children on camera requires a relaxed shoot and a
     lot of patience. We spent a day filming with the pupils of Reach Academy in Feltham,
@@ -39,7 +39,7 @@ outputs:
     video would stand out on Facebook. We edited the footage to make viewers imagine
     themselves as teachers – and cut in a series of chapter headings to ask whether
     they could cope in the classroom.
-  image: IMG_0163.jpg
+  image: "/uploads/2017/07/17/Case-study-TeachFirst-01.jpg"
 - heading: Creating an emotional response
   body: The second video was about a young woman, Sara Harb, and her former teacher
     Liam McGillicuddy. As an immigrant, Sara struggled to learn English and understand
@@ -52,7 +52,7 @@ outputs:
     of her at Oxford and shots of Liam in the classroom. But most importantly, we
     showed how Liam’s help made Sara feel, and how her success made him feel. This
     gave the video a genuine emotional power.
-  image: IMG_0163.jpg
+  image: "/uploads/2017/07/17/Case-study-TeachFirst-02.jpg"
 videos:
 - <iframe width="560" height="315" src="https://www.youtube.com/embed/Nnidwnkj2bU"
   frameborder="0" allowfullscreen></iframe>
