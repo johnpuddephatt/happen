@@ -29,8 +29,9 @@ outputs:
     they could cope in the classroom.
   heading: Using humour
   image: "/uploads/2017/07/17/Case-study-TeachFirst-01.jpg"
-  video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Nnidwnkj2bU"
-    frameborder="0" allowfullscreen></iframe>
+  video: <iframe src="https://player.vimeo.com/video/208832335?autoplay=1&color=6A148F&title=0&byline=0&portrait=0"
+    width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+    allowfullscreen></iframe>
 - body: The second video was about a young woman, Sara Harb, and her former teacher
     Liam McGillicuddy. As an immigrant, Sara struggled to learn English and understand
     what was going on in the classroom. Insecure and frustrated, she was violent and
@@ -44,8 +45,9 @@ outputs:
     gave the video a genuine emotional power.
   heading: Creating an emotional response
   image: "/uploads/2017/07/17/Case-study-TeachFirst-02.jpg"
-  video: <iframe width="560" height="315" src="https://www.youtube.com/embed/T4mORRwSDXE"
-    frameborder="0" allowfullscreen></iframe>
+  video: <iframe src="https://player.vimeo.com/video/209747968?autoplay=1&color=6A148F&title=0&byline=0&portrait=0"
+    width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+    allowfullscreen></iframe>
 photo: "/uploads/2017/07/17/cover pic TF kids.jpg"
 quote: |
   We’re extremely happy with the finished films, which have been received well by internal and external audiences. Happen Digital is professional, friendly, honest and accommodating – we would not hesitate to recommend them.
