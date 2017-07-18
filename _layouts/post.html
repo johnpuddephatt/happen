@@ -5,19 +5,30 @@ layout: default
 <style>
   body {
     --brand-colour: rgb(192, 15, 106);
+    --header-image: url({{ site.baseurl}}{{ page.image }});
+  }
+  .section--hero--post {
+    background-image: url('{% include cloudinary.html img=page.image width="1600" height="900" quality="50" pathonly="true" %}');
+  }
+
+  @media screen and (orientation: portrait) {
+    .section--hero--post {
+      background-image: url('{% include cloudinary.html img=page.image width="600" height="1000" quality="50" pathonly="true" %}');
+    }
   }
 </style>
 
-<section class="section section--hero section--hero--post"  style="background-image: url('{% include cloudinary.html img=page.image width="1600" height="900" quality="50" pathonly="true" %}')">
+<section class="section section--hero section--hero--post">
   <header class="post-header">
     <h1 class="post-title">{{page.title}}</h1>
+    <h4 class="post-date">{{ page.date | date: "%d.%m.%y" }}</h4>
   </header>
 </section>
+
 
 <section class="section section--post-body">
 
   <div class="section-text section-text--post">
-    <h4 class="post-date">{{ page.date | date: "%d.%m.%y" }}</h4>
     {{content | replace: '<iframe', '<div class="video-wrapper"><iframe' | replace: '</iframe>', '</iframe></div>'}}
   </div>
 </section>
