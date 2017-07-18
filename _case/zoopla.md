@@ -49,9 +49,9 @@ outputs:
     buyers and sellers and formats created for Facebook and Instagram.
   heading: Video guides with Phil Spencer
   image: "/uploads/2017/07/17/Case-study-ZPG-09.jpg"
-  video: <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FZooplaUK%2Fvideos%2F10154980967048935%2F&show_text=0&width=560"
-    width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-    allowTransparency="true" allowFullScreen="true"></iframe>
+  video: <iframe src="https://player.vimeo.com/video/225550836?autoplay=1&color=6A148F&title=0&byline=0&portrait=0"
+    width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+    allowfullscreen></iframe>
 photo: "/uploads/2017/07/03/phil_zoopla.jpg"
 quote: |
   These new videos and animations have helped us win new customers and convince existing ones to use more of our services. We couldn’t be happier.
