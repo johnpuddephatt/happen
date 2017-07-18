@@ -25,7 +25,7 @@ outputs:
     back to her team, take and send a photo, and get it fixed while she was there.
     Her anecdote showed exactly how Slack made M&S more agile. "
   heading: Digging deeper
-  image: "/uploads/2017/07/03/step2.jpg"
+  image: "/uploads/2017/07/17/Case-study-Slack-01.jpg"
 - body: 'And we made sure each had good pictures - essential for holding a viewer’s
     attention. We included footage of an automated warehouse in the Ocado Technology
     video, which allowed us to tell the story of how Slack connected the testing team
@@ -35,14 +35,16 @@ outputs:
     of the office was interesting by using timelapse, tracking shots and a gimbal. '
   heading: Holding peoples’ attention
   image: "/uploads/2017/07/03/step3.jpg"
-  video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Toob-OO-xFw?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>
+  video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Toob-OO-xFw?rel=0&amp;showinfo=0&amp;autoplay=1"
+    frameborder="0" allowfullscreen></iframe>
 photo: "/uploads/2017/07/03/slackbanner.jpg"
+quote: ''
 results: "Both of the films were watchable and short - clocking in at round 90 seconds.
   They now feature on Slack’s customer stories page and YouTube channel, as well as
   being used by its sales team.   \n"
 title: Slack
 videos:
-- <iframe width="560" height="315" src="https://www.youtube.com/embed/b7BvrbsMyEg"
-  frameborder="0" allowfullscreen></iframe>
-quote: ''
+- <iframe src="https://player.vimeo.com/video/181762872?autoplay=1&color=EF017A&title=0&byline=0&portrait=0"
+  width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+  allowfullscreen></iframe>
 ---
