@@ -22,8 +22,8 @@ outputs:
     by Zoopla’s 100+ strong sales team.'
   heading: Animations that explain
   image: "/uploads/2017/07/17/Case-study-ZPG-07.jpg"
-  video: <iframe src="https://player.vimeo.com/video/141031500" width="640" height="360"
-    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  video: <iframe src="https://player.vimeo.com/video/141031500?autoplay=1" width="640"
+    height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 - body: Happen also helped Zoopla overhaul the content section, Extra, of its ZooplaPro
     portal for agents. We assisted with its redesign and drew up a content plan with
     its B2B marketing team. We also worked with them to develop and produce a series
