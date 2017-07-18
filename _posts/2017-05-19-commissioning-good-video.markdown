@@ -1,11 +1,11 @@
 ---
-layout: post
-title: 'How to commission good video: five rules for event filming'
-date: 2017-05-18 23:04
 categories:
 - filming
 - commissioning
+date: 2015-03-17 23:04
 image: "/uploads/2017/07/03/IMG_0206.jpg"
+layout: post
+title: 'How to commission good video: five rules for event filming'
 ---
 
 
