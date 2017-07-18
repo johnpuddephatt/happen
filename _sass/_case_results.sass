@@ -16,7 +16,7 @@
       flex-direction: column
       align-items: center
       justify-content: center
-      padding: $small-spacing
+      padding: $small-spacing/2
       font-size: modular-scale(-1)
       @media screen and (min-width: $medium-screen)
         padding: $base-spacing
@@ -27,10 +27,12 @@
       text-transform: lowercase
       font-weight: 700
       line-height: 1.1
-      width: calc(10rem + .4 * 15vw)
-      height: calc(10rem + .4 * 15vw)
+      width: calc(6rem + 10vw)
+      height: calc(6rem + 10vw)
       position: relative
       -webkit-font-smoothing: antialiased
       strong
         display: block
-        font-size: modular-scale(4)
+        font-size: modular-scale(3)
+        @media screen and (min-width: $medium-screen)
+          font-size: modular-scale(4)

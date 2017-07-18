@@ -144,28 +144,33 @@
     position: absolute !important
     left: 50%
     top: $small-spacing
-    height: 2 * $base-spacing
-    width: 2 * $base-spacing
-    line-height: 2 * $base-spacing
+    height: $base-spacing
+    width: $base-spacing
+    line-height: $base-spacing
     @media screen and (min-width: $medium-screen)
       top: 2 * $base-spacing
-      height: 3 * $base-spacing
-      width: 3 * $base-spacing
-      line-height: 3 * $base-spacing
+      height: 2 * $base-spacing
+      width: 2 * $base-spacing
+      line-height: 2 * $base-spacing
     padding: 0
     transform: translateX(-50%)
     box-sizing: border-box
     text-indent: -9999px
+    border-color: transparent
+    &:hover
+      border-color: white
+      background-color: transparent
+      color: white
     &:active, &:focus
       outline: none
     &::after
       content: '×'
       text-indent: 0
-      font-size: modular-scale(4)
+      font-size: modular-scale(3)
       display: block
       position: absolute
       top: 0
-      width: 2 * $base-spacing
+      width: .95* $base-spacing
       text-align: center
       @media screen and (min-width: $medium-screen)
-        width: 2.8 * $base-spacing
+        width: 1.9 * $base-spacing

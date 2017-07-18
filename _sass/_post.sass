@@ -31,9 +31,9 @@
 
 .post-header
   background-color: white
-  padding: $base-spacing 0
+  padding: $base-spacing 0 0
   @media screen and (min-width: $medium-screen)
-    padding: $small-spacing $base-spacing
+    padding: $small-spacing $base-spacing 0
     width: calc(#{percentage(9/12)} + #{2 * $base-spacing})
     margin-left: calc(#{percentage(1.5/12)} - #{$base-spacing})
   @media screen and (min-width: $large-screen)
@@ -51,21 +51,11 @@
     margin-bottom: 0
 
 .post-date
-  font-size: modular-scale(2)
+  font-size: modular-scale(1)
   font-style: italic
   font-weight: 700
-  float: left
-  width: percentage(3.5/12)
-  text-align: right
-  padding-right: 2 * $base-spacing
-  margin-top: -2 * $base-spacing
-  &::after
-    content: ''
-    display: block
-    height: .25em
-    background-color: $pink
-    margin-top: $small-spacing
-    width: 20%
-    margin-right: 0
-    margin-left: auto
-
+  color: $pink
+  margin-top: 0 !important
+  margin-bottom: $base-spacing !important
+  position: relative
+  z-index: 99

@@ -1,7 +1,9 @@
 .footer-wrap
-  display: flex
-  flex-direction: column
-  height: 100vh
+  height: auto
+  @media screen and (min-width: $medium-screen)
+    display: flex
+    flex-direction: column
+    height: 100vh
 
 .site-footer
   position: relative
@@ -20,6 +22,10 @@
     letter-spacing: 0
   p
     max-width: 70%
+    font-size: modular-scale(-1)
+    margin-bottom: 0
+    @media screen and (min-width: $medium-screen)
+      font-size: modular-scale(0)
 
 .social-icons
   margin: 0 0 $base-spacing
