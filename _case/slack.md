@@ -44,7 +44,7 @@ results: "Both of the films were watchable and short - clocking in at round 90 s
   being used by its sales team.   \n"
 title: Slack
 videos:
-- <iframe src="https://player.vimeo.com/video/181762872?autoplay=1&color=EF017A&title=0&byline=0&portrait=0"
+- <iframe src="https://player.vimeo.com/video/181762872?color=EF017A&title=0&byline=0&portrait=0"
   width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 ---
