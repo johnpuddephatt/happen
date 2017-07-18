@@ -33,10 +33,11 @@ quote: |
   Elliot is extremely friendly, knowledgeable and approachable. He helped us focus on our priorities and offered great advice at every stage of the production process. He’s given a lot of energy and passion to our project.
 
   Andrew Wilkie, Director of Radio and Operations, Prison Radio Association
-results: |
-  Since its release, former prisoners have called Straightline “inspirational” and “incredible” with “relatable stories” that provide real support. With each film giving an insight into a different aspect of life after prison, it offers something for everyone - topics include rebuilding relationships, working out where to live, how to spend your time and who to trust.
-
-  - Pilot app downloaded **293** times
+results: Since its release, former prisoners have called Straightline “inspirational”
+  and “incredible” with “relatable stories” that provide real support. With each film
+  giving an insight into a different aspect of life after prison, it offers something
+  for everyone - topics include rebuilding relationships, working out where to live,
+  how to spend your time and who to trust.
 title: Prison Radio Association
 videos:
 - <iframe src="https://player.vimeo.com/video/177633047" width="640" height="256"
