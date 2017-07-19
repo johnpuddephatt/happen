@@ -26,9 +26,12 @@
   document.addEventListener('click', function(e) {
     if(e.target.dataset.video) {
       videoWrapper.innerHTML = urldecode(e.target.dataset.video);
-      videoOverlay.append(videoWrapper);
-      videoOverlay.append(videoOverlayClose);
-      e.target.parentNode.append(videoOverlay);
+      // videoOverlay.append(videoWrapper);
+      // videoOverlay.append(videoOverlayClose);
+      // e.target.parentNode.append(videoOverlay);
+      videoOverlay.appendChild(videoWrapper);
+      videoOverlay.appendChild(videoOverlayClose);
+      e.target.parentNode.appendChild(videoOverlay);
       e.target.parentNode.parentNode.classList.add('video-playing');
     }
   });
