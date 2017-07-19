@@ -4,16 +4,16 @@ layout: default
 
 <style>
   body {
-    --brand-colour: rgb(192, 15, 106);
+    --brand-colour: transparent;
     --header-image: url({{ site.baseurl}}{{ page.image }});
   }
   .section--hero--post {
-    background-image: url('{% include cloudinary.html img=page.image width="1500" height="800" quality="70" pathonly="true" %}');
+    background-image: url('{% include cloudinary.html img=page.image width="1500" height="800" modes="c_fill,g_face" quality="70" pathonly="true" %}');
   }
 
   @media screen and (orientation: portrait) {
     .section--hero--post {
-      background-image: url('{% include cloudinary.html img=page.image width="600" height="900" quality="70" pathonly="true" %}');
+      background-image: url('{% include cloudinary.html img=page.image width="600" height="900" modes="c_fill,g_face" quality="70" pathonly="true" %}');
     }
   }
 </style>
