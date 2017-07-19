@@ -1,9 +1,9 @@
 ---
+categories: []
+date: 2015-11-11 23:04
+image: "/uploads/2017/07/19/IMG_0109-edit.jpg"
 layout: post
 title: 'Show and tell: On location for the Publishers‘ Association'
-date: 2015-11-11 23:04
-categories: []
-image: "/uploads/2017/07/03/PubAssoc05.jpg"
 ---
 The effectiveness of textbooks in schools has been a matter of dispute for some time. Very few children use them in the classroom in the UK compared to countries with more successful education systems, such as Finland and Singapore. And the education minister, Nick Gibb, has even said that teachers have an [‘ideological hostility’](http://www.bbc.co.uk/news/education-30129639) to using them.
 
