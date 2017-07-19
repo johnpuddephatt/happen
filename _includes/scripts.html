@@ -25,6 +25,11 @@
 
   document.addEventListener('click', function(e) {
     if(e.target.dataset.video) {
+      var currentVideo = document.querySelector('.video-playing');
+      if(currentVideo) {
+        // currentVideo.innerHTML = '';
+        currentVideo.classList.remove('.video-playing');
+      }
       videoWrapper.innerHTML = urldecode(e.target.dataset.video);
       // videoOverlay.append(videoWrapper);
       // videoOverlay.append(videoOverlayClose);
