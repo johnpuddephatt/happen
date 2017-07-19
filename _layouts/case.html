@@ -32,7 +32,7 @@ layout: default
         <li>
           <div class="approach--image">
             <div>
-              {% include cloudinary.html img=output.image width="600" height="600" modes="c_fill,g_face" quality="70" %}
+              {% include cloudinary.html img=output.image width="600" height="600" modes="c_fill,g_faces" quality="70" %}
               {% if output.video %}
               <button class="approach--video-button" data-video="{{ output.video | url_encode}}">
                 play
