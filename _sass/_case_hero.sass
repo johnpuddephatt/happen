@@ -1,4 +1,15 @@
 .section--hero--casestudy
+  &::after
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-image: linear-gradient(to bottom, $pink 0%, $medium-gray)
+    background-image: linear-gradient(to bottom, var(--brand-colour) 0%, $medium-gray)
+    opacity: .35
   .case-study-logo
     margin: 2 * $base-spacing $base-spacing $base-spacing
     max-width: 80%
