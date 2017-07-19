@@ -10,28 +10,35 @@ html {
 
 html,
 body {
-  height: 100%;
   margin: 0
 }
 
 html {
   height: 100%;
   overflow: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
-  transform: translateZ(0);
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
   &.ios {
     overflow-x: initial;
     overflow-y: initial;
     .section--blog .background {
       transform: none;
+    }
+  }
+  &.home {
+    overflow: hidden;
+    .viewport {
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      position: relative;
+      -webkit-overflow-scrolling: touch;
+      perspective: 1px;
+      transform: translateZ(0)
     }
   }
 }
