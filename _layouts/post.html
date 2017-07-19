@@ -8,12 +8,12 @@ layout: default
     --header-image: url({{ site.baseurl}}{{ page.image }});
   }
   .section--hero--post {
-    background-image: url('{% include cloudinary.html img=page.image width="1600" height="900" quality="50" pathonly="true" %}');
+    background-image: url('{% include cloudinary.html img=page.image width="1500" height="800" quality="70" pathonly="true" %}');
   }
 
   @media screen and (orientation: portrait) {
     .section--hero--post {
-      background-image: url('{% include cloudinary.html img=page.image width="600" height="1000" quality="50" pathonly="true" %}');
+      background-image: url('{% include cloudinary.html img=page.image width="600" height="900" quality="70" pathonly="true" %}');
     }
   }
 </style>
