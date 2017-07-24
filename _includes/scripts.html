@@ -31,9 +31,6 @@
         currentVideo.classList.remove('video-playing');
       }
       videoWrapper.innerHTML = urldecode(e.target.dataset.video);
-      // videoOverlay.append(videoWrapper);
-      // videoOverlay.append(videoOverlayClose);
-      // e.target.parentNode.append(videoOverlay);
       videoOverlay.appendChild(videoWrapper);
       videoOverlay.appendChild(videoOverlayClose);
       e.target.parentNode.appendChild(videoOverlay);
@@ -44,10 +41,11 @@
   var wrapper = document.querySelector('.hero-video-wrapper');
   var heroVideo = document.querySelector(".hero-video");
   if(heroVideo) {
+    // heroVideo.load();
     heroVideo.oncanplaythrough = function() {
       setTimeout(function(){
         wrapper.classList.add('trigger');
-      }, 1000);
+      }, 500);
     };
   }
   function urldecode(str) {

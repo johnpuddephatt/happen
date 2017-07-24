@@ -1,8 +1,10 @@
 .site-header
   z-index: 99
+  background-color: white
   transform: translateZ(0)
-  height: 2 * $base-spacing
-  margin: 0 5vw
+  height: 5vw
+  margin: 0
+  padding: 0 5vw
   position: absolute
   left: 0
   right: 0
@@ -160,6 +162,7 @@
       width: percentage(8/12)
     margin: 0 auto
   &--left, &--right
+    align-items: flex-start
     -webkit-font-smoothing: antialiased
     background-color: $pink
     border-color: $pink
@@ -202,9 +205,9 @@
         border-top: 50vh solid transparent
         border-bottom: 50vh solid transparent
   &--left
-    float: left
     @media screen and (min-width: $medium-screen)
-      padding-left: $small-spacing
+      float: left
+      padding-right: 2.5vw
     @media screen and (min-width: $large-screen)
       padding-left: calc(28.87vh/2)
       padding-right: calc(28.87vh/4)
@@ -215,8 +218,9 @@
         border-left-color: inherit
 
   &--right
-    float: right
-    padding-right: $small-spacing
+    @media screen and (min-width: $medium-screen)
+      float: right
+      padding-left: 2.5vw
     @media screen and (min-width: $large-screen)
       padding-right: calc(28.87vh/2)
       padding-left: calc(28.87vh/4)

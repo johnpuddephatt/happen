@@ -7,7 +7,7 @@ layout: default
         {% include spinner.svg %}
       </div>
 
-      <video class="cover-video hero-video" poster="{{ site.baseurl }}/images/happenposter.jpg" data-dashjs-player autoplay preload loop muted playsinline>
+      <video class="cover-video hero-video" autoplay preload loop muted playsinline>
         <!-- <source type="application/x-mpegurl" src="https://res.cloudinary.com/letsdance/video/upload/sp_hd/v1492647843/Happen_Splash_video_edit_03_mdibgm.m3u8">
         <source type="application/dash+xml" src="https://res.cloudinary.com/letsdance/video/upload/sp_hd/v1492647843/Happen_Splash_video_edit_03_mdibgm.mpd"> -->
 
@@ -71,7 +71,7 @@ layout: default
       <li>
           <div class="blog--image">
             <a href="{{ post.url | prepend:site.baseurl}}">
-              {% include cloudinary.html img=post.image width="900" height="900" modes="c_fill,g_face" quality="70" %}
+              {% include cloudinary.html img=post.image width="900" height="900" modes="c_fill,g_face,e_sharpen" quality="85" %}
             </a>
           </div>
           <a class="blog--text" href="{{ post.url | prepend:site.baseurl}}">

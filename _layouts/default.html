@@ -3,7 +3,7 @@
 
 
 <body class="{{page.layout}}">
-  {% if page.layout == 'home' %}
+  {% if page.layout == 'home' or page.layout == 'blog'%}
     <div style="position: fixed; top: 0px; width: 1px; height: 1px; z-index: 1;"></div>
     <div class="viewport">
   {% endif %}
@@ -15,7 +15,7 @@
     {% include footer.html %}
   </div>
 
-  {% if page.layout == 'home' %}
+  {% if page.layout == 'home' or page.layout == 'blog'%}
     </div>
   {% endif %}
 

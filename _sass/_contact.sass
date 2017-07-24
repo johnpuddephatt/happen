@@ -3,14 +3,11 @@
   -webkit-font-smoothing: antialiased
   margin: 0
   padding: $base-spacing 5vw
-  flex: 1 1 50%
-  display: flex
-  justify-content: center
-  flex-direction: column
-  height: 100vh
+  height: auto
   @media screen and (min-width: $medium-screen)
-    height: auto
-  @media screen and (min-width: $large-screen)
+    flex: 1 0 auto
+    display: flex
+    justify-content: center
     flex-direction: row
     align-items: center
   .contact-details

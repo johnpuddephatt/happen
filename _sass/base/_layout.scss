@@ -22,14 +22,7 @@ html {
 
 body {
   overflow-x: hidden;
-  &.ios {
-    overflow-x: initial;
-    overflow-y: initial;
-    .section--blog .background {
-      transform: none;
-    }
-  }
-  &.home {
+  &.home, &.blog {
     overflow: hidden;
     .viewport {
       height: 100%;
@@ -39,6 +32,17 @@ body {
       -webkit-overflow-scrolling: touch;
       perspective: 1px;
       transform: translateZ(0)
+    }
+  }
+  &.ios {
+    overflow-x: initial;
+    overflow-y: initial;
+    -webkit-overflow-scrolling: touch;
+    .section--blog .background {
+      transform: none;
+    }
+    .viewport {
+      height: auto
     }
   }
 }

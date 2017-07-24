@@ -1,0 +1,22 @@
+---
+layout: default
+---
+  <section class="section section--blog">
+    <div class="background"></div>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+          <div class="blog--image">
+            <a href="{{ post.url | prepend:site.baseurl}}">
+              {% include cloudinary.html img=post.image width="900" height="900" modes="c_fill,g_face,e_sharpen" quality="85" %}
+            </a>
+          </div>
+          <a class="blog--text" href="{{ post.url | prepend:site.baseurl}}">
+            <p class="blog--date">{{ post.date | date: "%d.%m.%y" }}</p>
+            <h1 class="blog--title">{{ post.title }}</h1>
+            {% include chevrons.svg %}
+          </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
