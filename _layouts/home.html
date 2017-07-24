@@ -3,6 +3,7 @@ layout: default
 ---
   <section class="section section--hero">
     <div class="hero-video-wrapper">
+
       <div class="spinner-wrapper">
         {% include spinner.svg %}
       </div>
@@ -10,10 +11,8 @@ layout: default
       <video class="cover-video hero-video" autoplay preload loop muted playsinline>
         <!-- <source type="application/x-mpegurl" src="https://res.cloudinary.com/letsdance/video/upload/sp_hd/v1492647843/Happen_Splash_video_edit_03_mdibgm.m3u8">
         <source type="application/dash+xml" src="https://res.cloudinary.com/letsdance/video/upload/sp_hd/v1492647843/Happen_Splash_video_edit_03_mdibgm.mpd"> -->
-
         <source type="video/mp4" src="https://res.cloudinary.com/{{ site.cloudinary }}/video/upload/v1492647843/Happen_Splash_video_edit_03_mdibgm.mp4">
         <source type="video/webm" src="https://res.cloudinary.com/{{ site.cloudinary }}/video/upload/v1492647843/Happen_Splash_video_edit_03_mdibgm.webm">
-
       </video>
       <div class="hero-title">
         <h2><span>Explain</span><span>Yourself</span></h2>
@@ -84,7 +83,7 @@ layout: default
     </ul>
     {% if site.posts.size > site.max_home_posts %}
     <div class="section-text section-text--center">
-      <a href="#" class="button button--blog-all">read all</a>
+      <a href="/blog" class="button button--blog-all">read all</a>
     </div>
     {% endif %}
 

@@ -10,7 +10,7 @@ layout: default
 
 <section class="section section--hero section--hero--casestudy centered" style="background-image: url('{% include cloudinary.html img=page.photo width="1600" height="900" quality="70" modes="c_fill,e_sharpen"  pathonly="true" %}')">
   <img class="case-study-logo" src="{{site.baseurl}}{{ page.logo }}" alt="{{ page.title }}">
-  <h1 class="case-study-title">{{page.description}}</h1>
+  <h2 class="case-study-description">{{page.description}}</h2>
 </section>
 
 {% if page.brief and page.brief != '' %}

@@ -22,12 +22,14 @@
   overflow-x: hidden
   &--hero
     height: 100vh
+    z-index: 9
     min-height: 56.25vw
     border: 5vw solid white
     border-top-width: 10vw
     background-color: var(--brand-colour)
     background-size: cover
     background-position: center
+    background-origin: content-box
     position: relative
     -webkit-font-smoothing: antialiased
     *
@@ -40,11 +42,11 @@
       border-top-width: 5vw
     @media screen and (orientation: landscape) and (min-width: $medium-screen)
       height: 56.25vw
-
   &--brief, &--what-we-do, &--our-work, &--results
     min-height: 100vh
     @media screen and (orientation: landscape) and (min-width: $medium-screen)
       min-height: 100vh
+
   &--brief, &--post-body
     width: 100%
     border: 5vw solid white
