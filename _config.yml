@@ -17,7 +17,7 @@ title: Happen Digital
 email: hello@happendigital.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Content to make complicated things clear
-baseurl: "/happen"
+# baseurl: "/happen"
 url: "http://blog.letsdance.agency" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: happendigital
 linkedin_username: happen-digital-uk
