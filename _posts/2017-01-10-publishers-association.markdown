@@ -1,7 +1,7 @@
 ---
 categories: []
 date: 2015-11-11 00:00
-image: "/uploads/2017/07/19/IMG_0109-edit.jpg"
+image: "/uploads/2017/07/28/PubAssoc05.jpg"
 layout: post
 title: 'Show and tell: On location for the Publishers’ Association'
 ---
