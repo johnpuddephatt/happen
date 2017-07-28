@@ -3,7 +3,7 @@ categories: []
 date: 2015-03-25 23:04
 image: "/uploads/2017/07/19/IMG_2434-edit.jpg"
 layout: post
-title: Training your staff to make videos
+title: Train your staff to make great videos
 ---
 If your content strategy involves publishing regular video, it’s worth thinking about training your staff to produce it. You’ll need to commit some resources to the project but with a modest outlay it’s possible to equip your marketing or communications teams to make regular content in-house.
 
