@@ -1,0 +1,53 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Happen Digital
+email: hello@happendigital.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+  Content to make complicated things clear
+url: "http://happendigital.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: happendigital
+linkedin_username: happen-digital-uk
+company_info: 'Happen Digital Ltd is a registered company in England &amp; Wales. Company number 08317567.'
+contact_us: '**Want to talk?** Reach us at [hello@happendigital.co.uk](mailto:hello@happendigital.co.uk)'
+mailchimp: //happendigital.us16.list-manage.com/subscribe/post?u=945a5a4f8744e44cb7ec83aca&amp;id=83a45aa0e4
+cloudinary: letsdance
+max_home_posts: 6
+
+collections:
+  case:
+    output: true
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+defaults:
+  - scope:
+      path: ""
+      type: case
+    values:
+      layout: case
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

@@ -1,0 +1,145 @@
+body.ios .background
+  top: 0
+  bottom: 0
+
+.section--blog
+  padding: 4 * $base-spacing 5vw
+  position: relative
+  overflow-x: initial
+  .background
+    transform: translateZ(-.5px) scale(-1.5)
+    transform-origin: center center
+    background-image: url(images/background.svg)
+    background-size: 100% auto
+    position: absolute
+    left: 7.5vw
+    right: 2.5vw
+    z-index: -9
+    top: 0vh
+    bottom: 0vh
+    @media screen and (min-width: $medium-screen)
+      top: 5vh
+    @media screen and (min-width: $large-screen)
+      top: 10vh
+      bottom: 5vh
+  ul
+    overflow: hidden
+    width: 100%
+    margin: 0 auto
+    li
+      overflow: hidden
+      display: flex
+      flex-direction: row
+      align-items: center
+      padding: 2 * $base-spacing 0
+      @media screen and (min-width: $large-screen)
+        padding: 0
+      &:hover .chevrons
+        transform: translateX($small-spacing)
+        path
+          stroke: $pink
+    .blog--image
+      order: 1
+      position: relative
+      list-style-type: none
+      width: 45vw
+      height: 51.96vw /* width div 0.866 */
+      overflow: hidden
+      visibility: hidden
+      transform: rotate(-60deg) skewY(30deg)
+    .blog--text
+      order: 1
+      width: 45vw
+      padding-left: $small-spacing
+      .chevrons
+        margin-top: $small-spacing/2
+        width: $base-spacing
+        height: $base-spacing
+        @media screen and (min-width: $medium-screen)
+          margin-top: $small-spacing
+          width: 2 * $base-spacing
+          height: 2 * $base-spacing
+        transition: transform ease-in-out 3 * $base-duration
+        path
+          transition: stroke ease-in-out $base-duration
+          &:nth-child(2)
+            transition-delay: $base-duration
+          &:nth-child(3)
+            transition-delay: 2 * $base-duration
+      @media screen and (min-width: $medium-screen)
+        padding: calc(25.95vh/4)
+    li:nth-child(2n+2)
+      @media screen and (min-width: $medium-screen)
+        margin-top: -14.4%
+        margin-bottom: -14.4%
+      .blog--text
+        text-align: right
+        padding-left: 0
+        padding-right: $small-spacing
+        @media screen and (min-width: $medium-screen)
+          padding-right: calc(25.95vh/4)
+      .blog--image
+        order: 3
+      .chevrons
+        margin-left: auto
+
+
+    li:last-child
+      margin-bottom: 0
+    li:first-child
+      margin-top: 0
+
+    .blog--image *
+      position: absolute
+      visibility: visible
+
+    .blog--image > a
+      display: block
+      width: 100%
+      height: 100%
+      text-align: center
+      color: #fff
+      overflow: hidden
+      transform: skewY(-30deg) rotate(60deg)
+      -webkit-backface-visibility: hidden
+
+    /* HEX CONTENT
+    .blog--image img
+      left: -100%
+      right: -100%
+      width: auto
+      height: 100%
+      margin: 0 auto
+      max-width: none
+      backface-visibility: hidden
+
+    .blog--title
+      margin-bottom: 0
+      color: $dark-gray
+      font-size: modular-scale(1)
+      @media screen and (min-width: $medium-screen)
+        font-size: modular-scale(3)
+      @media screen and (min-width: $large-screen)
+        font-size: modular-scale(4)
+
+    .blog--date
+      display: inline-block
+      color: $base-font-color
+      margin-bottom: $small-spacing/2
+      padding-bottom: $small-spacing/2
+      @media screen and (min-width: $medium-screen)
+        font-size: modular-scale(1)
+        margin-bottom: $small-spacing
+        padding-bottom: $small-spacing
+      @media screen and (min-width: $large-screen)
+        font-size: modular-scale(2)
+      font-weight: 700
+      font-style: italic
+      border-bottom: .4 * $small-spacing solid $pink
+
+.button--blog-all
+  display: block
+  margin: 3 * $base-spacing auto 0
+  font-size: modular-scale(1)
+  color: $medium-gray
+  border-color: $medium-gray

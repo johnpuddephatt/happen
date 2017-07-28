@@ -1,0 +1,135 @@
+.site-title
+  color: $pink
+  line-height: 10vw
+  @media screen and (min-width: $medium-screen)
+    line-height: 5vw
+  height: 2 * $base-spacing
+  float: left
+  letter-spacing: 0
+  margin: 0
+  span
+    color: $medium-gray
+
+.site-header
+  p
+    display: none
+    float: right
+    line-height: 10vw
+    font-size: modular-scale(-1)
+    color: $medium-gray
+    -webkit-font-smoothing: antialiased
+    @media screen and (min-width: $medium-screen)
+      display: block
+      line-height: 5vw
+    height: 2 * $base-spacing
+    a
+      color: inherit
+      text-decoration: underline
+  .button--contact
+    float: right
+    background-color: $pink
+    line-height: 7vw
+    margin-top: 1.5vw
+    padding-top: 0
+    padding-bottom: 0
+    @media screen and (min-width: $medium-screen)
+      display: none
+
+
+.hero-video-wrapper
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  overflow: hidden
+  position: relative
+  iframe, video
+    width: 100%
+    height: 100%
+    object-fit: cover
+  &.trigger
+    .spinner-wrapper
+      animation: blowup 6 * $base-duration forwards
+    .hero-video
+      opacity: 1
+    .hero-title span
+      opacity: 1
+    .hero-title p
+      opacity: 1
+      transform: translateY(0) scale(1)
+
+
+@keyframes blowup
+  50%
+    transform: scale(1) translate(-50%,-50%)
+    opacity: .5
+  99%
+    opacity: 0
+    transform: translate(-50%,-50%) scale(1)
+  100%
+    opacity: 0
+    transform: translate(-50%,-50%) scale(1)
+    z-index: -99
+
+.spinner-wrapper
+  position: absolute
+  z-index: 99
+  left: 50%
+  top: 50%
+  width: 80 * $base-spacing
+  height: 80 * $base-spacing
+  transform: translate(-50%,-50%) scale(0.025)
+  .spinner
+    width: 100%
+    height: 100%
+    animation: spinner 4s ease-in-out infinite alternate
+    transition: transform $base-duration ease-in
+    -webkit-backface-visibility: visible
+
+@keyframes spinner
+  100%
+    transform: rotate(1080deg)
+
+.hero-video
+  opacity: 0
+  transition: opacity 3 * $base-duration 3 * $base-duration
+
+.hero-title
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 100%
+  transform: translate(-50%,-50%)
+  z-index: 99
+  text-align: center
+  text-transform: lowercase
+  color: white
+  h2
+    line-height: 1
+    letter-spacing: 0
+    font-size: calc(#{modular-scale(6)} + 4vw)
+    color: $pink
+    margin-bottom: 0
+  span
+    display: inline-block
+    opacity: 0
+    transition: opacity $base-duration
+    &:first-child
+      transition-delay: 8 * $base-duration
+    &:last-child
+      color: white
+      transition-delay: 13 * $base-duration
+  p
+    font-size: modular-scale(1)
+    margin: $small-spacing auto 0
+    max-width: 70%
+    @media screen and (min-width: $medium-screen)
+      font-size: modular-scale(2)
+    @media screen and (min-width: $large-screen)
+      font-size: modular-scale(3)
+    opacity: 0
+    transform: translateY(-3 * $base-spacing) scale(.95)
+    transition: all ease-out $base-duration 18 * $base-duration
+    font-weight: 700
+    -webkit-font-smoothing: antialiased
