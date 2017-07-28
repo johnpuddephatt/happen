@@ -7,9 +7,9 @@ image: "/uploads/2017/07/27/ted_talk.jpg"
 layout: post
 title: 'How to commission good video: five rules for event filming'
 ---
-Five words to chill the blood of a video producer: ‘Can you film our event?’ It sounds so easy, so straightforward, but it can be a deeply frustrating experience. This is because most events are organised for the benefit of the people attending, not the cameras. This is understandable, but means you should think before pressing record.
 
-![](/uploads/2017/07/18/ted_talk.jpg)
+
+Five words to chill the blood of a video producer: ‘Can you film our event?’ It sounds so easy, so straightforward, but it can be a deeply frustrating experience. This is because most events are organised for the benefit of the people attending, not the cameras. This is understandable, but means you should think before pressing record.
 
 The video team at the Guardian was often asked to ‘capture” an event. ‘It’ll be like TED,’ we were told, but it never was. TED is an online phenomenon because it’s a format that works on the web. Talks are short, rarely lasting more than twenty minutes. People speak without notes or a lectern, and are usually accompanied by strong visuals or video. TED’s reputation also means that speakers raise their game and usually give a great performance.
 
