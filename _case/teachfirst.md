@@ -4,7 +4,7 @@ brief: |
 
   The charity challenges educational inequality by recruiting bright graduates to work in the most deprived schools. These are all around the country, so it works with Trinity Mirror’s local titles, such as the Liverpool Echo, Nottingham Post and Birmingham Mail, to recruit for those areas.
 
-  The videos needed to convey two messages: that teaching is a demanding and rewarding profession; and that it can change people’s lives for the better. They needed to work on the title’s websites and social media accounts, particularly Facebook – as well as the charity’s own channels. And they needed to appeal to undergraduates and recent graduates and inspire social sharing.
+  The videos needed to convey two messages: that teaching is a demanding and rewarding profession; and that it can change people’s lives for the better. They needed to work on the title’s websites and social media accounts – particularly Facebook – as well as the charity’s own channels. And they needed to appeal to undergraduates and recent graduates and inspire social sharing.
 color: "#172b69"
 date: '2017-07-03T20:42:24.770+00:00'
 description: We helped Teach First get their message across
