@@ -2,7 +2,7 @@
 layout: post
 title: How best to use your team on camera
 date: 2017-08-03 17:44
-image: ''
+image: "/uploads/2017/08/03/DSC00491.JPG"
 categories: []
 ---
 
