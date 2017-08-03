@@ -5,6 +5,8 @@ image: "/uploads/2017/07/28/PubAssoc05.jpg"
 layout: post
 title: 'Show and tell: on location for the Publishers’ Association'
 ---
+
+
 The effectiveness of textbooks in schools has been a matter of dispute for some time. Very few children use them in the classroom in the UK compared to countries with more successful education systems, such as Finland and Singapore. And the education minister, Nick Gibb, has even said that teachers have an [‘ideological hostility’](http://www.bbc.co.uk/news/education-30129639) to using them.
 
 The Publishers Association therefore wanted to make the case for teaching resources via a short video aimed at ministers, policymakers and opinion-formers in the education sector. They asked Happen Digital to help.
@@ -17,9 +19,9 @@ Advocacy videos work best when they feature a number of different voices backing
 
 So we fixed on a mix of location filming, sit-down interviews and simple, elegant motion graphics, which illustrated a few key statistics and comparisons to reinforce the points being made in the audio.
 
-<iframe width="820" height="461" src="https://www.youtube.com/embed/qOYFngHe_c4" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://player.vimeo.com/video/127523226?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-We were helped by having two eloquent and authoritative publishers, Lis Tribe from Hodder Education and Colin Hughes from Collins Learning. They were happy to appear on camera and we asked them to concentrate on a couple of key points each to make the best use of the time we had with them.
+<span style="font-size: 1rem;">We were helped by having two eloquent and authoritative publishers, Lis Tribe from Hodder Education and Colin Hughes from Collins Learning. They were happy to appear on camera and we asked them to concentrate on a couple of key points each to make the best use of the time we had with them.</span>
 
 We also decided to take them both on location to illustrate how closely the publishing industry works with teachers and schools; and make sure we had some good shots to accompany the points they were making. This led us to a primary school with Colin and the BETT education trade show with Lis.
 
