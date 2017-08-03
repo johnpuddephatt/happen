@@ -17,9 +17,9 @@ We’ve recently made a number of videos featuring the team at Octopus Energy. I
 
 Most importantly we wanted to create trust. It is a big decision to switch energy supplier, particularly to a startup you may never have heard of before. People tend to trust people they feel they’ve met. That is why most crowdfunding videos start and end with a piece-to-camera by the founder of the business.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TrtsbK6uQcY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1R8-i9yuRHw" frameborder="0" allowfullscreen></iframe><span style="font-size: 1rem;"><br></span>
 
-We also wanted to show what Octopus Energy stands for. The company’s founder, Greg Jackson, is genuinely passionate about changing the energy market by giving people a better deal and making it more sustainable. This makes him a fantastic front man. Likewise his young team are articulate, intelligent and committed – these qualities all shine through on video and make it feel like you’re getting to know the people behind the company.
+<span style="font-size: 1rem;">We also wanted to show what Octopus Energy stands for. The company’s founder, Greg Jackson, is genuinely passionate about changing the energy market by giving people a better deal and making it more sustainable. This makes him a fantastic front man. Likewise his young team are articulate, intelligent and committed – these qualities all shine through on video and make it feel like you’re getting to know the people behind the company.</span>
 
 Finally, we wanted to use the videos to demonstrate the expertise of the staff at Octopus. Who better to explain how to switch energy providers than the people who will help you switch? We’ve therefore made a series of explainer videos with Octopus’s energy specialists. We’ve also made more ‘thought leadership’ style films with Octopus’s in-house data scientist, David Sykes, about the iniquities of the energy market and what could be done to improve it.
 
@@ -37,4 +37,4 @@ Talking directly to a camera can be surprisingly difficult – it can feel weird
 
 However you decide to capture your contributors, there are a few key things to remember before pressing record. Try not to tell people to relax, it has a similar effect as telling an angry person not to shout. Also, allow people to speak in their own words. If there’s a script, let them adapt it into their own words – that is what TV news presenters do. And think of ways to help people remember what they’re meant to be saying – we used printed cards in some of the videos we made for Octopus, which was simple but effective.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Clh7lX1BQgo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Clh7lX1BQgo" frameborder="0" allowfullscreen=""></iframe>
