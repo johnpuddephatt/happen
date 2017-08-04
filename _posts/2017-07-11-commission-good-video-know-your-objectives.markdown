@@ -25,7 +25,7 @@ And if you’re looking to promote something it is helpful to consider where you
 
 People tend to share things that are funny or moving, so [Dollar Shave Club](https://www.youtube.com/watch?v=ZUG9qYTJMsI) and [Most Shocking Second a Day](https://www.youtube.com/watch?v=RBQ-IoHfimQ) are good examples of hero videos. And as people turn to YouTube to see how to do almost everything, hygiene videos can cover anything from [how to boil an egg](https://www.youtube.com/watch?v=8dCZm5aLj9A) to [how to build your own Death Star in Minecraft](https://www.youtube.com/watch?v=QeQFEt-JuJ8).
 
-Further along your customer journey people might simply want to watch a video explaining what your product or service does or see satisfied customers explaining why they’d recommend it. If buying the product online can be tricky, as it can be on some financial services websites, you might even want a video to explain that.
+Further along your customer journey people might simply want to watch a video explaining what your product or service does or see satisfied customers explaining why they’d recommend it. If buying the product online can be tricky - as it can be on some financial services websites - you might even want a video to explain that.
 
 Even the most brilliant video will struggle to find an audience without a distribution strategy. So you need to think about how you’re going to persuade people to watch it and whether you’re going to commit ad spend.
 
