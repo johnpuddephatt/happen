@@ -44,7 +44,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/happenmeta.jpg
+      image: "/images/happenmeta.jpg"
   - scope:
       path: ""
       type: case
