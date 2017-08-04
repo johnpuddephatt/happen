@@ -1,9 +1,9 @@
 ---
-layout: post
-title: How best to use your team on camera
+categories: []
 date: 2017-08-03 17:44
 image: "/uploads/2017/08/03/DSC00491.JPG"
-categories: []
+layout: post
+title: How best to use your team on camera
 ---
 
 
@@ -15,7 +15,7 @@ There are good reasons to use professional presenters, actors and voiceover arti
 
 We’ve recently made a number of videos featuring the team at Octopus Energy. It’s a startup challenging the ‘big six’ energy suppliers by offering better customer service and lower prices for new and existing customers – the big six typically charge much more to long-term customers than new ones. So why have we used its team on camera?
 
-Most importantly we wanted to create trust. It is a big decision to switch energy supplier, particularly to a startup you may never have heard of before. People tend to trust people they feel they’ve met. That is why most crowdfunding videos start and end with a piece-to-camera by the founder of the business.
+Most importantly we wanted to create trust. It is a big decision to switch energy supplier, particularly to a startup you may never have heard of before. People tend to trust people they feel they’ve met. That's why most crowdfunding videos start and end with a piece-to-camera by the founder of the business.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1R8-i9yuRHw" frameborder="0" allowfullscreen=""></iframe>
 
