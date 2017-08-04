@@ -5,9 +5,11 @@ date: 2017-08-03 17:44
 image: "/uploads/2017/08/03/DSC00491.JPG"
 categories: []
 ---
+
+
 We’ve made quite a few films recently featuring our clients. It can be very effective but also challenging and it might not be right for every video. Here then is what you should keep in mind when considering putting your staff in front of the camera.
 
-There are good reasons to use professional presenters, actors and voiceover artists – they’re usually professionals because they’re good at their jobs. A good voiceover artist will deliver an expressive and lively  read of a script, which will lift a film or animation. Using your staff will be cheaper, but should also contribute something else to the film.
+There are good reasons to use professional presenters, actors and voiceover artists – they’re usually professionals because they’re good at their jobs. A good voiceover artist will deliver an expressive and lively  read of a script, which can really lift a film or animation. Using your staff will be cheaper, but should also contribute something else to the film.
 
 ## Getting to know Octopus Energy
 
@@ -15,7 +17,7 @@ We’ve recently made a number of videos featuring the team at Octopus Energy. I
 
 Most importantly we wanted to create trust. It is a big decision to switch energy supplier, particularly to a startup you may never have heard of before. People tend to trust people they feel they’ve met. That is why most crowdfunding videos start and end with a piece-to-camera by the founder of the business.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1R8-i9yuRHw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1R8-i9yuRHw" frameborder="0" allowfullscreen=""></iframe>
 
 We also wanted to show what Octopus Energy stands for. The company’s founder, Greg Jackson, is genuinely passionate about changing the energy market by giving people a better deal and making it more sustainable. This makes him a fantastic front man. Likewise his young team are articulate, intelligent and committed – these qualities all shine through on video and make it feel like you’re getting to know the people behind the company.
 
