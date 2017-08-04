@@ -52,7 +52,7 @@ outputs:
   video: <iframe src="https://player.vimeo.com/video/225550836?autoplay=1&color=6A148F&title=0&byline=0&portrait=0"
     width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
     allowfullscreen></iframe>
-photo: "/uploads/2017/07/03/phil_zoopla.jpg"
+image: "/uploads/2017/07/03/phil_zoopla.jpg"
 quote: |
   These new videos and animations have helped us win new customers and convince existing ones to use more of our services. We couldn’t be happier.
 

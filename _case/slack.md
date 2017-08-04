@@ -38,7 +38,7 @@ outputs:
   video: <iframe src="https://player.vimeo.com/video/181763392?color=EF017A&title=0&byline=0&portrait=0"
     width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
     allowfullscreen></iframe>
-photo: "/uploads/2017/07/03/slackbanner.jpg"
+image: "/uploads/2017/07/03/slackbanner.jpg"
 quote: ''
 results: "Both of the films were watchable and short - clocking in at round 90 seconds.
   They now feature on Slack’s customer stories page and YouTube channel, as well as

@@ -28,7 +28,7 @@ outputs:
     experience.
   heading: A transformative journey
   image: "/uploads/2017/07/17/Case-study-PRA-04.jpg"
-photo: "/uploads/2017/07/17/Case-study-PRA-01.jpg"
+image: "/uploads/2017/07/17/Case-study-PRA-01.jpg"
 quote: |
   Elliot is extremely friendly, knowledgeable and approachable. He helped us focus on our priorities and offered great advice at every stage of the production process. He’s given a lot of energy and passion to our project.
 

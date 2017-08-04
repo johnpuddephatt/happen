@@ -48,7 +48,7 @@ outputs:
   video: <iframe src="https://player.vimeo.com/video/209747968?autoplay=1&color=6A148F&title=0&byline=0&portrait=0"
     width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
     allowfullscreen></iframe>
-photo: "/uploads/2017/07/17/cover pic TF kids.jpg"
+image: "/uploads/2017/07/17/cover pic TF kids.jpg"
 quote: |
   We’re extremely happy with the finished films, which have been received well by internal and external audiences. Happen Digital is professional, friendly, honest and accommodating – we would not hesitate to recommend them.
 
