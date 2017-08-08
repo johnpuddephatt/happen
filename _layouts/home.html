@@ -48,7 +48,7 @@ layout: default
         <img class="case-study-logo" src="{{ site.baseurl }}{{ case.logo }}" alt="{{ case.title }}">
         <div class="case-study-text">
           <p>{{ case.description }}</p>
-          <a href="{{ site.baseurl }}{{ case.url }}" type="button">Find out how</a>
+          <a href="{{ site.baseurl }}{{ case.url }}" class="button">Find out how</a>
         </div>
       </li>
       {% endfor %}
@@ -75,7 +75,7 @@ layout: default
           </div>
           <a class="blog--text" href="{{ post.url | prepend:site.baseurl}}">
             <p class="blog--date">{{ post.date | date: "%d.%m.%y" }}</p>
-            <h1 class="blog--title">{{ post.title }}</h1>
+            <h2 class="blog--title">{{ post.title }}</h2>
             {% include chevrons.svg %}
           </a>
       </li>
