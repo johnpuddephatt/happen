@@ -1,6 +1,6 @@
 ---
 categories: []
-date: 2015-03-25 23:04
+date: 2015-03-25 00:00:00 Z
 image: "/uploads/2017/07/28/DSCF1018-820px.jpg"
 layout: post
 title: Train your staff to make great videos
