@@ -107,12 +107,12 @@ body {
 
 html {
   height: 100%;
-  overflow: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch; }
+  overflow: hidden; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  height: 100%;
+  position: relative; }
   body.home, body.blog {
     overflow: hidden; }
     body.home .viewport, body.blog .viewport {
@@ -123,13 +123,13 @@ body {
       -webkit-overflow-scrolling: touch;
       perspective: 1px;
       transform: translateZ(0); }
-  body.ios {
+  body.iosx {
     overflow-x: initial;
     overflow-y: initial;
     -webkit-overflow-scrolling: touch; }
-    body.ios .section--blog .background {
+    body.iosx .section--blog .background {
       transform: none; }
-    body.ios .viewport {
+    body.iosx .viewport {
       height: auto; }
 
 ul,
