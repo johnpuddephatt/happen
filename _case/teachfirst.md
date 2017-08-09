@@ -6,7 +6,7 @@ brief: |
 
   The videos needed to convey two messages: that teaching is a demanding and rewarding profession; and that it can change people’s lives for the better. They needed to work on the title’s websites and social media accounts – particularly Facebook – as well as the charity’s own channels. And they needed to appeal to undergraduates and recent graduates and inspire social sharing.
 color: "#172b69"
-date: 2017-07-03 20:42:24 Z
+date: 2017-07-03 20:42:24 +0000
 description: We helped Teach First get their message across
 layout: case
 logo: "/uploads/2017/07/03/teachfirstlogo2.png"

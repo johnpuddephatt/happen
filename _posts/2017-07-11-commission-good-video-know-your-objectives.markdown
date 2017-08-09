@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How to commission good video: know your objectives'
-date: 2015-03-10 00:00:00 Z
+date: 2015-03-10 00:00:00 +0000
 image: "/uploads/2017/07/11/IMG_2438.JPG"
 categories: []
 ---

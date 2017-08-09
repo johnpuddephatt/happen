@@ -2,7 +2,7 @@
 categories:
 - filming
 - commissioning
-date: 2015-03-17 00:00:00 Z
+date: 2015-03-17 00:00:00 +0000
 image: "/uploads/2017/07/28/ted_talk.jpg"
 layout: post
 title: 'How to commission good video: five rules for event filming'

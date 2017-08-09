@@ -8,7 +8,7 @@ brief: "The Prison Radio Association wanted to make a series of short films for 
   produce the series while also training one of its radio producers to plan, shoot
   and edit the seven films.  \n"
 color: "#3dbdb6"
-date: 2017-07-03 20:42:24 Z
+date: 2017-07-03 20:42:24 +0000
 description: We helped Prison Radio Association keep people from reoffending
 layout: case
 logo: "/uploads/2017/07/03/pra-logo.png"

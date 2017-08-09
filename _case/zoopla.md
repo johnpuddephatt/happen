@@ -8,7 +8,7 @@ brief: "Under attack from a new competitor, Zoopla wanted to make sure its exist
   commissioned Happen to develop and produce a series of video animation explainers,
   with the aim of convincing agents to stick with or switch to Zoopla. "
 color: "#6a148f"
-date: 2017-07-01 23:42:44 Z
+date: 2017-07-01 23:42:44 +0000
 description: We helped zoopla property group explain their services
 layout: case
 logo: "/uploads/2017/07/03/zoopla-logo.png"
