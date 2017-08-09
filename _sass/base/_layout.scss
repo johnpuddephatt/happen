@@ -16,12 +16,12 @@ body {
 html {
   height: 100%;
   overflow: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 body {
   overflow-x: hidden;
+  height: 100%;
+  position: relative;
   &.home, &.blog {
     overflow: hidden;
     .viewport {
@@ -34,7 +34,7 @@ body {
       transform: translateZ(0)
     }
   }
-  &.ios {
+  &.iosx {
     overflow-x: initial;
     overflow-y: initial;
     -webkit-overflow-scrolling: touch;
