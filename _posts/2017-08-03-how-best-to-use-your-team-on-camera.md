@@ -7,6 +7,8 @@ title: How best to use your team on camera
 ---
 
 
+Considering casting your team in a marketing video? Here is how to get the best out of your staff in front of camera.
+
 We’ve made quite a few films recently featuring our clients. It can be very effective but also challenging and it might not be right for every video. Here then is what you should keep in mind when considering putting your staff in front of the camera.
 
 There are good reasons to use professional presenters, actors and voiceover artists – they’re usually professionals because they’re good at their jobs. A good voiceover artist will deliver an expressive and lively  read of a script, which can really lift a film or animation. Using your staff will be cheaper, but should also contribute something else to the film.
