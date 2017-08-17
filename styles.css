@@ -369,7 +369,9 @@ hr {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    z-index: 99;
+    position: relative; }
     @media screen and (orientation: landscape) and (min-width: 700px) {
       .section--case-studies {
         display: block; } }
