@@ -20,15 +20,9 @@ We recently made a short pro bono film for the City of London Sinfonia about how
 Discussing this with Matthew Swann, chief executive of the CLS,  we had a light-bulb moment when he explained his belief that this work made the orchestra’s players better musicians. They have to improvise performing for children - something classical musicians don’t normally do – and this made them better, more responsive classical performers. As CLS principal clarinet Katherine Spencer puts it in the film: “I really don’t think you can do the evening work without the day work.”
 
 The hows and whys of a company’s charity work are ripe for elucidation. You should be explaining why you’re backing a particular cause and how your expertise is making difference, but also what you as an organisation are gaining from it too. That may not be immediately obvious, but it is worth thinking about how it fits into your communications and marketing strategy.
-
-<span style="font-size: 1rem;">&lt;script src="//platform.twitter.com/oct.js" type="text/javascript"&gt;&lt;/script&gt;</span>
-
 <script type="text/javascript">twttr.conversion.trackPid('ny50t', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
 
 <noscript>
-
-<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=ny50t&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
-
-<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=ny50t&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
-
+&lt;img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=ny50t&amp;amp;p_id=Twitter&amp;amp;tw_sale_amount=0&amp;amp;tw_order_quantity=0"&gt;
+&lt;img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=ny50t&amp;amp;p_id=Twitter&amp;amp;tw_sale_amount=0&amp;amp;tw_order_quantity=0"&gt;
 </noscript>
