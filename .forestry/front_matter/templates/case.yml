@@ -1,0 +1,99 @@
+---
+pages:
+- _case/zoopla.md
+- _case/teachfirst.md
+- _case/pra.md
+- _case/slack.md
+hide_body: true
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- name: logo
+  label: Logo
+  type: file
+  hidden: false
+  default: ''
+  description: The organisation's logo
+- name: photo
+  label: Photo
+  type: file
+  hidden: false
+  default: ''
+  description: The cover photo displayed at the top of the case study
+- name: color
+  label: Color
+  type: text
+  hidden: false
+  default: ''
+  description: 'Enter the brand colour in hex format – e.g. #00aa11'
+  config:
+    required: true
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 2017-07-28 13:32:24 +0000
+- name: brief
+  label: Brief
+  type: textarea
+  hidden: false
+  default: ''
+  description: Short summary displayed on homepage and in case study header
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: case
+- name: outputs
+  label: Outputs
+  type: field_group_list
+  fields:
+  - name: body
+    label: Body
+    type: textarea
+    hidden: false
+    default: ''
+  - name: heading
+    label: Heading
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  - name: video
+    label: Video
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: quote
+  label: Quote
+  type: textarea
+  hidden: false
+  default: ''
+  description: 'Type the quote first, then leave a blank line before typing the attribution '
+- name: videos
+  label: Videos
+  type: list
+  hidden: false
+  default: ''
+  description: Enter an iframe embed code – e.g. YouTube or Vimeo
+- name: results
+  label: Results
+  type: textarea
+  hidden: false
+  default: ''
+  description: Describe the outcomes and optionally use a list to display up to three
+    highlights
