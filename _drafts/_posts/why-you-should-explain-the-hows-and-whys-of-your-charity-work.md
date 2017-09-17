@@ -7,11 +7,15 @@ categories: []
 ---
 
 
+A lot of brands do charity work but few explain why they choose a particular cause or how they decided upon the best way to make a contribution
+
 A lot of brands do charity work but few explain why they choose a particular cause or how they decided upon the best way to make a contribution.
 
 Happen regularly does pro bono work, helping charities with content production, editorial training and their content strategy. We do this for altruistic reasons of course – we believe our skills make a real difference to the charities – but also because it stretches us and teaches us new things. We get something out of it too. It is core to our purpose as a content agency.
 
 We’re not unique in this. Charity work reveals a lot about a company’s expertise and values. This means it’s something worth explaining to your customers, as is what you as a company gain from the work. Does it sharpen your skills, motivate your staff or further a cause you believe in?
+
+<iframe src="https://player.vimeo.com/video/233725821" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 We recently made a short pro bono film for the City of London Sinfonia about how it is different from other orchestras. The CLS wanted to explain how their outreach work is a part of their approach to music, not just an add-on. As well as classical concerts and collaborations with other artists, CLS members regularly perform in retirement homes and children’s hospitals.
 
