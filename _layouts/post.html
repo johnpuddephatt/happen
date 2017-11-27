@@ -42,18 +42,18 @@ layout: default
 
     {{content | replace: '<iframe', '<div class="video-wrapper"><iframe' | replace: '</iframe>', '</iframe></div>'}}
 
-    {% for downloading in page.download %}
-      {% if downloading.title and downloading.file %}
-        <div id="newsletter-whitepaper">
-          <h2>Download {{ downloading.title }}</h2>
-          <p>{{downloading.description}}</p>
-          <form action="https://happendigital.us16.list-manage.com/subscribe/post-json?u=945a5a4f8744e44cb7ec83aca&amp;id=83a45aa0e4" data-download="{{ downloading.file }}" class="form-input">
-            <input type="email" placeholder="Enter your email" required />
-            <input type="submit" value="Download" />
-          </form>
-        </div>
-      {% endif %}
-    {% endfor %}
+
+
+    {% if page.download.title and page.download.file %}
+      <div id="newsletter-whitepaper">
+        <h2>Download {{ page.download.title }}</h2>
+        <p>{{page.download.description}}</p>
+        <form action="https://happendigital.us16.list-manage.com/subscribe/post-json?u=945a5a4f8744e44cb7ec83aca&amp;id=83a45aa0e4" data-download="{{ page.download.file }}" class="form-input">
+          <input type="email" placeholder="Enter your email" required />
+          <input type="submit" value="Download" />
+        </form>
+      </div>
+    {% endif %}
 
 
 
