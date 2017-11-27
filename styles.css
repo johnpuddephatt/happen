@@ -1390,6 +1390,9 @@ body.ios .background {
       .form-input input:last-child:hover {
         background-color: #888b8a;
         color: white !important; }
+      .form-input input:last-child:focus, .form-input input:last-child:active {
+        outline: none;
+        box-shadow: none; }
 
 @media screen and (min-width: 1200px) {
   .footer-wrap {
