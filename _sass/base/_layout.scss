@@ -22,6 +22,7 @@ body {
   overflow-x: hidden;
   height: 100%;
   position: relative;
+  -webkit-overflow-scrolling: touch;
   &.home, &.blog {
     overflow: hidden;
     .viewport {
@@ -30,8 +31,10 @@ body {
       overflow-y: auto;
       position: relative;
       -webkit-overflow-scrolling: touch;
-      perspective: 1px;
-      transform: translateZ(0)
+      -webkit-perspective: 1px;
+              perspective: 1px;
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0)
     }
   }
   &.iosx {
@@ -39,7 +42,8 @@ body {
     overflow-y: initial;
     -webkit-overflow-scrolling: touch;
     .section--blog .background {
-      transform: none;
+      -webkit-transform: none;
+              transform: none;
     }
     .viewport {
       height: auto

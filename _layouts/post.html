@@ -27,8 +27,36 @@ layout: default
 
 
 <section class="section section--post-body">
-
   <div class="section-text section-text--post">
+    <ul class="social-icons">
+      <li>
+        <a class="twitter-share" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}&text={{page.title | replace: ' ', '+' | replace: '&', 'and'}}+by+@{{site.twitter_username}}">{% include social-twitter.svg %}</a>
+      </li>
+      <li>
+        <a class="facebook-share" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}">{% include social-facebook.svg %}</a>
+      </li>
+      <li>
+        <a class="linkedin-share" href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}&title={{page.title | replace: ' ', '+' | replace: '&', 'and'}}+by+Happen+Digital">{% include social-linkedin.svg %}</a>
+      </li>
+    </ul>
+
     {{content | replace: '<iframe', '<div class="video-wrapper"><iframe' | replace: '</iframe>', '</iframe></div>'}}
+
+    {% for downloading in page.download %}
+      {% if downloading.title and downloading.file %}
+        <div id="newsletter-whitepaper">
+          <h2>Download {{ downloading.title }}</h2>
+          <p>{{downloading.description}}</p>
+          <form action="https://happendigital.us16.list-manage.com/subscribe/post-json?u=945a5a4f8744e44cb7ec83aca&amp;id=83a45aa0e4" data-download="{{ downloading.file }}" class="form-input">
+            <input type="email" placeholder="Enter your email" required />
+            <input type="submit" value="Download" />
+          </form>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+
+
+
   </div>
 </section>

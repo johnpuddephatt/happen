@@ -1,11 +1,11 @@
 <script>
+
+
   var body = document.querySelector('body');
 
   if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
     body.classList.add('ios');
   }
-
-
 
   var videoOverlay = document.createElement("div");
   videoOverlay.classList.add("video-overlay-wrapper");
@@ -53,4 +53,48 @@
   }
 
 
+  /* Mailchimp */
+  function newsletterSubmitted(event) {
+      event.preventDefault();
+      this._form = this.querySelector("form");
+      this._action = this._form.getAttribute("action");
+      this._input = this._form.querySelector("input.email").value;
+
+      document.MC_callback = function(response) {
+
+          if(response.result == "success") {
+
+              var successText = document.createElement("p");
+              var successTextNode = document.createTextNode("Thank you for subscribing. Click the button below to download.");
+              successText.appendChild(successTextNode);
+              downloadButton = document.createElement("a");
+              var buttonText = document.createTextNode("Download");
+              downloadButton.appendChild(buttonText);
+              downloadButton.classList.add('button');
+              var newsletterForm = newsletter.querySelector('form');
+              downloadButton.setAttribute('href', newsletterForm.dataset.download);
+              newsletter.appendChild(successText);
+              newsletter.appendChild(downloadButton);
+              newsletter.removeChild(newsletterForm);
+
+          } else {
+              alert('fail');
+          }
+      }
+
+      // generate script
+      this._script = document.createElement("script");
+      this._script.type = "text/javascript";
+      this._script.src = this._action + "&c=document.MC_callback&EMAIL=" + this._input;
+
+      // append script to head
+      document.getElementsByTagName("head")[0].appendChild(this._script);
+  }
+
+  var newsletter = document.querySelector("#newsletter-whitepaper");
+  if(newsletter) {
+    newsletter.addEventListener("submit", newsletterSubmitted);
+  }
+
 </script>
+

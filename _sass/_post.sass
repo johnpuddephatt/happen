@@ -1,6 +1,26 @@
 .section--post-body
+  position: relative
+  overflow-x: visible
+  border-bottom: none
+  margin-bottom: 10 * $base-spacing
   .video-wrapper
     margin-bottom: 3 * $base-spacing
+  .social-icons
+    position: sticky
+    top: $small-spacing
+    height: 0
+    margin-top: 0
+    margin-bottom: 0
+    margin-left: -3.5 * $base-spacing
+    width: 0
+    li
+      margin-bottom: $small-spacing/2
+      opacity: .35
+      transition: opacity $base-duration
+      &:last-child
+        margin-bottom: 0
+      &:hover
+        opacity: 1
 
 .section--hero--post
   display: flex
@@ -84,3 +104,18 @@
   margin-bottom: 0 !important
   position: relative
   z-index: 99
+
+
+#newsletter-whitepaper
+  margin-top: 2 * $base-spacing
+  padding: $base-spacing 2 * $base-spacing
+  border: .4rem solid $pink
+  h2
+    margin-top: 0
+    margin-bottom: $base-spacing
+  form
+    display: flex
+    flex-direction: row
+  .button
+    color: $dark-gray
+    border-color: $medium-gray
