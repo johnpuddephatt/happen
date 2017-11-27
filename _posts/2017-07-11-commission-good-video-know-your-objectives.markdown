@@ -4,6 +4,10 @@ title: 'How to commission good video: know your objectives'
 date: 2015-03-10 00:00:00 +0000
 image: "/uploads/2017/07/11/IMG_2438.JPG"
 categories: []
+download:
+  title: Test download
+  description: this is my new download
+  file: "/uploads/2017/11/27/Marketing meeting.pdf"
 ---
 
 
