@@ -112,7 +112,8 @@ html {
 body {
   overflow-x: hidden;
   height: 100%;
-  position: relative; }
+  position: relative;
+  -webkit-overflow-scrolling: touch; }
   body.home, body.blog {
     overflow: hidden; }
     body.home .viewport, body.blog .viewport {
@@ -121,13 +122,16 @@ body {
       overflow-y: auto;
       position: relative;
       -webkit-overflow-scrolling: touch;
+      -webkit-perspective: 1px;
       perspective: 1px;
+      -webkit-transform: translateZ(0);
       transform: translateZ(0); }
   body.iosx {
     overflow-x: initial;
     overflow-y: initial;
     -webkit-overflow-scrolling: touch; }
     body.iosx .section--blog .background {
+      -webkit-transform: none;
       transform: none; }
     body.iosx .viewport {
       height: auto; }
@@ -497,7 +501,7 @@ hr {
   display: none;
   float: right;
   line-height: 10vw;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #888b8a;
   -webkit-font-smoothing: antialiased;
   height: 4.8rem; }
@@ -507,7 +511,9 @@ hr {
       line-height: 5vw; } }
   .site-header p a {
     color: inherit;
-    text-decoration: underline; }
+    background-image: linear-gradient(0deg, #dbdfdd 20%, transparent 20%); }
+    .site-header p a:hover {
+      color: #c00f6a; }
 .site-header .button--contact {
   float: right;
   background-color: #c00f6a;
@@ -987,7 +993,7 @@ body.ios .background {
       padding: 0;
       background-image: url(./images/playbutton.png);
       text-indent: -9999px;
-      background-size: 40%;
+      background-size: 50%;
       background-position: center;
       background-repeat: no-repeat;
       transition: 200ms; }
@@ -1154,8 +1160,29 @@ body.ios .background {
     width: 100%;
     height: 100%; }
 
-.section--post-body .video-wrapper {
-  margin-bottom: 7.2rem; }
+.section--post-body {
+  position: relative;
+  overflow-x: visible;
+  border-bottom: none;
+  margin-bottom: 24rem; }
+  .section--post-body .video-wrapper {
+    margin-bottom: 7.2rem; }
+  .section--post-body .social-icons {
+    position: sticky;
+    top: 1.2rem;
+    height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -8.4rem;
+    width: 0; }
+    .section--post-body .social-icons li {
+      margin-bottom: 0.6rem;
+      opacity: 0.35;
+      transition: opacity 200ms; }
+      .section--post-body .social-icons li:last-child {
+        margin-bottom: 0; }
+      .section--post-body .social-icons li:hover {
+        opacity: 1; }
 
 .section--hero--post {
   display: flex;
@@ -1248,6 +1275,20 @@ body.ios .background {
   position: relative;
   z-index: 99; }
 
+#newsletter-whitepaper {
+  margin-top: 4.8rem;
+  padding: 2.4rem 4.8rem;
+  border: 0.4rem solid #c00f6a; }
+  #newsletter-whitepaper h2 {
+    margin-top: 0;
+    margin-bottom: 2.4rem; }
+  #newsletter-whitepaper form {
+    display: flex;
+    flex-direction: row; }
+  #newsletter-whitepaper .button {
+    color: #050505;
+    border-color: #888b8a; }
+
 .section--contact {
   background-color: #c00f6a;
   -webkit-font-smoothing: antialiased;
@@ -1275,46 +1316,6 @@ body.ios .background {
         margin-bottom: 6rem; } }
     .section--contact .contact-details a, .section--contact .contact-details a:hover {
       color: white; }
-  .section--contact .form-input {
-    display: flex; }
-    .section--contact .form-input input {
-      min-width: 0;
-      -webkit-appearance: none;
-      line-height: calc(6rem - .8rem);
-      height: 6rem;
-      font-size: 1.5625em;
-      border-radius: 3.6rem;
-      border: 0.4rem solid #dbdfdd;
-      transition: border-color 200ms, background-color 200ms, color 200ms; }
-      .section--contact .form-input input:first-child {
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        flex: 1 1 85%;
-        padding: 0 2.4rem;
-        border-right: none; }
-        @media screen and (min-width: 700px) {
-          .section--contact .form-input input:first-child {
-            padding: 0 4.8rem; } }
-        .section--contact .form-input input:first-child:focus, .section--contact .form-input input:first-child:focus + input {
-          border-color: #050505;
-          color: #050505; }
-      .section--contact .form-input input:last-child {
-        padding: 0 1.2rem;
-        border-top-left-radius: 0;
-        font-weight: 200;
-        -webkit-font-smoothing: antialiased;
-        font-size: 1.25em;
-        border-bottom-left-radius: 0;
-        flex: 1 1 auto;
-        margin-left: -2px;
-        background-color: #dbdfdd;
-        color: #888b8a; }
-        @media screen and (min-width: 700px) {
-          .section--contact .form-input input:last-child {
-            padding: 0 3.6rem 0 2.4rem; } }
-        .section--contact .form-input input:last-child:hover {
-          background-color: #888b8a;
-          color: white !important; }
   .section--contact .section-title {
     color: white;
     margin-bottom: 0.6rem; }
@@ -1343,6 +1344,52 @@ body.ios .background {
 
 .subsection--signup {
   margin-bottom: 0; }
+
+.form-input {
+  display: flex; }
+  .form-input input {
+    min-width: 0;
+    -webkit-appearance: none;
+    line-height: calc(6rem - .8rem);
+    height: 6rem;
+    font-size: 1.5625em;
+    border-radius: 3.6rem;
+    border: 0.4rem solid #dbdfdd;
+    transition: border-color 200ms, background-color 200ms, color 200ms; }
+    .form-input input:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      flex: 1 1 85%;
+      padding: 0 2.4rem;
+      border-right: none; }
+      @media screen and (min-width: 700px) {
+        .form-input input:first-child {
+          padding: 0 4.8rem; } }
+      .form-input input:first-child:hover, .form-input input:first-child:hover + input {
+        border-color: #888b8a;
+        color: #888b8a; }
+      .form-input input:first-child:focus, .form-input input:first-child:focus + input {
+        border-color: #050505;
+        color: #050505;
+        outline: none;
+        box-shadow: none; }
+    .form-input input:last-child {
+      padding: 0 1.2rem;
+      border-top-left-radius: 0;
+      font-weight: 200;
+      -webkit-font-smoothing: antialiased;
+      font-size: 1.25em;
+      border-bottom-left-radius: 0;
+      flex: 1 1 auto;
+      margin-left: -2px;
+      background-color: #dbdfdd;
+      color: #888b8a; }
+      @media screen and (min-width: 700px) {
+        .form-input input:last-child {
+          padding: 0 3.6rem 0 2.4rem; } }
+      .form-input input:last-child:hover {
+        background-color: #888b8a;
+        color: white !important; }
 
 @media screen and (min-width: 1200px) {
   .footer-wrap {
