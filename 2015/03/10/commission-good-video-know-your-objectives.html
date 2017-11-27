@@ -147,7 +147,7 @@
         <h2>Download Test download</h2>
         <p>this is my new download</p>
         <form action="https://happendigital.us16.list-manage.com/subscribe/post-json?u=945a5a4f8744e44cb7ec83aca&amp;id=83a45aa0e4" data-download="/uploads/2017/11/27/Marketing meeting.pdf" class="form-input">
-          <input type="email" placeholder="Enter your email" required />
+          <input class="download-email" type="email" placeholder="Enter your email" required />
           <input type="submit" value="Download" />
         </form>
       </div>
@@ -271,7 +271,7 @@
       event.preventDefault();
       this._form = this.querySelector("form");
       this._action = this._form.getAttribute("action");
-      this._input = this._form.querySelector("input.email").value;
+      this._input = this._form.querySelector("input.download-email").value;
 
       document.MC_callback = function(response) {
 
