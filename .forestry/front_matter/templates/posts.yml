@@ -34,3 +34,16 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: field_group
+  name: download
+  label: Download
+  fields:
+  - type: text
+    label: Title
+    name: title
+  - type: textarea
+    label: Description
+    name: description
+  - type: file
+    name: file
+    label: File
