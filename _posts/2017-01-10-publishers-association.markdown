@@ -5,10 +5,9 @@ image: "/uploads/2017/07/28/PubAssoc05.jpg"
 layout: post
 title: 'Show and tell: on location for the Publishers’ Association'
 download:
-- file: "/path/"
-  title: Video trends in 2018 whitepaper
-  description: This new whitepaper from Happen Digital is essential reading for all
-    organisations wanting to create video in 2018.
+  title: ''
+  description: ''
+  file: ''
 ---
 The effectiveness of textbooks in schools has been a matter of dispute for some time. Very few children use them in the classroom in the UK compared to countries with more successful education systems, such as Finland and Singapore. And the education minister, Nick Gibb, has even said that teachers have an [‘ideological hostility’](http://www.bbc.co.uk/news/education-30129639) to using them.
 
