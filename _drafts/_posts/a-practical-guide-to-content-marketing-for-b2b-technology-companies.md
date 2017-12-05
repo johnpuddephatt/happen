@@ -13,15 +13,15 @@ Content marketing is as important for B2B companies as B2C ones, if not more so.
 
 Despite this, we’re often surprised by how B2B technology companies struggle with content marketing. Content is produced without a clear understanding of where it fits in the bigger picture. It is also often uninspired, uninteresting and unlikely to persuade anyone of anything.
 
-To set you on the right path, we’ve created this practical guide to help you maximize the return from your firm’s investment in content. It is based on our experience helping big names like Zoopla, Slack and Auto Trader and as journalists – we worked at the BBC, Channel 4 and the Guardian. 
+To set you on the right path, we’ve created this practical guide to help you maximize the return from your firm’s investment in content. It is based on our experience helping big names like Zoopla, Slack and Auto Trader and as journalists – we worked at the BBC, Channel 4 and the Guardian.
 
-We find most companies prefer to produce written content in-house and video out-of-house, so it focuses on how to develop and implement a content strategy and commission key video formats.   
+We find most companies prefer to produce written content in-house and video out-of-house, so it focuses on how to develop and implement a content strategy and commission key video formats.
 
 We hope you find the guide helpful.
 
 **Foundations for an effective content strategy**
 
-Identify your objectives • Understand your target audience • Find the sweet spot • Measure, review, revise 
+Identify your objectives • Understand your target audience • Find the sweet spot • Measure, review, revise
 
 **Learning from the newsroom**
 
@@ -46,5 +46,3 @@ Cast carefully • Be specific • Think pictures • Get the most out of interv
 **Sharing your expertise**
 
 Think about discovery • Identify your expertise • Be consistent and agile • Format and reformat
-
-**Just fill in your details above right and click 'Get Your Free guide' to download**
