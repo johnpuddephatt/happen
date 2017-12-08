@@ -58,14 +58,17 @@
       event.preventDefault();
       this._form = this.querySelector("form");
       this._action = this._form.getAttribute("action");
-      this._input = this._form.querySelector("input.download-email").value;
+      this._email = this._form.querySelector("input.download-email").value;
+      this._fname = this._form.querySelector("input.download-fname").value;
+      this._lname = this._form.querySelector("input.download-lname").value;
+      this._company = this._form.querySelector("input.download-company").value;
 
       document.MC_callback = function(response) {
 
           if(response.result == "success") {
 
               var successText = document.createElement("p");
-              var successTextNode = document.createTextNode("Thank you for subscribing. Click the button below to download.");
+              var successTextNode = document.createTextNode("Thank you. Click the button below to download.");
               successText.appendChild(successTextNode);
               downloadButton = document.createElement("a");
               var buttonText = document.createTextNode("Download");
@@ -85,7 +88,7 @@
       // generate script
       this._script = document.createElement("script");
       this._script.type = "text/javascript";
-      this._script.src = this._action + "&c=document.MC_callback&EMAIL=" + this._input;
+      this._script.src = this._action + "&c=document.MC_callback&EMAIL=" + this._email + "&FNAME=" + this._fname + "&LNAME=" + this._lname + "&COMPANY=" + this._company;
 
       // append script to head
       document.getElementsByTagName("head")[0].appendChild(this._script);
