@@ -1282,7 +1282,7 @@ body.ios .background {
   #newsletter-whitepaper h2 {
     margin-top: 0;
     margin-bottom: 2.4rem; }
-  #newsletter-whitepaper input[type='submit'] {
+  #newsletter-whitepaper input[type='submit'], #newsletter-whitepaper .button {
     color: #c00f6a;
     margin-top: 1.2rem;
     border-color: #c00f6a; }
