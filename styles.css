@@ -1282,12 +1282,10 @@ body.ios .background {
   #newsletter-whitepaper h2 {
     margin-top: 0;
     margin-bottom: 2.4rem; }
-  #newsletter-whitepaper form {
-    display: flex;
-    flex-direction: row; }
-  #newsletter-whitepaper .button {
-    color: #050505;
-    border-color: #888b8a; }
+  #newsletter-whitepaper input[type='submit'] {
+    color: #c00f6a;
+    margin-top: 1.2rem;
+    border-color: #c00f6a; }
 
 .section--contact {
   background-color: #c00f6a;
