@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2017/12/14/ZPG_training02_SFW.jpg"
+image: "/uploads/2017/12/14/IMG_1968.jpg"
 layout: post
 title: Kit to kickstart your in-house video production
 date: 2017-12-14 00:00:00 +0000
@@ -9,7 +9,7 @@ download:
   description: ''
   file: ''
 ---
-When we provide video training for clients we're often asked about what equipment to invest in. Our starting point is always to find out what sort of videos are required – often short interview bites or video loops for social media – and what the  budgetary constraints are – often as little as possible!
+When we provide video training for clients we're often asked for advice about what equipment to invest in. Our starting point is always to find out what sort of videos are required – often short interview bites or film video loops for social media – and what the  budgetary constraints are – often as little as possible!
 
 **Budget: What budget?**
 
