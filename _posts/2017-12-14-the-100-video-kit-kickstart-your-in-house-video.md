@@ -9,7 +9,7 @@ download:
   description: ''
   file: ''
 ---
-When we provide video training for clients we're often asked for advice about what equipment to invest in. Our starting point is always to find out what sort of videos are required – often short interview bites or film video loops for social media – and what the  budgetary constraints are – often as little as possible!
+When we provide video training for clients we're often asked about what equipment to invest in. Our starting point is always to find out what sort of videos are required – often short interview bites or video loops for social media – and what the  budgetary constraints are – often as little as possible!
 
 **Budget: What budget?**
 
