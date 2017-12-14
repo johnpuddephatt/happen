@@ -21,7 +21,7 @@ If you want to do simple interviews you should get a clip mic. Also known as lav
 
 ![](/uploads/2017/12/14/Screen Shot 2017-12-14 at 13.37.42.png "Rode Smartlav+ microphone")
 
-If your smartphone has a 3.5mm audio jack you should get a [Rode SmartLav+ ]() and [an extension cable]() to allow you to step away from your subject.
+If your smartphone has a 3.5mm audio jack you should get a [Rode SmartLav+ ](http://www.rode.com/microphones/smartlav-plus) and [an extension cable](https://www.gak.co.uk/en/rode-sc1-trrs-extension-cable/112308?gclid=EAIaIQobChMIxJfl4NWJ2AIVRrvtCh2BlwV9EAQYAiABEgLKc_D_BwE) to allow you to step away from your subject.
 
 Apple have removed the audio jacks from their most recent iPhones. If you have one of these models (an iPhone 7 or later) [you’ll need a mic like this one that will connect to Apple’s proprietary Lightning socket](https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-ClipMic-Digital-iOS-Device-Microphone/1A6H?origin=product-ads&campaign=PLA+Shop+-+GENERIC&adgroup=GENERIC&medium=vertical_search&network=google&merchant_id=1279443&product_id=59849d1&product_country=GB&product_partition_id=136756261519&gclid=EAIaIQobChMI2IS0ws-J2AIVSZPtCh2sNgmHEAQYASABEgINnPD_BwE).
 
