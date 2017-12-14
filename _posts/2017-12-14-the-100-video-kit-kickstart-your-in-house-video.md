@@ -70,3 +70,5 @@ You can buy supports for the whole roll, or you could just cut it to size and ta
 **Ready to roll**
 
 Now find a suitable spot – ideally away from loud air conditioning vents and the coffee machine. Tape your backdrop to the wall, set up your light and find a willing victim – er, interviewee – with something to say.
+
+And if you find you need help with any aspect of your video project, from strategy to the edit, do get in touch!
