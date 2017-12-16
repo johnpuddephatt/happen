@@ -44,7 +44,7 @@ layout: default
 
 
 
-    {% if page.download.title != null and page.download.file != null %}
+    {% if page.download.file.size > 0 %}
       <div id="newsletter-whitepaper">
         <h2>Download {{ page.download.title }}</h2>
         <p>{{page.download.description}}</p>

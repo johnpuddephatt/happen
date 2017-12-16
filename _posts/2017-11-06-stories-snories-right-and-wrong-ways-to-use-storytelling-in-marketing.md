@@ -4,6 +4,10 @@ layout: post
 title: 'Stories, snories: right and wrong ways to use storytelling in marketing'
 date: 2017-11-06 00:00:00 +0000
 categories: []
+download:
+  title: ''
+  description: ''
+  file: ''
 ---
 It’s important to have believable or humorous stories as part of a mix of content in your marketing, with facts alongside creative.
 
