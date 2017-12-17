@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2017/12/14/IMG_1968.jpg"
+image: "/uploads/2017/12/17/DSC00549.JPG"
 layout: post
 title: Kit to kickstart your in-house video production
 date: 2017-12-17 00:00:00 +0000
