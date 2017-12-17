@@ -2,7 +2,7 @@
 image: "/uploads/2017/12/14/IMG_1968.jpg"
 layout: post
 title: Kit to kickstart your in-house video production
-date: 2017-12-14 00:00:00 +0000
+date: 2017-12-16 19:00:00 +0000
 categories: []
 download:
   title: ''
