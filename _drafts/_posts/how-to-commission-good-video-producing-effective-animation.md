@@ -29,6 +29,10 @@ When you’re happy with the script an illustrator will then take it and produce
 
 You should also cast your animation: someone to record your script as voiceover. Once you’ve decided what voices you prefer, you should be able to listen into the recording if you wish. You could also ask for an animatic, which is a basic version of the storyboard with simple animations, timed with the audio. This will add to the overall cost, but will also give you a better sense of what the final result will look like.
 
+<iframe src="[https://player.vimeo.com/video/141031500](https://player.vimeo.com/video/141031500 "https://player.vimeo.com/video/141031500")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="[https://vimeo.com/141031500](https://vimeo.com/141031500 "https://vimeo.com/141031500")">ZPG AdReach</a> from <a href="[https://vimeo.com/happendigital](https://vimeo.com/happendigital "https://vimeo.com/happendigital")">Happen Digital</a> on <a href="[https://vimeo.com](https://vimeo.com "https://vimeo.com")">Vimeo</a>.</p>
+
 **Production**
 
 Once the storyboard and the soundtrack are agreed, the animation begins. Production time depends on length, format and style, but you should be able to see a full-length version of the visuals before the audio is added.
