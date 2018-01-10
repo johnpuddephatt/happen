@@ -11,13 +11,13 @@ download:
 ---
 One of the best ways to explain your goods and services to potential customers is with an explainer animation. It is a more involved process than making a live action video, so here are a few things to bear in mind if you’re commissioning an animation.
 
-Animation is a great way to bring to life something that isn’t particularly visual – for example, a complicated process or dry facts and figures. It can also add charm and humour to a subject. This means people are more likely to devote a few minutes to watching your video. They’re also more likely to share it via social media. 
+Animation is a great way to bring to life something that isn’t particularly visual – for example, a complicated process or dry facts and figures. It can also add charm and humour to a subject. This means people are more likely to devote a few minutes to watching your video. They’re also more likely to share it via social media.
 
 Once you’re clear about your objectives, find a good agency to work with. It should be committed to understanding what you’re trying to achieve and making the process as straightforward and simple for you as possible. If they confuse you, go elsewhere.
 
 Animation is a step-by-step process, so there are a number of sign off points along the way. You should be delighted by the end result but not surprised by it – because you should have been involved in each stage of production.
 
-It’s worth bearing in mind that going back and making changes after a stage has been signed off can add significantly to the cost and time it takes to complete an animation. To avoid delays and cost overruns make sure at every stage that each round of feedback is consolidated from everyone whose opinion matters before sending it on to your agency. 
+It’s worth bearing in mind that going back and making changes after a stage has been signed off can add significantly to the cost and time it takes to complete an animation. To avoid delays and cost overruns make sure at every stage that each round of feedback is consolidated from everyone whose opinion matters before sending it on to your agency.
 
 **Development**
 
@@ -37,6 +37,8 @@ Once the storyboard and the soundtrack are agreed, the animation begins. Product
 
 Once you’ve seen the rough cut of the animation it’s time to add final polish: the voiceover will be mixed with sound effects and any music you’ve chosen. It can be surprising how much the addition of the sound mix can lift a project: often the sound can add clarity and focus to the pictures.
 
-The final step is to render all the pictures and audio into one master file: this will vary depending on exactly how you want to use it but might typically be an HD-sized MP4 file ready to be uploaded to Vimeo, Youtube or Facebook. 
+The final step is to render all the pictures and audio into one master file: this will vary depending on exactly how you want to use it but might typically be an HD-sized MP4 file ready to be uploaded to Vimeo, Youtube or Facebook.
+
+**Find out more**
 
 To find out more about content marketing download our practical guide. It is written for B2B technology companies but would be helpful for any marketer.
