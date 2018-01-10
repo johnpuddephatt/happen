@@ -19,28 +19,28 @@ Animation is a step-by-step process, so there are a number of sign off points al
 
 It’s worth bearing in mind that going back and making changes after a stage has been signed off can add significantly to the cost and time it takes to complete an animation. To avoid delays and cost overruns make sure at every stage that each round of feedback is consolidated from everyone whose opinion matters before sending it on to your agency.
 
-**Development**
+<h2>Development</h2>
 
 Once you’ve clarified your objective and key messages, you should agree with your agency the look and feel you want. You might want to share some examples of animations that you’ve seen and enjoyed. Your agency should then present you with some different styles of illustration to choose from. Once that’s decided the agency should draft a script: this will include voiceover (or the dialogue if it’s interview-based) and a description of what’s happening onscreen. You should be happy with this before proceeding. Don’t be tempted to try and explain absolutely everything in your script. Of course the script must be accurate, but it also needs to flow and be lively. A good way to approach scripting is to see how much you can remove and still have it make sense.
 
-**Preproduction**
+<h2>Preproduction*</h2>
 
 When you’re happy with the script an illustrator will then take it and produce a storyboard of images that will make up the final animation. This can be as complicated or as simple as you want. Something as lifelike as Frozen would cost a lot of money and would probably be overkill if you’re not going to put substantial promotional spend behind it. Simple can be just as effective. Make sure you’re happy with the storyboard before proceeding.
 
 You should also cast your animation: someone to record your script as voiceover. Once you’ve decided what voices you prefer, you should be able to listen into the recording if you wish. You could also ask for an animatic, which is a basic version of the storyboard with simple animations, timed with the audio. This will add to the overall cost, but will also give you a better sense of what the final result will look like.
 
-[https://player.vimeo.com/video/141031500](https://player.vimeo.com/video/141031500 "https://player.vimeo.com/video/141031500")
+<iframe src="https://player.vimeo.com/video/141031500" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-**Production**
+<h2>Production</h2>
 
 Once the storyboard and the soundtrack are agreed, the animation begins. Production time depends on length, format and style, but you should be able to see a full-length version of the visuals before the audio is added.
 
-**Postproduction**
+<h2>Postproduction</h2>
 
 Once you’ve seen the rough cut of the animation it’s time to add final polish: the voiceover will be mixed with sound effects and any music you’ve chosen. It can be surprising how much the addition of the sound mix can lift a project: often the sound can add clarity and focus to the pictures.
 
 The final step is to render all the pictures and audio into one master file: this will vary depending on exactly how you want to use it but might typically be an HD-sized MP4 file ready to be uploaded to Vimeo, Youtube or Facebook.
 
-**Find out more**
+<h2>Find out more</h2>
 
 To find out more about content marketing download our practical guide. It is written for B2B technology companies but would be helpful for any marketer.
