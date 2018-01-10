@@ -5,7 +5,7 @@ title: 'How to commission good video: producing effective animation'
 date: 2018-01-10 00:00:00 +0000
 categories: []
 download:
-  title: ''
+  title: download a practical guide to content marketing for b2b technology companies
   description: ''
   file: "/uploads/2018/01/10/Happen-digital-white-paper-2017-FULL.pdf"
 ---
