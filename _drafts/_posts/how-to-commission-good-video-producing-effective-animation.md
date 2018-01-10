@@ -1,5 +1,5 @@
 ---
-image: "/images/happenmeta2.jpg"
+image: "/uploads/2017/07/17/Case-study-ZPG-07.jpg"
 layout: post
 title: 'How to commission good video: producing effective animation'
 date: 2018-01-10 00:00:00 +0000
@@ -7,7 +7,7 @@ categories: []
 download:
   title: ''
   description: ''
-  file: ''
+  file: "/uploads/2018/01/10/Happen-digital-white-paper-2017-FULL.pdf"
 ---
 One of the best ways to explain your goods and services to potential customers is with an explainer animation. It is a more involved process than making a live action video, so here are a few things to bear in mind if you’re commissioning an animation.
 
