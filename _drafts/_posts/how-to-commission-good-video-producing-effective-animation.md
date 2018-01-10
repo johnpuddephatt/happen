@@ -23,7 +23,7 @@ It’s worth bearing in mind that going back and making changes after a stage ha
 
 Once you’ve clarified your objective and key messages, you should agree with your agency the look and feel you want. You might want to share some examples of animations that you’ve seen and enjoyed. Your agency should then present you with some different styles of illustration to choose from. Once that’s decided the agency should draft a script: this will include voiceover (or the dialogue if it’s interview-based) and a description of what’s happening onscreen. You should be happy with this before proceeding. Don’t be tempted to try and explain absolutely everything in your script. Of course the script must be accurate, but it also needs to flow and be lively. A good way to approach scripting is to see how much you can remove and still have it make sense.
 
-<h2>Preproduction*</h2>
+<h2>Preproduction</h2>
 
 When you’re happy with the script an illustrator will then take it and produce a storyboard of images that will make up the final animation. This can be as complicated or as simple as you want. Something as lifelike as Frozen would cost a lot of money and would probably be overkill if you’re not going to put substantial promotional spend behind it. Simple can be just as effective. Make sure you’re happy with the storyboard before proceeding.
 
