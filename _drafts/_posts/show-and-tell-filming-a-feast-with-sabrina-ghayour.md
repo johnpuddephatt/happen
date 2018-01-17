@@ -23,8 +23,8 @@ Over two days we shot material for a course of ten videos, culminating in the cr
 
 On set with us were Yodomo founder Sophie Rochester (seen below with the finished feast), stylist [Kathrin McCrea](https://www.kathrinmccreaphotography.co.uk) and home economist [Udo Reicheltschaurer](https://udoreicheltschaurer.com) as well as the star of the show, [Sabrina herself](https://www.instagram.com/sabrinaghayour/?hl=en "Sabrina's Instagram").
 
-Two days was an ambitious schedule and so we shot all the recipes on two cameras to give us options in the edit – ideally it would have been nice to have another angle as well. You can never have too much coverage when you’re trying to capture a process like following a recipe.
-
 ![Sabrina Ghayour and Sophie Rochester](/uploads/2018/01/17/Sabrina-and-Sophie.jpg "Sabrina Ghayour, Yodomo's Sophie Rochester and the finished feast")
+
+Two days was an ambitious schedule and so we shot all the recipes on two cameras to give us options in the edit – ideally it would have been nice to have another angle as well. You can never have too much coverage when you’re trying to capture a process like following a recipe.
 
 We’re all so used to watching cookery programmes on TV where the food is the real star of the show – and the challenge on this job was trying to make the most of Sabrina’s delicious recipes on a relatively modest budget. With careful lighting and a good relationship with both the client and the talent, we were able to help Yodomo create a Feast of a video series, and one that we’re all very proud of.
