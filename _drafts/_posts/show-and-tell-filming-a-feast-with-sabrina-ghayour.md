@@ -21,7 +21,7 @@ Yodomo approached Happen when they had the opportunity of filming a series of vi
 
 Over two days we shot material for a course of ten videos, culminating in the creation of three delicious recipes: Beer roasted pork, Burrata with pomegranate seeds and Fig and Honey Millefeuille.
 
-On set with us were stylist [Kathrin McCrea](https://www.kathrinmccreaphotography.co.uk) and home economist [Udo Reicheltschaurer](https://udoreicheltschaurer.com) as well as the star of the show, [Sabrina herself](https://www.instagram.com/sabrinaghayour/?hl=en "Sabrina's Instagram").
+On set with us were Yodomo founder Sophie Rochester (seen below with the finished feast), stylist [Kathrin McCrea](https://www.kathrinmccreaphotography.co.uk) and home economist [Udo Reicheltschaurer](https://udoreicheltschaurer.com) as well as the star of the show, [Sabrina herself](https://www.instagram.com/sabrinaghayour/?hl=en "Sabrina's Instagram").
 
 Two days was an ambitious schedule and so we shot all the recipes on two cameras to give us options in the edit – ideally it would have been nice to have another angle as well. You can never have too much coverage when you’re trying to capture a process like following a recipe.
 
