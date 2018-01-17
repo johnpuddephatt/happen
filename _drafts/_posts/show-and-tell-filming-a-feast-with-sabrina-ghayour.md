@@ -17,6 +17,8 @@ Quality control however is non-existent, and although you might find a polished 
 
 Yodomo approached Happen when they had the opportunity of filming a series of videos with the brilliant cook and food writer [Sabrina Ghayour](http://www.sabrinaghayour.com). The brief was to record some friendly advice on entertaining with food as well as demonstrate some recipes from Sabrina’s new book Feasts.
 
+<iframe src="[https://player.vimeo.com/video/247118429](https://player.vimeo.com/video/247118429 "https://player.vimeo.com/video/247118429")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Over two days we shot material for a course of ten videos, culminating in the creation of three delicious recipes: Beer roasted pork, Burrata with pomegranate seeds and Fig and Honey Millefeuille.
 
 On set with us were stylist [Kathrin McCrea](https://www.kathrinmccreaphotography.co.uk) and home economist [Udo Reicheltschaurer](https://udoreicheltschaurer.com) as well as the star of the show, Sabrina herself.
