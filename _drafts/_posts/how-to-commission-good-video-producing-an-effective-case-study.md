@@ -13,7 +13,7 @@ Case study films are an effective way to show potential customers the benefits o
 
 <iframe src="https://player.vimeo.com/video/181762872" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-Happen has made case study films for a number of organisations, including Slack, the communications app company; so here is what you need to bear in mind if you are commissioning one.
+Happen has made case study films for a number of organisations, including <a href="https://slack.com">Slack</a>, the communications app company; so here is what you need to bear in mind if you are commissioning one.
 
 <h2>Understand your customers, products and services</h2>
 
