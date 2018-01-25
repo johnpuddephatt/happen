@@ -60,7 +60,7 @@ a message across.
 
 <h2>Keep it short</h2>
 
-People are busy. More of them will watch a short film than a long one. Ideally aim at a 90 second to two-minute length.
+People are busy. More of them will watch a short film than a long one.  Aim for a length of 90 seconds to two-minutes.
 
 <h2>Find out more</h2>
 
