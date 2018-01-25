@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2018/01/25/cover pic TF kids.jpg"
+image: "/uploads/2018/01/25/Case-study-Slack-01.jpg"
 layout: post
 title: 'How to commission good video: producing an effective case study'
 date: 2018-01-25 00:00:00 +0000
