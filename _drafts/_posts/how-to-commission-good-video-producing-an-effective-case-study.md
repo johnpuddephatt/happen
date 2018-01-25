@@ -1,5 +1,5 @@
 ---
-image: "/images/happenmeta2.jpg"
+image: "/uploads/2018/01/25/cover pic TF kids.jpg"
 layout: post
 title: 'How to commission good video: producing an effective case study'
 date: 2018-01-25 00:00:00 +0000
@@ -10,6 +10,8 @@ download:
 categories: []
 ---
 Case study films are an effective way to show potential customers the benefits of your products or services. They can play a vital role in the customer journey: providing the reassurance people need ahead of a purchase. They work particularly well for new products and services or ones involving substantial expenditure or that are perceived as risky. People trust people without a vested interest to recommend things, as the popularity of TripAdvisor and Trustpilot proves. So a video featuring one or more of your clients explaining how you have helped their business is very persuasive.
+
+<iframe src="https://player.vimeo.com/video/181762872" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Happen has made case study films for a number of organisations, including Slack, the communications app company; so here is what you need to bear in mind if you are commissioning one.
 
