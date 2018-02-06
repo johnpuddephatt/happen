@@ -1,7 +1,7 @@
 ---
 image: "/uploads/2018/02/06/DSCF7425-1.jpg"
 layout: post
-title: The power of Something Happening
+title: 'show and tell: The power of Something Happening'
 date: 2018-02-06 00:00:00 +0000
 categories: []
 download:
