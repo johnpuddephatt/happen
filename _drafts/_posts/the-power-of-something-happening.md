@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2018/02/06/DSCF7425.jpg"
+image: "/uploads/2018/02/06/DSCF7425-1.jpg"
 layout: post
 title: The power of Something Happening
 date: 2018-02-06 00:00:00 +0000
