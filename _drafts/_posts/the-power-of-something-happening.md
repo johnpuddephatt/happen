@@ -15,7 +15,7 @@ It sounds basic but film is a visual medium and too often you don’t see anythi
 
 ![](/uploads/2018/02/06/DSCF7416.jpg)
 
-So we jumped at the chance to make a short film about photographer Niall McDiarmid’s street portrait project, Town to Town. Niall (seen on the left in the picture above with Martin Parr) has spent the last seven years travelling all over the country meeting people, taking their picture and building up a photographic portrait of contemporary Britain.
+So we jumped at the chance to make a short film about photographer Niall McDiarmid’s street portrait project, Town to Town. Niall (seen on the left above with Martin Parr at the exhibition's opening) has spent the last seven years travelling all over the country meeting people, taking their picture and building up a photographic portrait of contemporary Britain.
 
 A selection of his work is now on show at the <a href="https://www.martinparrfoundation.org/exhibitions/town-to-town/">Martin Parr Foundation in Bristol</a> and we’re thrilled that our film is part of the exhibition.
 
