@@ -17,7 +17,7 @@ It sounds basic but film is a visual medium and too often you don’t see anythi
 
 So we jumped at the chance to make a short film about photographer Niall McDiarmid’s street portrait project, Town to Town. Niall (seen on the left in the picture above with Martin Parr) has spent the last seven years travelling all over the country meeting people, taking their picture and building up a photographic portrait of contemporary Britain.
 
-A selection of his work is now on show at the Martin Parr Foundation in Bristol and we’re thrilled that our film is part of the exhibition.
+A selection of his work is now on show at the <a href="https://www.martinparrfoundation.org/exhibitions/town-to-town/">Martin Parr Foundation in Bristol</a> and we’re thrilled that our film is part of the exhibition.
 
 <iframe src="https://player.vimeo.com/video/251490728" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -29,4 +29,4 @@ This might mean in some cases that the footage is a bit wobbly and takes a while
 
 If you watch the film it’s also clear how important audio is to the finished piece. Listening to Niall’s approach you can understand why people agree to have their photo taken: he’s charming, persistent and makes his subjects feel like they’re worthy of the attention.
 
-In fact, just like the exhibition itself: if you’re in the Bristol area do pop into the Paintworks and take a look.
+In fact, just like the exhibition itself: if you’re in the Bristol area <a href="http://paintworksbristol.co.uk/home/">do pop into the Paintworks</a> and take a look.
