@@ -10,9 +10,11 @@ download:
   file: ''
 
 ---
-[Cogisen](https://www.cogisen.com/) is a startup using artificial intelligence and machine learning to extract context and intent from content. The company approached Happen about making a short film for its website and presentations to introduce its business to new clients and potential hires. 
+[Cogisen](https://www.cogisen.com/) is a startup using artificial intelligence and machine learning to extract context and intent from content. The company approached Happen about making a short film for its website and presentations to introduce its business to new clients and potential hires.
 
-Cogisen’s founder, Christiaan Rijnders, wanted to focus on the team they’re building and not just himself, to emphasise the collaborative nature of the work they’re doing. He wanted the film to have a documentary look and feel. And he wanted it to explain their technology without giving too much away. 
+<iframe src=" [https://player.vimeo.com/video/282641326](https://player.vimeo.com/video/282641326 "https://player.vimeo.com/video/282641326")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+Cogisen’s founder, Christiaan Rijnders, wanted to focus on the team they’re building and not just himself, to emphasise the collaborative nature of the work they’re doing. He wanted the film to have a documentary look and feel. And he wanted it to explain their technology without giving too much away.
 
 We faced a common challenge to making a film about a lot of tech companies: what to actually show beyond pictures of software engineers typing on a computer. There’s only so much b-roll of fingers on keys a viewer can take. Cogisen is committed to questioning the state of the art, being adventurous in its thinking and engaging with problems from first principles, so the film had to somehow illustrate that spirit.
 
@@ -24,14 +26,10 @@ Next we asked about the team’s interests and passions outside of work. It turn
 
 The company also has a lab where they use a specialised interface to log brain activity in test subjects. We secured a willing volunteer and shot Cogisen’s resident expert in neuroscience setting up the equipment and taking some readings.
 
-This variety of setups makes the finished film more watchable and allowed us to choose when to cut back to the interviewees. You can never have enough b-roll! It gives a taste of what the company’s technology is capable of, makes the most of the Cogisen team and positions them as innovators in an exciting field.  
+This variety of setups makes the finished film more watchable and allowed us to choose when to cut back to the interviewees. You can never have enough b-roll! It gives a taste of what the company’s technology is capable of, makes the most of the Cogisen team and positions them as innovators in an exciting field.
 
 "Quite a challenge, to avoid the standard cliché's when introducing an engineering company that operates in several industry verticals using fast-developing technology (the details of which are only of interest to a few experts!). But that is why we need professionals like Happen. We are more than happy with the result. I'm impressed how they captured the working culture and philosophy of Cogisen."
 
 Christiaan Rijnders, CEO & Founder, Cogisen
 
 For more on content marketing for technology companies, download our white paper [here](http://happendigital.co.uk/2017/12/05/a-practical-guide-to-content-marketing-for-b2b-technology-companies.html).
-
- 
-
- 
