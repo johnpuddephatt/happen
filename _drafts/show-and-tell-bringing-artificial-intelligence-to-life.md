@@ -22,6 +22,8 @@ So to start with we highlighted Rome - where Cogisen is based - an extraordinary
 
 We thought it important to film the Cogisen team socialising together, to illustrate the collaborative nature of their work and commitment to challenging and learning from each other.
 
+![](/uploads/2018/09/18/195A1773.jpg)
+
 Next we asked about the team’s interests and passions outside of work. It turned out that Cogisen’s engineering and design lead, Damon Millar, is a passionate cyclist involved in a side project designing a new type of triathlon bike. Talking to him it became obvious that the idea of ‘peak aero’ in cycle design had parallels with the problem of diminishing returns in traditional machine learning that Cogisen was hoping to help solve. And cycling through the Italian countryside would give us some dynamic, eye-catching footage.
 
 The company also has a lab where they use a specialised interface to log brain activity in test subjects. We secured a willing volunteer and shot Cogisen’s resident expert in neuroscience setting up the equipment and taking some readings.
@@ -30,6 +32,6 @@ This variety of setups makes the finished film more watchable and allowed us to 
 
 "Quite a challenge, to avoid the standard cliché's when introducing an engineering company that operates in several industry verticals using fast-developing technology (the details of which are only of interest to a few experts!). But that is why we need professionals like Happen. We are more than happy with the result. I'm impressed how they captured the working culture and philosophy of Cogisen."
 
-Christiaan Rijnders, CEO & Founder, Cogisen
+**Christiaan Rijnders, CEO & Founder, Cogisen**
 
 For more on content marketing for technology companies, download our white paper [here](http://happendigital.co.uk/2017/12/05/a-practical-guide-to-content-marketing-for-b2b-technology-companies.html).
