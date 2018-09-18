@@ -42,6 +42,7 @@ fields:
     name: file
     label: File
 pages:
+- _posts/show-and-tell-bringing-artificial-intelligence-to-life.md
 - _posts/2018-01-10-how-to-commission-good-video-producing-effective-animation.md
 - _posts/2017-01-10-publishers-association.markdown
 - _posts/2017-05-19-commissioning-good-video.markdown

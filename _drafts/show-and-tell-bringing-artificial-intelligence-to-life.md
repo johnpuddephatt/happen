@@ -1,7 +1,7 @@
 ---
-image: "/images/happenmeta.jpg"
+image: "/uploads/2018/09/18/195A1773.jpg"
 title: 'show and tell: bringing artificial intelligence to life'
-date: 2018-09-18 12:46:31 +0100
+date: 2018-09-18 00:00:00 +0000
 
 ---
 [Cogisen](https://www.cogisen.com/) is a startup using artificial intelligence and machine learning to extract context and intent from content. The company approached Happen about making a short film for its website and presentations to introduce its business to new clients and potential hires. 
