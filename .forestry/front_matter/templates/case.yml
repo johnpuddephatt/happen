@@ -1,10 +1,7 @@
 ---
-pages:
-- _case/zoopla.md
-- _case/teachfirst.md
-- _case/pra.md
-- _case/slack.md
+label: Case
 hide_body: true
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -97,3 +94,8 @@ fields:
   default: ''
   description: Describe the outcomes and optionally use a list to display up to three
     highlights
+pages:
+- _case/teachfirst.md
+- _case/zoopla.md
+- _case/pra.md
+- _case/slack.md
