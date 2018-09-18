@@ -1,0 +1,44 @@
+---
+title: Happen Digital
+email: hello@happendigital.co.uk
+description: 'Content to make complicated things clear
+
+'
+url: http://happendigital.co.uk
+twitter_username: happendigital
+linkedin_username: happen-digital-uk
+instagram_username: HappenDigital
+company_info: Happen Digital Ltd is a registered company in England &amp; Wales. Company
+  number 08317567.
+contact_us: "**Want to talk?** Reach us at [hello@happendigital.co.uk](mailto:hello@happendigital.co.uk)"
+mailchimp: "//happendigital.us16.list-manage.com/subscribe/post?u=945a5a4f8744e44cb7ec83aca&amp;id=83a45aa0e4"
+cloudinary: letsdance
+max_home_posts: 5
+twitter:
+  username: happendigital
+collections:
+  case:
+    output: true
+markdown: kramdown
+gems:
+- jekyll-feed
+- jekyll-seo-tag
+exclude:
+- Gemfile
+- Gemfile.lock
+defaults:
+- scope:
+    path: ''
+  values:
+    image: "/images/happenmeta2.jpg"
+- scope:
+    path: ''
+    type: case
+  values:
+    layout: case
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+timezone: Europe/London
