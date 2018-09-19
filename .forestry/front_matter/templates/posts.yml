@@ -3,11 +3,6 @@ label: Posts
 hide_body: false
 is_partial: false
 fields:
-- name: layout
-  label: Layout
-  type: text
-  hidden: false
-  default: post
 - name: title
   label: Title
   type: text
@@ -41,6 +36,16 @@ fields:
   - type: file
     name: file
     label: File
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - post
+  label: Layout
+  default: post
 pages:
 - _posts/2018-09-18-show-and-tell-bringing-artificial-intelligence-to-life.md
 - _posts/2018-01-10-how-to-commission-good-video-producing-effective-animation.md
