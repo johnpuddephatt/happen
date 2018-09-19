@@ -14,7 +14,7 @@ download:
 
 Cogisen’s founder, Christiaan Rijnders, wanted to focus on the team they’re building and not just himself, to emphasise the collaborative nature of the work they’re doing. He wanted the film to have a documentary look and feel. And he wanted it to explain their technology without giving too much away.
 
-<iframe src="https://player.vimeo.com/video/282641326" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 We faced a common challenge to making a film about a lot of tech companies: what to actually show beyond pictures of software engineers typing on a computer. There’s only so much b-roll of fingers on keys a viewer can take. Cogisen is committed to questioning the state of the art, being adventurous in its thinking and engaging with problems from first principles, so the film had to somehow illustrate that spirit.
 
