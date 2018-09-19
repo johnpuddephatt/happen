@@ -12,7 +12,7 @@ download:
 ---
 [Cogisen](https://www.cogisen.com/) is a startup using artificial intelligence and machine learning to extract context and intent from content. The company approached Happen about making a short film for its website and presentations to introduce its business to new clients and potential hires.
 
-<iframe src="[https://player.vimeo.com/video/282641326](https://player.vimeo.com/video/282641326 "https://player.vimeo.com/video/282641326")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/282641326" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Cogisen’s founder, Christiaan Rijnders, wanted to focus on the team they’re building and not just himself, to emphasise the collaborative nature of the work they’re doing. He wanted the film to have a documentary look and feel. And he wanted it to explain their technology without giving too much away.
 
