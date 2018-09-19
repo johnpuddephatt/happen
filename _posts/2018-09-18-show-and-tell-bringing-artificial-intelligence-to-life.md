@@ -2,7 +2,7 @@
 image: "/uploads/2018/09/18/195A1920.jpg"
 title: 'Show and tell: bringing artificial intelligence to life'
 date: 2018-09-18 00:00:00 +0000
-layout: ''
+layout: post
 categories: []
 download:
   title: ''
