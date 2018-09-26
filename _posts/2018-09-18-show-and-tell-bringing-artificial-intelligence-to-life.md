@@ -32,4 +32,4 @@ This variety of setups makes the finished film more watchable and allowed us to 
 
 **Christiaan Rijnders, CEO & Founder, Cogisen**
 
-For more on content marketing for technology companies, download our white paper [here](http://happendigital.co.uk/2017/12/05/a-practical-guide-to-content-marketing-for-b2b-technology-companies.html).
+![](/uploads/2017/12/05/HAPPEN target.jpg)For more on content marketing for technology companies, download our white paper [here](http://happendigital.co.uk/2017/12/05/a-practical-guide-to-content-marketing-for-b2b-technology-companies.html).
