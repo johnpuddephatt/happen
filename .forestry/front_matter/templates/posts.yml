@@ -47,6 +47,7 @@ fields:
   label: Layout
   default: post
 pages:
+- _posts/show-and-tell-creating-a-global-road-safety-campaign-with-attitude.md
 - _posts/2018-09-18-show-and-tell-bringing-artificial-intelligence-to-life.md
 - _posts/2018-01-25-how-to-commission-good-video-producing-an-effective-case-study.md
 - _posts/2017-12-14-the-100-video-kit-kickstart-your-in-house-video.md
