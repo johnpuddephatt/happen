@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2018/10/09/2018-03-06 19.46.44 copy.jpg"
+image: "/uploads/2018/10/09/2018-03-06 13.40.25 copy.jpg"
 layout: post
 title: 'Show and tell: creating a global road safety campaign with attitude'
 date: 2017-07-28 13:34:04 +0000
