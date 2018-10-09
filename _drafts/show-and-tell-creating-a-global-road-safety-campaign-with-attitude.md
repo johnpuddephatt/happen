@@ -12,7 +12,7 @@ download:
 ---
 Coming up with new ideas is easy. Ones that work in the real world, though, are harder to come by. Briefs are rarely blank sheets of paper: clients want new creative approaches – to their marketing, communications, campaigns – but ones that work with their existing commitments. There are always constraints. True creativity makes a virtue out of them. 
 
-The FIA Foundation asked Happen to help with a new initiative highlighting the dangers children face walking to school. It wanted a fresh approach, but one that worked with its plans and to a tight timetable. 
+The [FIA Foundation](https://www.fiafoundation.org/) asked Happen to help with a new initiative highlighting the dangers children face walking to school. It wanted a fresh approach, but one that worked with its plans and to a tight timetable. 
 
 The FIA Foundation is a global charity campaigning for safe, clean, fair and green mobility for all. Road accidents are the bigger killer of children over 10 around the world. Children in the poorest countries are most at risk: the developing world is urbanising rapidly, with little investment in road safety measures.
 
@@ -36,7 +36,7 @@ The FIA Foundation wanted to feature children from schools in some of the poores
 
 We subsequently produced editorial and technical guidelines to enable an international version of the format to be made – shot by different crews – featuring children from the US, Tanzania and London.
 
-The FIA Foundation used the “My Street” concept and the two films as the core of its campaign with its nineteen global partners in the Child Health Initiative, which includes the UN Environment Programme, Save the Children and UNICEF.  
+The FIA Foundation used the “My Street” concept and the two films as the core of its campaign with its nineteen global partners in the [Child Health Initiative](https://www.childhealthinitiative.org/), which includes the UN Environment Programme, Save the Children and UNICEF.  
 
 The Shelly-Ann film reached over 1.25 million people, with UNICEF UK and UNICEF Jamaica the most successful at sharing the video via their Facebook and Twitter accounts. There were over 50,000 views of the video on the Child Health 
 
