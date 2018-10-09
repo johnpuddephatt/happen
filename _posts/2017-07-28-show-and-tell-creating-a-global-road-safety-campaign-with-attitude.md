@@ -34,7 +34,7 @@ This allowed us to work quickly on location, capturing a piece-to-camera and scr
 
 The FIA Foundation wanted to feature children from schools in some of the poorest areas in Jamaica, in downtown Kingston and in the countryside, outside the capital. We developed a simple format and script that would allow us to cut between children delivering different lines. This meant we were not dependent on slick, confident on-camera performances – hard enough to get with adults – and that we could add pace in the edit through fast cuts and onscreen graphics.
 
-We subsequently produced editorial and technical guidelines to enable an international version of the format to be made – shot by different crews – featuring children from the US, Tanzania and London.
+![](/uploads/2018/10/09/2018-03-06 13.40.25 copy.jpg)We subsequently produced editorial and technical guidelines to enable an international version of the format to be made – shot by different crews – featuring children from the US, Tanzania and London.
 
 The FIA Foundation used the “My Street” concept and the two films as the core of its campaign with its nineteen global partners in the [Child Health Initiative](https://www.childhealthinitiative.org/), which includes the UN Environment Programme, Save the Children and UNICEF.
 
