@@ -16,8 +16,6 @@ The [FIA Foundation](https://www.fiafoundation.org/) asked Happen to help with a
 
 The FIA Foundation is a global charity campaigning for safe, clean, fair and green mobility for all. Road accidents are the bigger killer of children over 10 around the world. Children in the poorest countries are most at risk: the developing world is urbanising rapidly, with little investment in road safety measures.
 
-[https://vimeo.com/270632399](https://vimeo.com/270632399 "https://vimeo.com/270632399")
-
 The FIA Foundation wanted to avoid portraying children just as victims. It wanted to present walking to school as a positive thing: a way children develop a sense of independence, an important part of growing up. It wanted the children in its campaign to have a sense of agency and strong voice.
 
 So what were the constraints?
