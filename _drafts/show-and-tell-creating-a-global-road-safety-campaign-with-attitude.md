@@ -20,10 +20,10 @@ The FIA Foundation wanted to avoid portraying children just as victims. It wante
 
 So what were the constraints?
 
-![](/uploads/2018/10/09/2018-03-06 13.40.25 copy.jpg)The FIA Foundation had a relationship with the Jamaican two-times Olympic 100-metres champion Shelly-Ann Fraser-Pryce, and with the Jamaican government, which it was working with to improve road safety. It therefore wanted to film in Jamaica and feature Shelly-Ann in the campaign.
+The FIA Foundation had a relationship with the Jamaican two-times Olympic 100-metres champion Shelly-Ann Fraser-Pryce, and with the Jamaican government, which it was working with to improve road safety. It therefore wanted to film in Jamaica and feature Shelly-Ann in the campaign.
 
 It also had a tight timetable: Shelly-Ann was only free to film in early March, there was only budget for three shooting days, and the campaign had to be ready to launch to accompany a report in late May. It wanted to involve children, but did not have time for preproduction in Jamaica. Usually if you feature children in a campaign, you spend time casting them, making sure you find children who will be comfortable and confident on camera.
-
+<iframe src="https://player.vimeo.com/video/270610612" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 Finally, the FIA Foundation wanted a video format that could be replicated in other countries, by freelance film crews.
 
 With all this in mind we worked with the FIA Foundation team to develop a creative concept for the campaign and formats for two short films, which could be shot quickly. We came up with the idea of “My Street” – an assertion that children have ownership of the streets where they walk, and demand that motorists respect that.
