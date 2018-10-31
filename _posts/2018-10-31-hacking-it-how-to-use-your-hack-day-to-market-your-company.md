@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2018/10/31/Hack day main image.png"
+image: "/uploads/2018/10/31/Hack-day-main-image.jpg"
 layout: post
 title: 'Hacking it: how to use your hack day to market your company '
 date: 2018-10-31 14:27:15 +0000
