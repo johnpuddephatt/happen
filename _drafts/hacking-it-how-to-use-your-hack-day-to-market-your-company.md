@@ -14,7 +14,7 @@ Hack days are a great way to unleash your team’s creativity, bring people toge
 
 Transparency is one of the most effective ways to market a business, particularly a B2B one. If you’re innovative, collaborative, and open to new ideas, let people know about it. You’ll win more business, and recruit better people. 
 
-Happen worked with Octopus Energy to promote its hack day. Other innovative, tech-driven companies in the energy sector were invited to see what they could do with the Agile Octopus tariff. This gives people access to half-hourly energy prices, tied to wholesale rates and updated throughout the day. So if people shift their energy consumption to times when demand is lower they pay less. 
+Happen worked with Octopus Energy to promote [its hack day](https://octopus.energy/hackday/). Other innovative, tech-driven companies in the energy sector were invited to see what they could do with the Agile Octopus tariff. This gives people access to half-hourly energy prices, tied to wholesale rates and updated throughout the day. So if people shift their energy consumption to times when demand is lower they pay less. 
 
 So how to make the most out of your hack day as part of your marketing?
 
