@@ -15,7 +15,7 @@ Hack days are a great way to unleash your team’s creativity, bring people toge
 Transparency is one of the most effective ways to market a business, particularly a B2B one. If you’re innovative, collaborative, and open to new ideas, let people know about it. You’ll win more business, and recruit better people. 
 
 Happen worked with Octopus Energy to promote [its hack day](https://octopus.energy/hackday/). Other innovative, tech-driven companies in the energy sector were invited to see what they could do with the Agile Octopus tariff. This gives people access to half-hourly energy prices, tied to wholesale rates and updated throughout the day. So if people shift their energy consumption to times when demand is lower they pay less. 
-
+<iframe src="https://player.vimeo.com/video/273657634" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 So how to make the most out of your hack day as part of your marketing?
 
 Think about what and how you want to communicate before, during and after the hack day. If it is an internal event or invite only, your communication needs to be clear and comprehensive. If you’re trying to reach new people, you probably also want a dedicated landing page or website, and an online event service to allow people to sign up. You’ll also want to promote your hack day on Twitter and Facebook and via relevant Google and LinkedIn groups.
