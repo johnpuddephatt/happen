@@ -31,3 +31,5 @@ If you’re filming, be clear about the type of film you want. A single camera o
 If you’ve inviting external teams to your hack day, think about how you can help them promote themselves, and you in the process. During the Octopus hack day, [we filmed and edited a number of short films about individual teams](https://octopus.energy/blog/hacking-the-future-of-energy/) during the day itself. Octopus was therefore able to give them the videos to share on their social media channels.
 
 After the event, let journalists and bloggers know about the winners. Write about it on your blog and share your film on social media. But also think longer-term. If any of the hacks turn into something bigger, tell people about it, including members of the other teams. Make sure you explain how your new product or service came about, and how your hack day was so crucial to its success.
+
+For more on content marketing for technology companies, download our white paper [here](https://happendigital.co.uk/2017/12/05/a-practical-guide-to-content-marketing-for-b2b-technology-companies.html).
