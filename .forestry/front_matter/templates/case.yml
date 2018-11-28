@@ -96,6 +96,6 @@ fields:
     highlights
 pages:
 - _case/teachfirst.md
-- _case/zoopla.md
-- _case/pra.md
 - _case/slack.md
+- _case/pra.md
+- _case/zoopla.md
