@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2018/11/20/Teach First Brixton edit STILL.jpeg"
+image: "/uploads/2018/11/28/Teach First Brixton big picture.jpg"
 layout: post
 title: 'Show and tell: inspiring viewers through emotion'
 date: 2018-11-20 16:39:04 +0000
