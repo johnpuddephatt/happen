@@ -1,7 +1,6 @@
 ---
 label: Case
 hide_body: true
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -37,7 +36,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: 2017-07-28 13:32:24 +0000
+  default: '2017-07-28T13:32:24.000+00:00'
 - name: brief
   label: Brief
   type: textarea
@@ -95,7 +94,7 @@ fields:
   description: Describe the outcomes and optionally use a list to display up to three
     highlights
 pages:
-- _case/teachfirst.md
 - _case/slack.md
 - _case/pra.md
+- _case/teachfirst.md
 - _case/zoopla.md
