@@ -28,10 +28,6 @@ Preproduction is crucial for live video streaming, to test equipment and the int
 
 As most social media is consumed on mobile, we produced our video interviews in a square format with clear subtitles. We also featured b-roll of the events in the videos, making them more visually interesting and allowing us to edit the interviews more tightly, as we had more opportunities to hide the cuts.
 
-    <iframe src="https://player.vimeo.com/video/327054727" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    
-    <p><a href="https://vimeo.com/327054727">Royal Academy of Engineering: Frontiers of Development symposium</a> from <a href="https://vimeo.com/happendigital">Happen Digital</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
 We also produced short video interviews for the academy’s Twitter account during the Frontiers of Development symposium and Global Grand Challenges Summit, which required a fast turnaround with an eye for detail.
 
 Following the FoD symposium we also produced a short summary of the event for the Academy’s LinkedIn page. Our film tied together three days of talks and collaboration, and will serve as an introduction to the event for next year's attendees.
