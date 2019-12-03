@@ -1,7 +1,7 @@
 ---
 image: "/uploads/2019/12/03/RAEng_Tex_1920x1280.jpg"
 layout: post
-date: 2017-07-28T13:34:04.000+00:00
+date: 2019-12-03 16:00:00 +0000
 title: Going Live with the Royal Academy of Engineering
 categories: []
 download:
