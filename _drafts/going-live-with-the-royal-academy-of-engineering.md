@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2019/12/03/DSC01528.jpg"
+image: "/uploads/2019/12/03/DSC01528-1.jpg"
 layout: post
 date: 2017-07-28T13:34:04.000+00:00
 title: Going live with the Royal Academy of Engineering
