@@ -14,6 +14,8 @@ download:
 
 The Royal Academy of Engineering wanted to use its events to more effectively publicise its work promoting excellence in engineering for the benefit of society.
 
+![](/uploads/2019/12/03/UNADJUSTEDNONRAW_thumb_342c.jpg)
+
 It approached Happen to live video stream its Leadership in Innovation Fellowship (LIF) pitch days and produce short film interviews of the fellows for social media. LIF provides training and support for international engineers with commercial ideas which could contribute to the development of their home countries. Its pitch days are when they present these ideas to a panel of judges and their contemporaries.
 
 Happen has subsequently worked with the Academy on its [Frontiers of Development ](https://www.raeng.org.uk/grants-and-prizes/grants/international-research-and-collaborations/frontiers-of-development "Frontiers of Development")symposium and [Global Grand Challenges Summit](https://www.raeng.org.uk/events/events-programme/2019/september/global-grand-challenges-summit-2019 "Global Grand Challenges Summit").
