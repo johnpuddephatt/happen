@@ -28,7 +28,7 @@ There are three main ways you can publicise an event using video: livestreaming;
 
 Preproduction is crucial for live video streaming, to test equipment and the internet connection you'll use to broadcast the event. After the live event was over we subsequently revised the footage, adding chapter headings to make it easier to navigate for viewers.
 
-<iframe src="https://player.vimeo.com/video/314270041" width="800" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/314270041" width="800" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="float:right" ></iframe>
 
 As most social media is consumed on mobile, we produced our video interviews in a square format with clear subtitles. We also featured b-roll of the events in the videos, making them more visually interesting and allowing us to edit the interviews more tightly, as we had more opportunities to hide the cuts.
 
