@@ -46,6 +46,7 @@ fields:
   label: Layout
   default: post
 pages:
+- _posts/going-live-with-the-royal-academy-of-engineering.md
 - _posts/2017-07-28-show-and-tell-creating-a-global-road-safety-campaign-with-attitude.md
 - _posts/2017-12-05-a-practical-guide-to-content-marketing-for-b2b-technology-companies.md
 - _posts/2017-11-06-stories-snories-right-and-wrong-ways-to-use-storytelling-in-marketing.md
