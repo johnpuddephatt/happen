@@ -32,7 +32,7 @@ As most social media is consumed on mobile, we produced our video interviews in 
 
 We also produced short video interviews for the academy’s Twitter account during the Frontiers of Development symposium and Global Grand Challenges Summit, which required a fast turnaround with an eye for detail.
 
-<iframe src="[https://player.vimeo.com/video/327054727](https://player.vimeo.com/video/327054727 "https://player.vimeo.com/video/327054727")" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/327054727" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Following the FoD symposium we also produced a short summary of the event for the Academy’s LinkedIn page. Our film tied together three days of talks and collaboration, and will serve as an introduction to the event for next year's attendees.
 
