@@ -32,9 +32,9 @@ Preproduction is crucial for live video streaming, to test equipment and the int
 
 As most social media is consumed on mobile, we produced our video interviews in a square format with clear subtitles. We also featured b-roll of the events in the videos, making them more visually interesting and allowing us to edit the interviews more tightly, as we had more opportunities to hide the cuts.
 
-<iframe src="https://player.vimeo.com/video/327054727" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
 We also produced short video interviews for the academy’s Twitter account during the Frontiers of Development symposium and Global Grand Challenges Summit, which required a fast turnaround with an eye for detail.
+
+<iframe src="https://player.vimeo.com/video/327054727" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 **Job done**
 
