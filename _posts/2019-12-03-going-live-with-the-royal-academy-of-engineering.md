@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2019/12/03/Tex_1920x1080.jpg"
+image: "/uploads/2019/12/04/Tex_flipped.jpg"
 layout: post
 date: 2019-12-03 00:00:00 +0000
 title: Going Live with the Royal Academy of Engineering
