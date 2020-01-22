@@ -14,6 +14,8 @@ download:
 
 [Auto Trader](https://www.autotrader.co.uk "Auto Trader UK") asked Happen to come up with ideas to persuade car dealers to advertise new cars on its platform. Auto Trader is the leading marketplace for pre-owned cars, and had recently started advertising new cars as well. They wanted something on the theme of hidden cars, to highlight the fact that thousands of new cars are invisible to potential buyers.
 
+![](/uploads/2020/01/22/IMG_6570.jpg)
+
 **Our approach**
 
 Happen pitched three video ideas, all using humour to get across the message that hiding new cars annoys customers and puts them off buying.
