@@ -18,7 +18,7 @@ download:
 
 Happen pitched three video ideas, all using humour to get across the message that hiding new cars annoys customers and puts them off buying.
 
-![](/uploads/2020/01/22/IMG_6570.jpeg)
+<img src="/uploads/2020/01/22/IMG_6570.jpeg">
 
 Auto Trader chose a treatment featuring a father being surprised by toy cars as he tries to get ready in the morning. First, he discovers one in the toilet, then he trips over one left on the floor, before a cupboardful of toy cars fall on him in the kitchen. Each time he says the words: “Don’t hide the cars.”
 
