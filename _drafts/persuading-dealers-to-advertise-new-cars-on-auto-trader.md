@@ -18,16 +18,12 @@ download:
 
 Happen pitched three video ideas, all using humour to get across the message that hiding new cars annoys customers and puts them off buying.
 
-![](/uploads/2020/01/22/IMG_1655.jpg)
+![](/uploads/2020/01/22/IMG_6570.jpeg)
 
 Auto Trader chose a treatment featuring a father being surprised by toy cars as he tries to get ready in the morning. First, he discovers one in the toilet, then he trips over one left on the floor, before a cupboardful of toy cars fall on him in the kitchen. Each time he says the words: “Don’t hide the cars.”
-
-![](/uploads/2020/01/22/IMG_1635.jpg)
 
 Once the creative brief and script was agreed with the client, we set about finding actors and a location. Working nimbly with a small crew, we shot the piece in a day and edited over the course of the following week. With one eye on a relatively modest budget, editorial, sound mix and final grade were all taken care of in-house.
 
 **The finished article**
-
-![](/uploads/2020/01/22/IMG_6570.jpeg)
 
 We (and more importantly, the client) were pleased with the result: a short, watchable film suitable for social media that delivers a message in an amusing and unexpected way.
