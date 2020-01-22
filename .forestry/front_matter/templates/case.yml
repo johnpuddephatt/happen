@@ -94,7 +94,7 @@ fields:
   description: Describe the outcomes and optionally use a list to display up to three
     highlights
 pages:
-- _case/slack.md
 - _case/pra.md
+- _case/slack.md
 - _case/teachfirst.md
 - _case/zoopla.md
