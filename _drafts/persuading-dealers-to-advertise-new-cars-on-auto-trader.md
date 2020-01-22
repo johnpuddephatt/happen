@@ -1,5 +1,5 @@
 ---
-image: "/uploads/2020/01/22/Screengrab-Auto-Trader-02-2x1.jpg"
+image: "/uploads/2020/01/22/Screengrab Auto Trader 02 1920x1080.jpg"
 layout: post
 date: 2020-01-22 11:00:00 +0000
 title: Persuading dealers to advertise new cars on Auto Trader
