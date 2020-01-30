@@ -11,7 +11,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: '2017-07-28T13:34:04.000+00:00'
+  default: 'Now'
 - name: image
   label: Image
   type: file
