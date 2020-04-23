@@ -14,4 +14,4 @@ If you watched the first virtual Prime Minister’s Question Time yesterday, you
 
 As a creative video agency, we’ve been asked by a lot of our clients for a simple, illustrated guide to looking great on Zoom. It isn’t difficult: a laptop, quiet space, pile of books and window is all you need. So here is a guide for you, your colleagues and team. We hope it is helpful.
 
-Happen may use the information you provide to us to contact you.
+Happen may use the information you provide to contact you.
