@@ -8,7 +8,6 @@ download:
   title: download a guide to how to look great on Zoom
   description: ''
   file: '/uploads/2020/04/23/How-to-look-great-on-Zoom-guide.pdf'
-
 ---
 If you watched the first virtual Prime Minister’s Question Time yesterday, you’ll have noticed that lots of MPs haven’t mastered how to look good on Zoom. At least none was caught swearing about a colleague – as a member of the Welsh Assembly [was](https://order-order.com/2020/04/22/watch-welsh-health-ministers-f-word-facetime-faux-pas/) - but there was still definitely room for improvement.
 
