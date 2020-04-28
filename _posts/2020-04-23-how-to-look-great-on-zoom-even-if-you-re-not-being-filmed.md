@@ -2,7 +2,7 @@
 image: "/uploads/2020/04/23/blog-post-composite2.jpg"
 layout: post
 date: 2020-04-23 00:00:00 +0100
-title: How to look great on Zoom (even if you're not being filmed)
+title: How to look great on Zoom (even if you’re not being filmed)
 categories: []
 download:
   title: a guide to how to look great on Zoom
