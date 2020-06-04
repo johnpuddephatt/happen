@@ -18,7 +18,7 @@ We have always offered training, so **equipping our clients with the skills and 
 
 We have also **been creative**; devising different formats to achieve our clients’ objectives. These have been relatively ambitious, such as using 3D animation, or more modest, reusing footage we have previously filmed, for instance.
 
-We restarted **filming on location** last week, with a commitment to keep our staff and clients safe and stop the spread of the virus. We will do this be:
+We restarted **filming on location** last week, with a commitment to keep our staff and clients safe and stop the spread of the virus. We will do this by:
 
 * **Practising social distancing:** our teams will travel to shoots separately, avoid public transport and keep two meters apart from others during filming. We will film outside as much as possible, marking distances on the ground with Gaffer tape. Crew members will also wear face masks and gloves when possible. We will obviously not send someone out who is showing symptoms or has been asked to self-isolate by the NHS test and trace service.
 * **Avoid sharing equipment**: we will use boom microphones rather than clip-ons and avoid hand-to-hand transferring of kit (even though this will sometime mean just one person has to carry everything). We will also disinfect things with Natrasan.
